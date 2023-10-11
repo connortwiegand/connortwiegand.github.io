@@ -16,7 +16,7 @@ Gemfile.lock
 
 # # Design Files
 # *.psd
-# *.ai
+*.ai
 
 # # IntelliJ
 # .idea

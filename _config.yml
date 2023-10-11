@@ -6,11 +6,12 @@ baseurl             : ""                     # Change to empty quotes if you are
 repository          : connortwiegand/connortwiegand.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
-github: [metadata]
+# github: [metadata]
 
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-github-metadata
 
 
 ### Navbar Settings ###
@@ -27,7 +28,7 @@ author:
   github            : connortwiegand
   linkedin          : connor-wiegand
   twitter           : GTbyCW
-  google-scholar    : hl=en&user=xKz_tl8AAAAJ 
+  google-scholar    : user=xKz_tl8AAAAJ 
   orcid             : 0009-0004-3349-3742
 
 # behance           : your_username
