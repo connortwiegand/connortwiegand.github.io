@@ -95,3 +95,13 @@ keybase:
   url   : https://www.keybase.io/
   icon  : fab fa-keybase
   color : 66ccff
+
+google-scholar: 
+  url: https://scholar.google.com/citations?hl=en&user=xKz_tl8AAAAJ
+  icon: ai google-scholar
+  color: #4285F4
+
+orcid: 
+  url: https://orcid.org/
+  icon: ai orcid
+  color: #A6CE39
