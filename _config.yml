@@ -4,7 +4,8 @@ description         : >-
                       5th Year Ph.D. Economics Student from the University of Oregon
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : connortwiegand/connortwiegand.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : YoussefRaafatNasry/portfolYOU
+remote_theme        : connortwiegand/my-portfoliYOU
+
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 # github: [metadata]
 
