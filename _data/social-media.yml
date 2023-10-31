@@ -3,41 +3,41 @@
 
 email:
   url   : "mailto:"
-  icon  : fas fa-envelope
+  icon  : fas fa-envelope fa-1x
   color : db4437
 
 facebook:
   url   : https://www.facebook.com/
-  icon  : fab fa-facebook
+  icon  : fab fa-facebook fa-1x
   color : 3b5998
 
 github:
   url   : https://www.github.com/
-  icon  : fab fa-github
+  icon  : fab fa-github fa-1x
   color : 333333
 
 linkedin:
   url   : https://www.linkedin.com/in/
-  icon  : fab fa-linkedin-in
+  icon  : fab fa-linkedin-in fa-1x
   color : 007bb5
 
 
 stackoverflow:
   url   : https://stackoverflow.com/u/
-  icon  : fab fa-stack-overflow
+  icon  : fab fa-stack-overflow fa-1x
   color : f48024
 
 twitter:
   url   : https://www.twitter.com/
-  icon  : fab fa-twitter
+  icon  : fab fa-twitter fa-1x
   color : 1da1f2
 
 google-scholar: 
   url: https://scholar.google.com/citations?
-  icon: ai ai-google-scholar
+  icon: ai ai-google-scholar-square ai-1x
   color: 4285f4
 
 orcid: 
   url: https://orcid.org/
-  icon: ai ai-orcid
+  icon: ai ai-orcid ai-1x
   color: a6Ce39
