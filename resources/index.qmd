@@ -1,6 +1,14 @@
 ---
-title: "Resources"
+title: Resources
+listing:
+  id: resources-listing
+  template: resources-listing.md.ejs
+  contents: ./*
 ---
+
+:::::{.resources-listing}
+
+:::::
 
 
 
