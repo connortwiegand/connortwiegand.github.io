@@ -1,5 +1,6 @@
 project:
   type: website
+  resources: .nojekyll
   preview: 
     port: 3005
 
