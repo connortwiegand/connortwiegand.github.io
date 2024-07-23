@@ -1,0 +1,25 @@
+---
+title: Guides & Tips
+---
+
+<!-- Also try `aside`...gotta fix TOC though -->
+
+:::{.callout-warning icon="false"}
+## {{< iconify line-md:construction-twotone size=2x >}}
+This page is still under construction. Check back again soon!
+:::
+
+
+<!-- ## LaTeX -->
+
+
+<!-- ## Typst -->
+
+
+<!-- ## R -->
+
+
+<!-- ## Quarto -->
+
+
+<!-- ## Tips for understanding Linux SE answers, for Windows Users -->

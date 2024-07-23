@@ -1,0 +1,45 @@
+---
+title: Vitae
+freeze: true
+# toc: false
+---
+
+A copy of my resume^[One page, suitable for hiring managers and related private-sector personnel] as well as my CV^[Extensive, multi-page record of my academic accomplishments] are available to download below.
+
+:::{.d-flex .justify-content-evenly}
+
+{{< downloadthis _files/resume.pdf type=success label="Download Resume" >}}
+
+{{< downloadthis _files/cv.pdf type=success label="Download CV" >}}
+
+:::
+
+::::{.panel-tabset}
+## Resume
+
+:::{.embeded-pdf .embeded-resume .resume}
+![](_files/resume.pdf){height=800px width=95%}
+:::
+
+## CV
+
+:::{.embeded-pdf .embeded-cv .vitae}
+![](_files/cv.pdf){height=800px width=95%}
+:::
+
+::::
+
+<!--  
+::::::{.panel-tabset margin-left="auto" margin-right="auto"}
+### Resume
+
+<!-- {{ include _files/test.html }} --
+
+### CV
+
+<!-- {{ include _resume.qmd }} --
+
+
+
+::::::
+-->

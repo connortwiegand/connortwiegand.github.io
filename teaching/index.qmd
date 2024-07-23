@@ -1,0 +1,27 @@
+---
+title: "Teaching"
+# reference-location: margin
+listing:
+  - id: ior-listing
+    template: ior-listing.md.ejs
+    contents: /_files/_IoR.yml
+  - id: ta-gr-listing
+    template: ta-gr-listing.md.ejs
+    contents: /_files/_ta-gr.yml
+---
+
+In addition to standard grading/TA positions completed through a PhD program, I have taught university-level economics courses as a full instructor. A course catalog from the University of Oregon's economics department can be found [here](https://catalog.uoregon.edu/courses/crs-ec/)^[Generally speaking, the 1XX -- 6XX course numbers are used to denote courses at the Freshman/ Sophomore/ Junior/ Senior/ Masters/ PhD level, respectively].
+
+Course materials which are not on Github are available upon request. 
+
+
+## Lead Instructor
+
+::::::::::{#ior-listing}
+::::::::::
+
+
+## TA & Grading Positions
+
+::::::::::{#ta-gr-listing}
+::::::::::

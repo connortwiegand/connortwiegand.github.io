@@ -1,0 +1,15 @@
+---
+title: More Resources
+---
+
+# Cats
+
+_Cat info_
+
+## Thanks
+
+- Favicon from [], font: Leckerli One
+
+- Site built with Quarto
+
+- 

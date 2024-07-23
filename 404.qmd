@@ -1,0 +1,13 @@
+---
+title: "Page Not Found"
+---
+
+_Oopsie Whoopsie!_
+
+You can try using the search button to find what you are looking for. _Hint: type `s`, `f`, or `/` to search from any page on the site_
+
+If there is an error on the website that lead you here, please [open an issue]({{ meta website.site-url }}/issues)
+
+<!-- In the meantime, enjoy this random image of a cat from [Unsplash](https://unsplash.com/) -->
+
+<!-- {{ unsplash keywords="cat" }} -->

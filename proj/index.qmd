@@ -1,0 +1,119 @@
+---
+title: "Projects"
+toc: true
+bibliography: "./_files/proj.bib"
+listing:
+  - id: academic-research
+    template: proj-listing.md.ejs
+    # type: default
+    contents: projects.yml
+---
+
+# Fields of Interest
+
+Within economics, my research interests include behavioral, game theory, and data science applications. Outside of economics, there isn't a lot that _doesn't_ interest me. Linguistics, computer science, and pure mathematics are domains that I have been consistently interested in over the years.
+
+# Academic Research
+
+::::::{#academic-research}
+::::::
+
+
+
+# Other Projects
+
+::::::{.panel-grid}
+
+:::::{.g-col-24 .g-col-md-12}
+
+::::{.card .h-100 .card-cc1}
+![](_files/nfg-ex.png){.card-img-top fig-alt="Normal Form Game generated from Typst"}
+
+::::{.card-body}
+```{=html} 
+<!--  --> 
+```
+#### [Prettier Game Theory](https://github.com/connortwiegand/typesetting-games){.card-title .other-project-title} 
+
+<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#card-gt" aria-expanded="false" aria-controls="card-gt">Read more</button>
+
+:::{#card-gt .collapse}
+:::{.card .card-body}
+As someone who has taught college level courses in game theory on multiple occasions, there is a disappointing lack of resources available to format (typeset) ones own games. Two related projects help to fill this gap and improve resources for educators looking for similar materials. One is simply a hub for housing links, pointers, and information about said resources. The other is partial solution: a work-in-progress `typst` package I made for typesetting normal form games. You can check out the general-information repository [here](https://github.com/connortwiegand/typesetting-games) and the Typst package `gametheoryst` [here](https://github.com/connortwiegand/game-theoryst)
+:::
+:::
+
+::::
+::::
+:::::
+
+
+:::::{.g-col-24 .g-col-md-12}
+
+::::{.card .h-100 .card-cc2}
+![](_files/ukraine_dark.png){.card-img-top fig-alt="Ukraine Area Codes"}
+
+::::{.card-body}
+```{=html} 
+<!--  --> 
+```
+#### [AreaCodeR](https://github.com/connortwiegand/AreaCoder){.card-title .other-project-title} 
+
+<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#car-acr" aria-expanded="false" aria-controls="card-acr">Read more</button>
+
+:::{#card-acr .collapse}
+:::{.card .card-body}
+`AreaCodeR` is a R-based Quarto project designed to pull phone number area codes from the internet and match them with level-1 administration data^[Top level classification of regions within a nation-state. E.g. States, Provinces Oblasts, etc.] for a given country. This has produced 2 novel geospatial visualizations of area codes and there is open opportunity for future analysis.
+:::
+:::
+
+::::
+::::
+:::::
+
+
+:::::{.g-col-24 .g-col-md-12}
+
+::::{.card .h-100 .card-cc3}
+![](_files/lost_arima.png){.card-img-top fig-alt="LOST -- ARIMA Residuals"}
+
+::::{.card-body}
+```{=html} 
+<!--  --> 
+```
+#### [LOST Stats](https://lost-stats.github.io/){.card-title .other-project-title} 
+
+<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#card-lost" aria-expanded="false" aria-controls="card-lost">Read more</button>
+
+:::{#card-lost .collapse}
+:::{.card .card-body}
+
+I contributed to the [Library of Statistical Techniques (LOST)](https://lost-stats.github.io/). Specifically, I authored the original version of the page on Autoregressive Integrated Moving Average (ARIMA) models, found [here](https://lost-stats.github.io/Time_Series/ARIMA-models.html)
+:::
+:::
+
+::::
+::::
+:::::
+
+
+:::::{.g-col-24 .g-col-md-12}
+
+::::{.card .h-100 .card-cc4}
+[{{< fa brands github size=10x >}}]{.card-img-top style="display: flex; justify-content: center; margin-top: 3rem;"}
+
+::::{.card-body}
+```{=html} 
+<!--  --> 
+```
+#### [Want more?]{.card-title .other-project-title} 
+
+Check out my [GitHub](https://github.com/connortwiegand)!
+
+::::
+::::
+:::::
+
+
+::::::
+

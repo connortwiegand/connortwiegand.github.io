@@ -1,0 +1,44 @@
+:::::{.list}
+
+<% const profArr = ["beginner", "novice", "intermediate", "advanced", "proficient", "expert"]; %>
+
+<% for (const item of items) { %>
+
+::::{<%= metadataAttrs(item) %>}
+
+::::{.columns}
+
+:::{.column width=80%}
+#### <%- item.name %>
+
+**Frameworks & Applications:**
+
+
+:::
+
+:::{.column width=20%}
+
+<!-- Alt. to lemon: [bi]: database-check, x-diamond-fill, tools, triangle, tree, send(-check), rocket-takeoff, lightbulb, award -->
+
+:::{.skill-rating}
+<% const profScore = profArr.indexOf(item.prof); %>
+<% for (let i = 1; i <= profScore; i++) { %>
+<i class="fa-regular fa-lemon checked"></i>
+<% } %>
+<% for (let i = profScore; i < 5; i++) { %>
+<i class="fa-regular fa-lemon"></i>
+<% } %>
+:::
+
+:::{.text-prof}
+_<%- item.prof %>_
+:::
+
+:::
+
+::::
+
+::::
+
+<% } %>
+:::::

@@ -1,0 +1,35 @@
+/*-- scss:uses --*/
+@import "custom-cols.scss";
+@import "theme-files/bs-base-cols.scss";
+
+/*-- scss:defaults --*/
+// $light: #f8f9fa;
+$light: $moon-mist;
+$dark: $outer-space;
+
+$primary: #006E33;
+$secondary: $berry-red;
+$success: $indigo;
+$warning: $orange;
+$danger: $cognac;
+$info: $sea-salt;
+
+$body-color: $tundora;
+$body-bg: $cararra;
+$navbar-bg: $body-bg;
+$footer-bg: $light;
+
+$link-color : #006E33;
+$border-color: #f2f3f3;
+$link-shadow: 0 0 1px $link-color;
+$code-bg: $footer-bg;
+$code-color: $orange;
+
+// Card Colors
+$card-cols: (
+  "cc1": $yellow,
+  "cc2": $indigo,
+  "cc3": $cyan,
+  "cc4": $red,
+);
+

@@ -1,0 +1,106 @@
+---
+title: "_C-T-We - dot - Me_"
+toc: false
+---
+
+I am a research economist from the University of Oregon. My research includes out-of-the-lab experiments which reveal longitudinal time preferences and strategic behavior in the presence of Artificial Intelligence. Broadly speaking, the labels "Experimental Economist", "Behavioral Economist", "Game Theorist", and "Data Scientist" would all be accurate descriptions of what I do. I'd like to consider myself at the intersection of extracting practical information from experimental data and modelling meaningful interaction using a modern tool case of microeconomic theory.
+
+### Site Highlights
+
+::::::{.panel-grid width=80%}
+<!-- Try `g-col-8 g-start-4` for first card and `g-col-8 g-start-12` for second card -->
+
+
+:::::{.g-col-24 .g-col-sm-12}
+
+::::{.card .h-100 .card-cc1}
+
+:::{.card-body}
+```{=html} 
+<!--  --> 
+```
+#### If you are a hiring manager
+
+[or are interested in my technical abilities,]{.card-text}
+
+:::{.d-flex .justify-content-around}
+
+[Glance at my skills](/skills/index.qmd){.btn .btn-primary} 
+
+[View my resume](/cv/index.qmd){.btn .btn-primary} 
+
+::: 
+
+:::
+::::
+:::::
+
+
+
+:::::{.g-col-24 .g-col-sm-12}
+
+::::{.card .h-100 .card-cc2}
+
+:::{.card-body}
+```{=html} 
+<!--  --> 
+```
+#### To learn more about my research
+
+[and topics I am interested in]{.card-text}
+
+:::{.flex-buttons-end}
+[Click Here](/proj/index.qmd){.btn .btn-primary}
+:::
+
+:::
+::::
+:::::
+
+
+
+:::::{.g-col-24 .g-col-sm-12}
+
+::::{.card .h-100 .card-cc3}
+
+:::{.card-body}
+```{=html} 
+<!--  --> 
+```
+#### I'm available to work!
+
+[Click below for more information about my consulting services and contract work. For rates, please [inquiry](mailto:cwiegand@uoregon.edu). ]{.card-text}
+
+:::{.flex-buttons-end}
+[Click Here](/for-hire/index.qmd){.btn .btn-primary}
+:::
+
+:::
+::::
+:::::
+
+
+
+
+:::::{.g-col-24 .g-col-sm-12}
+
+::::{.card .h-100 .card-cc4}
+
+:::{.card-body}
+```{=html} 
+<!--  --> 
+```
+#### Check out the *resources* tab
+
+[for tools that I use, credits for the site, and other fun goodies]{.card-text}
+
+:::{.flex-buttons-end}
+[Click Here](/proj/index.qmd){.btn .btn-primary}
+:::
+
+:::
+::::
+:::::
+
+
+::::::

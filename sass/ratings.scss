@@ -1,0 +1,39 @@
+/*-- scss:defaults --*/
+
+$empty: rgba(128, 128, 128, 0.25);
+$filled: $link-color;
+
+/*-- scss:rules --*/
+
+.skill-rating {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.25rem 1rem 0em;
+  // min-height: 60px;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  i {
+    width: 0.75rem;
+    height: 0.75rem;
+    font-size: 0.75rem;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+    position: relative;
+    color: $empty;
+
+    &.checked {
+      color: $filled;
+    }
+  }
+}
+
+.text-prof {
+  text-align: center;
+  font-size: 0.75rem;
+  color: $empty;
+}

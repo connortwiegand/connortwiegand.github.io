@@ -1,0 +1,46 @@
+::::::::{.ior}
+
+::::::{.panel-grid .ior-card-grid}
+
+<% var counter = 0 %>
+
+<% for (const item of items) { %>
+
+<% counter = counter + 1 %>
+
+
+:::::{.g-col-24 .ior-card}
+
+::::{.card .card-theme}
+
+:::{.card-body}
+
+#### [<%- item.number %>: <%- item.title %>](<%- item.path %>){.card-title .course-title} 
+
+[Terms taught: _<%- item.terms %>_]{.course-terms}
+
+:::{.course-info-block}
+> [_<%- item.info %>_]{.course-info}
+:::
+
+<% if (item.repo_slug) { %>
+
+[Course Repository](https://github.com/connortwiegand/<%- item.repo_slug %>){.course-repo .btn .btn-primary href="#"}
+
+<% } %>
+
+<% if (item.page_path) { %>
+
+[Viewable Course Content](<%- item.page_path %>){.course-repo .btn .btn-primary href="#"}
+
+<% } %>
+
+:::
+::::
+:::::
+
+<% } %>
+
+
+::::::
+::::::::

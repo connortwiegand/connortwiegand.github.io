@@ -1,0 +1,23 @@
+::::::::{.ta-gr-listing}
+
+::::::{.panel-grid style="gap: 0em; "}
+<% for (const item of items.reverse()) { %>
+
+
+:::{.g-col-5 .g-start-1 .text-center .border-top .border-end}
+<%- item.number %>
+:::
+
+:::{.g-col-14 .g-start-6 .px-3 .border-top}
+<%- item.title %>
+:::
+
+:::{.g-col-4 .g-start-20 .text-end .border-top}
+_<% if (item.pos == "TA") { %>TA<% } else if (item.pos == "G") { %>Grader<% } else { %>TA/Grader<% } %>_
+:::
+
+<% } %>
+
+::::::
+::::::::
+

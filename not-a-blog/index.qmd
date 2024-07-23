@@ -1,0 +1,18 @@
+---
+title: "Not-a-Blog"
+listing:
+   type: default
+   contents: posts
+   id: blog-posts
+   fields: [title, date, categories, reading-time, image, description]
+   page-size: 5
+   sort-ui: [date, title]
+   categories: unnumbered
+   # feed: true
+   date-format: medium
+---
+
+This isn't a blog
+
+:::{#blog-posts}
+:::

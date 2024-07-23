@@ -1,0 +1,39 @@
+/*-- scss:uses --*/
+@import "custom-cols.scss";
+@import "theme-files/bs-base-cols.scss";
+
+/*-- scss:defaults --*/
+
+$light: #f8f9fa;
+$dark: #343a40;
+
+$body-color: $light;
+$body-bg: $shark; 
+$navbar-bg: $body-bg;
+$footer-bg: $outer-space;
+
+
+$primary: #AAF0C1;
+$secondary: $coral;
+$success: $indigo;
+$warning: $orange;
+$danger: $yellow;
+$info: $sea-salt;
+
+$link-color : #AAF0C1; 
+$border-color: #f2f3f3;
+$link-shadow: 0 0 1px $link-color;
+$code-bg: $footer-bg;
+$code-color: $cyan;
+
+/*-- scss:rules --*/
+// Card Colors
+$card-cols: (
+  "cc1": $coral,
+  "cc2": $indigo,
+  "cc3": $blue,
+  "cc4": $red,
+);
+
+
+

@@ -1,0 +1,62 @@
+/*-- scss:defaults --*/
+
+$facebook-color : #3b5998;
+$github-color : #171516;
+$google-plus-color : #dd4b39;
+$instagram-color : #517fa4;
+$linkedin-color : #007bb6;
+$rss-color : #fa9b39;
+$stack-overflow-color : #fe7a15;
+$twitter-color : #55acee;
+$youtube-color : #bb0000;
+$orcid-color : #A6CE39;
+$email-color : #dccc1c;
+$quarto-color: #4f789e; // #75aadb --logo, #4f789e --name, #2c597b --navbar
+
+$social-map: (
+   "facebook": $facebook-color,
+   "x.com": $twitter-color,
+   "github": $github-color,
+   "linkedin": $linkedin-color,
+   "stack": $stack-overflow-color,
+   "xml": $rss-color,
+   "scholar": $google-plus-color,
+   "youtube": $youtube-color,
+   "orcid": $orcid-color,
+   "mail": $email-color,
+   "quarto": $quarto-color
+);
+
+/*-- scss:rules --*/
+@each $social in map-keys($social-map) {
+   a[href*="#{$social}"] {
+         &:hover {
+            color: map-get($social-map, $social);
+         }
+      }
+}
+
+.quarto-light a[href*="github"]:hover {
+   text-shadow: 0 0 0.5px #171516;
+}
+
+div.quarto-about-trestles .about-entity .about-link i.bi {
+   margin-right: 0;
+}
+
+
+
+/* Previous Attempts */
+// @mixin social-hover($name, $args: "") {
+//    .bi-#{$name}#{$args}, 
+//    .bi-#{$name}#{$args} ~ span{
+//       &:hover {
+//          color: map-get($socials-map, $name);
+//       }
+//    }
+//    &[href*="#{$name}"] {
+//       &:hover {
+//          color: map-get($socials-map, $name);
+//       }
+//    }
+// }

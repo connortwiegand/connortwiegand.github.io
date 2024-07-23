@@ -1,0 +1,105 @@
+/*-- scss:defaults --*/
+
+$green-pinks: (
+  "Retro": (#ff3877, #1affa7), //blue: #1e0094
+  "FractalSky": (#53ff91, #ff108c),
+  "Keroppi's Froggy Flair": (#f03a55, #3e9b66)
+);
+
+$co-pals: (
+"sea salt ": 
+(#0a1a32, #113f59, #0a827c, #43bd9f, #5be8a9),
+"Seafoam vs. Mint ": 
+(#9cffed, #8df9e6, #24fbca, #47ffcc, #42ffc1),
+"Beach Life Love ": 
+(#8fd0d8, #dfb685, #ff807b, #ffe47a, #8cdbb3),
+"Summer Disco ": 
+(#1e1e1e, #ffdabc, #fca25a, #ff5f76, #017363),
+"Minty Coral ": 
+(#ff7373, #84ead3, #ee9797, #baead8, #f39086),
+"Moody forest ": 
+(#225a4b, #38836e, #68b095, #f28181, #f99a82),
+"burning forest ": 
+(#8dff21, #989f2d, #ab4522, #5e1a1a, #920000),
+"Emerald System GENEVIEVE ": 
+(#ca5047, #19507e, #4f6a55, #90302d, #542544),
+"Verdant Desert ": 
+(#bdad7b, #d5c58e, #4ece3d, #37bc5e, #f32e9d),
+"Trideciblocks 5 ": 
+(#ff54da, #44e48d, #dc143c, #4744e3, #ff8d36),
+"nembrotha cristata sea slug ": 
+(#61daaf, #269c7d, #215277, #082140, #040918),
+"Sun-Dried Watermelon ": 
+(#3c2f2e, #f25f4c, #d98560, #a52a22, #3c2f2e),
+"Coral Descent ": 
+(#fc7e75, #f86257, #c03d34, #133d32, #0b231d),
+"Sunshine Coral ": 
+(#fd531f, #ffac38, #f46966, #bedfc2, #5bb9a9),
+"Floating Flowers ": 
+(#002f43, #12a9b0, #1a9a8b, #e4757b, #d3215d),
+"Cotton Candy Coral ": 
+(#b5ead7, #8cd5bf, #ffaaa5, #ff8b82, #ff6f69),
+"Mint and Coral ": 
+(#b2eee6, #8ad6cc, #66beb2, #f97171, #f99192),
+"seafoam and coral ": 
+(#008080, #40e0d0, #afeeee, #ffb6c1, #ff6666)
+);
+
+//
+$cc-1: #ef876a;
+$cc-2: #008a90;
+$cc-3: #ff8575;
+$cc-4: #0DFBCC;
+$cc5: #3DFFD9;
+$cc6: #113f59;
+$cols-2: (
+  #5be8a9,
+  #ff6666,
+  #008080,
+  #ff8181,
+  #ff2664,
+  #ff4d6d
+);
+
+$misc-cols: (
+  #FF856F,
+  #df7c5b,
+  #ff687c,
+  #EF2B7C,
+  #13e695,
+  #e613c6,
+  #0a6a87,
+  #642eaa
+);
+
+/*
+
+// #ff687c, #EF2B7C, #13e695, #e613c6, #0a6a87, #642eaa
+$alt-link: #0c9c7f;
+$accent: #ef876a;
+
+$dark-100: $dark;
+$dark-300: scale-color($dark, $lightness: -10%);
+$dark-600: scale-color($dark, $lightness: -20%);
+$dark-900: scale-color($dark, $lightness: -30%);
+*/
+
+/*
+// https: //colors.muz.li
+// Tetrade: #6e1c00, #4d1400, #04196e, #03114d
+// #b34763, #7d3245, #7d3245, #326f7d
+$cols-1: (
+  #ddd5e2,
+  #9a959e,
+  #d9e2d5,
+  #6e1c00,
+  #4d1400,
+  #04196e,
+  #03114d,
+  #b34763,
+  #7d3245,
+  #326f7d
+);
+$light: #e2e1d5; //tetrade: #ddd5e2, #9a959e, #d9e2d5, #d9e2d5
+
+*/

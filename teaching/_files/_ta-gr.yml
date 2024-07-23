@@ -1,0 +1,50 @@
+- title: Intro to Economic Thinking
+  number: EC 101
+  pos: G
+
+- title: Introductory Micro 
+  number: EC 201
+  times: 4
+  pos: TA/G
+
+- title: Introductory Macro 
+  number: EC 202
+  pos: TA/G
+
+- title: Environmental Economics
+  number: EC 333
+  times: 2
+  pos: G
+
+- title: Introductory Game Theory
+  number: EC 327
+  times: 3
+  pos: TA/G
+
+- title: Behavioral Economics
+  number: EC 328
+  pos: G
+
+- title: Public Economics
+  number: EC 340
+  pos: G
+
+- title: Money and Banking
+  number: EC 370
+  pos: G
+
+- title: International Economics
+  number: EC 380
+  pos: G
+
+- title: Health and Crime
+  number: EC 410/510
+  pos: G
+
+- title: Econometrics II
+  number: EC 421/521
+  pos: TA/G
+
+- title: Core (PhD) Econometrics
+  number: EC 607
+  pos: TA/G

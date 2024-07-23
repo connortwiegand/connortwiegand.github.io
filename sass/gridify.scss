@@ -1,0 +1,52 @@
+/*-- scss:rules --*/
+
+.navbar-container, 
+.nav-footer {
+  @extend .page-columns;
+}
+
+.navbar-toggler {
+  grid-column: screen-start-inset;
+}
+.navbar-brand-container {
+  grid-column: page-start/body-start;
+  display: inline-block;
+  // max-width: unset;
+}
+
+.navbar-collapse {
+  grid-column: body-content-start/body-content-end;
+}
+
+#quarto-search {
+  grid-column: page-end;
+}
+
+.quarto-navbar-tools {
+  grid-column: page-end-inset;
+  text-align: right;
+}
+
+ul.navbar-nav li.nav-item {
+  &:first-child .nav-link {
+    padding-left: 0em;
+  }
+}
+
+.quarto-secondary-nav {
+  display: none;
+}
+
+/* Footer */
+
+.nav-footer-left {
+  grid-column: page-start/body-start;
+}
+
+.nav-footer-center {
+  grid-column: body-content-start/body-content-end;
+}
+
+.nav-footer-right {
+  grid-column: body-end/page-end;
+}

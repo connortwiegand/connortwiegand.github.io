@@ -1,0 +1,47 @@
+---
+title: "More About Me"
+image: ../imgs/bio-photo-1.jpg
+sidebar: false
+about:
+  id: about-content
+  template: trestles
+  image-shape: round
+  image-width: 250px
+  links:
+    - icon: github
+      href: https://github.com/connortwiegand/ 
+    - icon: linkedin
+      href: https://www.linkedin.com/in/connor-wiegand
+
+ani-delay: 1s
+ani-duration: 1s
+---
+
+:::{#about-content}
+
+:::{.animate__animated .animate__fadeInUp}
+### Places I've Been
+
+I was born and raised in the Pacific Northwest (specifically: [Bellingham, WA](https://www.bellingham.org/)). In addition to regular trips up to Beuatiful British Columbia, I've traveled to some really cool places! I've been on both coasts of Mexico, visited Banff National Park in Alberta, and experienced some amazing culture in Europe (Spain, France, Italy) as well as the Carribean (Jamaica, Barbados, The Bahamas, Key West). 
+:::
+
+:::{.animate__animated .animate__fadeInUp}
+### Education
+
+While in high school, I participated in the [Running Start](https://en.wikipedia.org/wiki/Running_Start) program, which allowed me to get my A.A. degree at the same time while I was in high school. I would highly recommend the Running Start program if it's available in your state, and would love to chat more about it if you know someone who is interested. 
+
+Getting my associates degree so early allowed me to jump right in to my undergraduate program at the University of Washigton in Seattle. In just three years, I was able to earn a double major in Mathematics and Economics. While there, I took accelerated honors courses in both Real Analysis and Computer Science, attained Honor Roll^[AKA Dean's List] across multiple terms, and took the Core Ph.D. Microeconomics sequence during my last year. 
+
+I am currently at the end of my Ph.D. program at the University of Oregon and am looking to start my career in economics, data science, or tech. 
+:::
+
+:::{.animate__animated .animate__fadeInUp}
+### Free time
+
+In my younger years, I enjoyed playing _[video games]_ and snowboarding at [Mt. Baker](https://en.wikipedia.org/wiki/Mount_Baker). I still get around to the former from time to time, but I would love to pick up the latter once my educational career is finished. I've also recently resumed playing guitar, which I started in grade school after moving on from the Cello. 
+
+Today, I enjoy playing board games such as Bananagrams and Ticket to Ride and going for walks around my neighborhood with my wife. This year, we began fostering [kittens](/resources/misc/index.qmd#Cats) through an [amazing local organization](https://catrescues.org/) in Eugene. When it comes to watching TV, I am a big fan of comedy. Whether it be random trivia, a new programming framework, a language, or a subject I never got around to in school, I simply love to learn new things ^[makes sense that I married a teacher, right?]. 
+:::
+:::
+
+{{< animate bounce "" >}}

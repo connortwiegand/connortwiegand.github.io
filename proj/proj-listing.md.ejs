@@ -1,0 +1,43 @@
+::::{.academic-research}
+
+<% for (const item of items) { %>
+
+## <%- item.category %>
+
+<% for (const paper of item.papers) { %>
+
+#### **[<%- paper.title %>](<% if (paper.draft_avail) { %> <%- paper.path %> <% } %>){.proj .paper .<%- item.category.replaceAll(" ", "-").toLowerCase() %>}**
+
+:::{.with}
+<%- paper.co_auth %> 
+<% if (paper.draft_avail) { %> ([[Draft](<%- paper.path %>) available]{.draft-download})<% } %> <% if (paper.incl_cite) { %> <% if (paper.year == 'forthcoming') { %> [-@<%- paper.incl_cite.key %>] <% } %><% } %>
+:::
+
+<% if (/Pub/i.test(item.category)) { %>
+
+:::{.year .pub-info .journal}
+<% if (paper.year == 'forthcoming') { %> Forthcoming in <% } %> _<%- paper.journal %>_
+:::
+ 
+<% } %> 
+
+
+
+<% if (paper.abstract) { %>
+
+:::{.callout-tip .abstract collapse="true" appearence="minimal"}
+### Abstract
+
+<%- paper.abstract %>
+
+:::
+
+<% } %>
+
+
+<% } %> 
+<% } %> 
+
+::::
+
+ 

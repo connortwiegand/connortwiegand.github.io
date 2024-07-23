@@ -1,0 +1,35 @@
+
+:::{.content-hidden when-format="html" text-align="center"}
+# Connor T. Wiegand
+:::
+
+## Education
+
+::::{.columns}
+
+:::{.column .res-cont width=80%}
+Content
+:::
+
+:::{.column .res-date width=20%}
+Date
+:::
+
+::::
+
+
+
+
+## Research
+
+
+
+
+
+
+
+## Experience
+
+
+## Skills
+

@@ -1,0 +1,143 @@
+skills:
+  software: 
+    - name: R
+      prof: expert
+      cat: [data-science, lang]
+      tier: 1
+      subs: 
+        - name: tidyverse
+          type: [pkg, paradigm, framework]
+          esp: [ggplot2, dplyr]
+          tags: [data-science, data-viz]
+        - name: data.table
+          type: [pkg, paradigm, framework]
+          tags: [data-sceince]
+        - name: ggplot2
+          type: [pkg]
+          tags: [data-viz, viz, plotting]
+      other:
+        - name: "Highlighted Packages"
+          content: [rpart, fixest, rvest, stringr]
+      apps: 
+        - name: Geospatial
+          tier: 2
+          pkgs: [sf, rgeos, leaflet, rnaturalearth, choroplethr]
+    - name: Quarto
+      prof: proficient
+      cat: [multi-purpose, active-use]
+      subs:
+        - pandoc
+        - revealjs
+    - name: Typst
+      prof: intermediate
+      cat: [docs, active-use, lang]
+    - name: MS Office
+      prof: expert
+      cat: [multi-purpose]
+      subs:   
+      - name: MS Word
+        cat: [docs]
+      - name: MS Excel
+        cat: [databases]
+      - name: MS PowerPoint
+        cat: [prez]
+      - other: [MS Outlook, MS OneDrive, MS OneNote, MS Teams]
+    - name: Git
+      prof: intermediate
+      cat: [version-control, lang]
+      subs:
+        - GitHub
+    - name: revealjs
+      prof: proficient
+      cat: [prez, framework]
+    - name: Windows OS
+      prof: proficient
+      cat: [OS]
+    - name: Linux (Ubuntu)
+      prof: intermediate
+      cat: [OS]
+      subs: 
+        - Bash 
+    - name: LaTeX
+      prof: advanced
+      cat: [lang, docs]
+    - name: Wolfram Mathematica
+      prof: novice
+      cat: [lang, data-science]
+    - name: HTML/CSS
+      prof: intermediate
+      cat: [lang, web-design]
+      subs:
+        - Jekyll
+        - Bootstrap 5
+        - Django
+        - Go (Hugo)
+        - Web-Quarto
+        - SVGs
+    - name: Javascript
+      prof: intermediate
+      cat: [lang, web-design]
+      subs:
+        - jQuery
+    - name: Python
+      prof: intermediate
+      cat: [lang, multi-purpose, data-science]
+      subs:
+        - Django
+        - oTree
+        - pandas
+        - tensorflow
+    - name: Java
+      prof: novice
+      cat: [lang]
+    - name: SQL
+      prof: novice
+      cat: [lang, databases]
+    - name: Regular Experessions
+      prof: intermediate
+      cat: [misc]
+  general:
+    research-projects: 
+      - End-to-end project management
+      - Research question design
+      - Research design
+      - Experiment design
+    soft:
+      - name: Public Speaking
+        conf: expert
+      - Written Communication
+      - Verbal Communication
+      - Team-based Work 
+      - Self-Driven Work 
+      - Project Management
+    data:
+      - D-- Analysis
+      - D-- Managment
+  economics:
+    - name: Game Theory
+      int: 
+    - name: Behavioral --E
+      spec: [Time Discounting, Present Bias, Trust]
+      int: [Prospect Theory, Loss Aversion, Altruism, Framing, Nudging, Anchoring]
+    - name: Data Science
+      int: 
+    - name: Experimental --E
+      bg: []
+    - name: Microeconomics
+      spec: [Applied M-S, M- Theory]
+    - name: Econometrics
+      bg: []
+    - name: Cost-Benefit Analysis
+    - other:
+        - Time Series
+        - Developmental --E
+        - Monetary Policy
+        - Environmental --E
+  misc:
+    languages: 
+    - intermediate: [Spanish, French]
+    - beginner: [Italian, German]
+    - notes: "Willing to learn anything"
+
+
+   

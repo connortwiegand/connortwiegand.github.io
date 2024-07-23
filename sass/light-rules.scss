@@ -1,0 +1,20 @@
+/*-- scss:defaults --*/
+@each $name, $val in $card-cols {
+  .card-#{$name} {
+    background-color: tint-color(map-get($card-cols, $name), 80%);
+    border: 1px solid tint-color(map-get($card-cols, $name), 40%);
+    color: shade-color(map-get($card-cols, $name), 40%);
+
+    .btn {
+      background-color: shade-color(map-get($card-cols, $name), 60%);
+      border: 1px solid tint-color(map-get($card-cols, $name), 60%);
+      color: tint-color(map-get($card-cols, $name), 60%);
+    }
+  }
+}
+
+.card-theme {
+  background-color: tint-color($primary, 80%);
+  border: 1px solid shade-color($primary, 20%);
+  color: $mine-shaft;
+}

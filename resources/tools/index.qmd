@@ -1,0 +1,54 @@
+---
+title: "Tools I Use"
+---
+
+:::{.card}
+:::{.card-header}
+Coming Soon!
+:::
+:::{.card-body}
+_For tips & guides related to these tools, click [here](../guides-tips/index.qmd)_ 
+:::
+:::
+
+
+### Workflow
+
+- [New!]{.alert1} I recently tried [Positron](https://github.com/posit-dev/positron) -- a "next-generation data science IDE" from [POSIT](https://posit.co/) -- for real for the first time. As a long-time user of both VS Code and RStudio, I'm excited for where this project goes.
+
+- [New_-ish_]{.alert2} I've been converting a lot of my writing workflow to [Typst](https://typst.app/), using both the CLI and the Web App. As a long time user of LaTeX across disciplines, I'm cannot express my joy over working with this language.
+
+- I do most of my data-science work in R/[Rstudio](https://posit.co/products/open-source/rstudio/), though Positron may soon replace RStudio for me. While I reflexively use `tidyverse` syntax, I certainly love a good line of `data.table` when I can get one.
+
+- For just about everything else, I use [VS Code](https://code.visualstudio.com/)
+
+- I typically work with [Quarto](https://quarto.org/) projects because of their extensive flexibility 
+
+- Git/Github, for Version Control
+
+### Teaching
+
+- I write my slides in `.qmd`^["Quarto Markdown"] files, which I output to `reveal.js`
+
+- I've converted my syllabus, homework, tests, and other course materials to Typst
+
+- In my most recent iteration of _Intro to Game Theory_, I wrote `typ2png4reveal.sh`([link](https://github.com/connortwiegand/ec327-sp24)) for converting Typst games to transparent PNG files
+
+### Linux
+
+- After being a lifelong Windows user, I was finally fed up enough to dual boot Linux on my Lenovo laptop. My laptop has never run smoother, my file system **makes. sense.** now, and I have not looked back. If you're like me and timid to make the switch at first, [Linux Mint](https://linuxmint.com/) is a great introduction for the average Windows/Mac user.
+
+- After compiling my ~~twentieth~~ ~~fiftieth~~ ~~hundredth~~ **third** R package from source, I slipped and slid my way through setting up `bspm` --[Bridge to System Package Manager](https://cran4linux.github.io/bspm/). The TL;DR is that `apt`^[Ubuntu's default package manager] handles my R packages and I haven't had to build a single one from source.
+
+- [CopyQ](https://github.com/hluk/CopyQ) is nice clipboard management
+
+- [ImageMagick](https://imagemagick.org/) is indispensible; I wish I knew about it when I was using Windows
+
+### Past
+
+- I actually tried both Hugo and Jekyll before landing on Web-Quarto
+
+- As mentioned above, I've done my time in Windows. OneNote is probably the only tool I miss from time to time.
+
+- I started using LaTeX my freshman year of college for my math degree. It would have been glorious to have Typst around.
+

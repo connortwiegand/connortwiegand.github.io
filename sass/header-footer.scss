@@ -1,0 +1,23 @@
+/*-- scss:rules --*/
+
+#quarto-header {
+   border-bottom: 1px solid;
+}
+
+footer.footer {
+   border-top: 1px solid; 
+
+   .nav-footer {
+      @extend .container-fluid;
+   }
+}
+
+ul.footer-items {
+
+   li,
+   >li {
+      &:not(:first-child) {
+         padding-left: 0.4em;
+      }
+   }
+}

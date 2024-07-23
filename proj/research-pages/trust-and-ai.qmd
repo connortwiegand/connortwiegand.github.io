@@ -1,0 +1,19 @@
+---
+title: "Trust and AI"
+co_auth: 'With [Jiabin Wu](https://sites.google.com/site/jiabinwuecon), [Ethan Holdahl](https://ethanholdahl.com/), and [Tanner Bivins](https://www.tannerbivins.com/)'
+# date: 2023-01-01
+wp: true
+draft_avail: true
+path: '../_files/trust.pdf'
+r-citation: 'Bivins _et al._ (wp). &quot;Trust and AI.&quot; <i>WIP</i>.'
+---
+
+## Abstract
+
+How does the presence of AI affect strategic trust? Based on the trust game ([PAPER]), we design an experiment whereby players in each role may have access to the Large Language Model (LLM) ChatGPT. The player who is asking for trust can send a message to the other player, and, when AI is present, has the option to interact with ChatGPT to help them send a more convincing signal. When the trust*er* has AI present, the AI helps interpret the message from the trustee, and gives advice on what the truster should do. We find evidence ..............
+
+---
+
+Download [draft]({{meta url}}){.draft-download-btn}
+
+Recommended citation: {{ meta r-citation }}
