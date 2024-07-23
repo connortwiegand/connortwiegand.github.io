@@ -1,1 +1,1 @@
-Sitemap: https://connortwiegand.github.io/sitemap.xml
+Sitemap: connortwiegand.github.io/sitemap.xml
