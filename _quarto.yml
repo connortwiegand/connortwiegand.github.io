@@ -1,0 +1,112 @@
+project:
+  type: website
+  preview: 
+    port: 3005
+
+language: 
+  search-box-placeholder: Search
+
+pagetitle: "{{< meta title >}} | Connor T. Wiegand"
+author-meta: "Connor T. Wiegand"
+
+website:
+  title: "Connor T. Wiegand"
+  description: ""
+  image: "imgs/bio-photo-1.png"
+    
+  favicon: "imgs/favicon.svg"
+  # site-url: 
+  # repo-url: https://github.com/connortwiegand/<foo>
+  # repo-link-target: "_blank"
+  ## Doc-level: set `repo-actions: false` to surpress link to repo on page
+
+  navbar:
+    title: "[Connor T. Wiegand]{.d-none .d-lg-block} ![](/imgs/favicon-light.svg){.brand-logo-light .d-lg-none .d-lg-inline-block viewBox='0 0 70 70' width='70' height='70'} ![](/imgs/favicon-dark.svg){.brand-logo-dark .d-lg-none .d-lg-inline-block viewBox='0 0 70 70' width='70' height='70'}"
+    pinned: true
+    # tools-collapse: true
+    left:
+      - text: "[About Me]{.class}"
+        href: about/index.qmd
+      - text: Projects
+        href: proj/index.qmd
+      - text: Teaching
+        href: teaching/index.qmd
+      - text: Vitae
+        href: cv/index.qmd
+      - text: Not -a- Blog
+        href: not-a-blog/index.qmd
+      - text: Skills
+        href: skills/index.qmd
+      - text: Resources 
+        menu: 
+          - text: Software
+            href: resources/software/index.qmd
+          - text: Guides
+            href: resources/guides/index.qmd
+          - text: Tips
+            href: resources/tips/index.qmd
+          - text: Other Resources
+            href: resources/misc/index.qmd
+        
+      # - [Theming Button]
+  
+  bread-crumbs: false
+  sidebar: 
+    style: docked
+    logo: imgs/bio-photo-1.jpg 
+    contents: 
+      - text: "Connor Thomas Wiegand"
+        rel: author
+      - text: "Economics Ph.D. candidate at the University of Oregon"
+      - text: Email 
+        icon: envelope-fill
+        href: mailto:cwiegand@uoregon.edu 
+      - text: Linkedin
+        icon: linkedin
+        href: https://www.linkedin.com/in/connor-wiegand
+        target: _blank
+      - text: Github
+        icon: github
+        href: https://github.com/connortwiegand
+        target: _blank
+      - text: Twitter
+        icon: twitter-x
+        href: https://x.com/ctwie_x
+        target: _blank
+      - text: Google Scholar
+        icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=xKz_tl8AAAAJ
+        target: _blank
+      - text: <i class="fa-brands fa-orcid"></i> ORCID
+        # icon: question-circle
+        href: "http://orcid.org/0009-0004-3349-3742"
+        target: _blank
+
+  page-footer: 
+    left: 
+      - text: "Follow:"
+      - text: "{{< fa brands github >}} GitHub"
+        href: "https://github.com/connortwiegand"
+      - text: "{{< fa rss >}} Feed"
+        href: "index.xml"
+    right: "&#169; 2024 Connor T. Wiegand <br/> Made with [Quarto](https://quarto.org/){target='_blank'} | View [source code](https://github.com/connortwiegand/){target='blank'}"
+      # - text: "&#169; 2024 Connor T. Wiegand <br/>"
+      # - text: "Made with [Quarto](https://quarto.org/)"
+      # - text: "[View source code](https://github.com/connortwiegand/){target='blank'}"
+
+format:
+  html:
+    theme: 
+      dark: [darkly, sass/dark-load.scss]
+        # darkly #vapor, solar
+      light: [flatly, sass/light-load.scss]
+        # flatly #minty, sandstone, journal
+    # css: styles.css
+    toc: true
+    anchor-sections: true
+    footnotes-hover: true
+
+    # [darkly, sass/socials.scss, sass/header-footer.scss, sass/custom.scss, sass/nav-sidebar.scss]
+
+
+

@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "More About Me",
+    "section": "",
+    "text": "I was born and raised in the Pacific Northwest (specifically: Bellingham, WA). In addition to regular trips up to Beuatiful British Columbia, I’ve traveled to some really cool places! I’ve been on both coasts of Mexico, visited Banff National Park in Alberta, and experienced some amazing culture in Europe (Spain, France, Italy) as well as the Carribean (Jamaica, Barbados, The Bahamas, Key West).\n\n\n\nWhile in high school, I participated in the Running Start program, which allowed me to get my A.A. degree at the same time while I was in high school. I would highly recommend the Running Start program if it’s available in your state, and would love to chat more about it if you know someone who is interested.\nGetting my associates degree so early allowed me to jump right in to my undergraduate program at the University of Washigton in Seattle. In just three years, I was able to earn a double major in Mathematics and Economics. While there, I took accelerated honors courses in both Real Analysis and Computer Science, attained Honor Roll1 across multiple terms, and took the Core Ph.D. Microeconomics sequence during my last year.\nI am currently at the end of my Ph.D. program at the University of Oregon and am looking to start my career in economics, data science, or tech.\n\n\n\nIn my younger years, I enjoyed playing [video games] and snowboarding at Mt. Baker. I still get around to the former from time to time, but I would love to pick up the latter once my educational career is finished. I’ve also recently resumed playing guitar, which I started in grade school after moving on from the Cello.\nToday, I enjoy playing board games such as Bananagrams and Ticket to Ride and going for walks around my neighborhood with my wife. This year, we began fostering kittens through an amazing local organization in Eugene. When it comes to watching TV, I am a big fan of comedy. Whether it be random trivia, a new programming framework, a language, or a subject I never got around to in school, I simply love to learn new things 2."
+  },
+  {
+    "objectID": "about/index.html#footnotes",
+    "href": "about/index.html#footnotes",
+    "title": "More About Me",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAKA Dean’s List↩︎\nmakes sense that I married a teacher, right?↩︎"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "In addition to standard grading/TA positions completed through a PhD program, I have taught university-level economics courses as a full instructor. A course catalog from the University of Oregon’s economics department can be found here1.\nCourse materials which are not on Github are available upon request."
+  },
+  {
+    "objectID": "teaching/index.html#footnotes",
+    "href": "teaching/index.html#footnotes",
+    "title": "Teaching",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nGenerally speaking, the 1XX – 6XX course numbers are used to denote courses at the Freshman/ Sophomore/ Junior/ Senior/ Masters/ PhD level, respectively↩︎"
+  },
+  {
+    "objectID": "not-a-blog/posts/Jun/blog-post-0.html",
+    "href": "not-a-blog/posts/Jun/blog-post-0.html",
+    "title": "Blog Post number 1",
+    "section": "",
+    "text": "This is a sample blog post. Lorem ipsum I can’t remember the rest of lorem ipsum and don’t have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.\nHeadings are cool\nYou can have many headings\nAren’t headings cool?"
+  },
+  {
+    "objectID": "resources/guides-tips/index.html",
+    "href": "resources/guides-tips/index.html",
+    "title": "Guides & Tips",
+    "section": "",
+    "text": "This page is still under construction. Check back again soon!"
+  },
+  {
+    "objectID": "resources/tools/index.html",
+    "href": "resources/tools/index.html",
+    "title": "Tools I Use",
+    "section": "",
+    "text": "Coming Soon!\n\n\nFor tips & guides related to these tools, click here"
+  },
+  {
+    "objectID": "resources/tools/index.html#footnotes",
+    "href": "resources/tools/index.html#footnotes",
+    "title": "Tools I Use",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\n“Quarto Markdown”↩︎\nUbuntu’s default package manager↩︎"
+  },
+  {
+    "objectID": "for-hire/index.html",
+    "href": "for-hire/index.html",
+    "title": "For Hire",
+    "section": "",
+    "text": "Potential Employers\nI am currently looking for full time work in the broad fields of Data Science and Economics. Check out my resume and send me an email (cwiegand-@-uoregon-dot-edu) if you are interested and want to open up a conversation!\nConsulting & Contract Work\nIf you are in need of a PhD economist – specifically one who specializes in game theory, behavioral economics, or consumer choice theory – I am available for consulting work and my rate is negotiable. I’d love to chat, just send me an email (cwiegand at ureogon dot edu)\nAdditionally, if you are looking for an economics litigation consultant, my rate is fair, negotiable, and I encourage you to reach out.\nIf email is not your preferred mode of communication, check out my linkedin"
+  },
+  {
+    "objectID": "proj/research-pages/trust-and-ai.html",
+    "href": "proj/research-pages/trust-and-ai.html",
+    "title": "Trust and AI",
+    "section": "",
+    "text": "Abstract\nHow does the presence of AI affect strategic trust? Based on the trust game ([PAPER]), we design an experiment whereby players in each role may have access to the Large Language Model (LLM) ChatGPT. The player who is asking for trust can send a message to the other player, and, when AI is present, has the option to interact with ChatGPT to help them send a more convincing signal. When the truster has AI present, the AI helps interpret the message from the trustee, and gives advice on what the truster should do. We find evidence …………..\n\nDownload draft\nRecommended citation: {{ meta r-citation }}"
+  },
+  {
+    "objectID": "proj/index.html",
+    "href": "proj/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Fields of Interest\nWithin economics, my research interests include behavioral, game theory, and data science applications. Outside of economics, there isn’t a lot that doesn’t interest me. Linguistics, computer science, and pure mathematics are domains that I have been consistently interested in over the years."
+  },
+  {
+    "objectID": "proj/index.html#footnotes",
+    "href": "proj/index.html#footnotes",
+    "title": "Projects",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nTop level classification of regions within a nation-state. E.g. States, Provinces Oblasts, etc.↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "C-T-We - dot - Me",
+    "section": "",
+    "text": "I am a research economist from the University of Oregon. My research includes out-of-the-lab experiments which reveal longitudinal time preferences and strategic behavior in the presence of Artificial Intelligence. Broadly speaking, the labels “Experimental Economist”, “Behavioral Economist”, “Game Theorist”, and “Data Scientist” would all be accurate descriptions of what I do. I’d like to consider myself at the intersection of extracting practical information from experimental data and modelling meaningful interaction using a modern tool case of microeconomic theory.\nSite Highlights\n\n\n\n\n \nIf you are a hiring manager\nor are interested in my technical abilities,\n\nGlance at my skills\nView my resume\n\n\n\n\n\n\n\n \nTo learn more about my research\nand topics I am interested in\n\nClick Here\n\n\n\n\n\n\n\n \nI’m available to work!\nClick below for more information about my consulting services and contract work. For rates, please inquiry (cwiegand at uoregon dot edu).\n\nClick Here\n\n\n\n\n\n\n\n \nCheck out the resources tab\nfor tools that I use, credits for the site, and other fun goodies\n\nClick Here"
+  },
+  {
+    "objectID": "proj/research-pages/tvtp.html",
+    "href": "proj/research-pages/tvtp.html",
+    "title": "Time-Varying Time Preferences",
+    "section": "",
+    "text": "Download draft\nRecommended citation: {{ meta r-citation }}\nAbstract:\nDynamic inconsistency in intertemporal choice has long been considered a hallmark of non-exponential discounting. Recent work has challenged this view from a variety of perspectives, including the view that time variance –shifting preferences between measurement dates– can also explain apparent preference reversals. While a nascent literature identifies time-variance and demonstrates its role in explaining time-inconsistency, we lack both a model that allows time-variance to tractably interact with other properties of time preference, and a longitudinal study of sufficient depth to identify such a model. In this paper, we develop the ``nested exponential’’ discount function which is general with respect to time-invariance, time-consistency, and stationarity. The function nests both exponential discounting and a version of present-biased discounting within its parameter space, enabling transparent model selection at both the aggregate and subject levels. We evaluate time-invariance and the performance of the nested exponential model in a 12-week longitudinal study featuring seven surveys. Our elicitations give us unprecedented precision in estimating dynamic inconsistency, non-stationarity, and time-variance. We find that subjects in our study exhibit significant decreasing patience over the course of the study, and that time-variance explains roughly 72% of time-inconsistent choices in our data. This does not mean our data are best-explained by exponential discounting plus preference drift: hyperbolicity is a key feature of our data, and it is well captured by the nested exponential function."
+  },
+  {
+    "objectID": "skills/index.html",
+    "href": "skills/index.html",
+    "title": "Skills",
+    "section": "",
+    "text": "Software\nFrameworks include:\nConcepts include:\nFocuses include:\nI work primarily in R. However, I do have some intermediate experience in Python. This includes familiarity with\nQuarto is my tool of choice for document processing, through Pandoc, it allows for a wide range of input and output formats. This allows for convenient formatting and flexible output, including - HTML (this website!) - Technical documents in PDF format (via LaTeX or Typst) - Presentations (via MS PowerPoint and reveal.js)\nModern HTML frameworks and principals, including - Bootstrap 5 - Jekyll (using Ruby + Liquids) - Hugo (using Go) - Web-Quarto - Django (through oTree) - CSS and SCSS/Sass, practice writing DRY code - Working with SVG images\nExtensive use of jQuery as well as vanilla JS in DOMs\nFamiliarity with - Node.js - Typescript\nOther training specializations: Macroecnomics, Monetary Policy, Developmental Economics, Environmental Economics, Cost-Benefit Analysis"
+  },
+  {
+    "objectID": "skills/index.html#footnotes",
+    "href": "skills/index.html#footnotes",
+    "title": "Skills",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nMy first computer science class in college was an accelerated course in Java↩︎\nRandomized Control Trials↩︎\nOrdinary Least Squares↩︎"
+  },
+  {
+    "objectID": "resources/misc/index.html",
+    "href": "resources/misc/index.html",
+    "title": "More Resources",
+    "section": "",
+    "text": "Cats\nCat info\nThanks\n\nFavicon from [], font: Leckerli One\nSite built with Quarto"
+  },
+  {
+    "objectID": "not-a-blog/index.html",
+    "href": "not-a-blog/index.html",
+    "title": "Not-a-Blog",
+    "section": "",
+    "text": "This isn’t a blog\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n\n\n\n\n\n\n\n\n\nBlog Post number 1\n\n\n\n\n\n\ncool posts\n\n\ncategory1\n\n\ncategory2\n\n\n\n\n\n\n\n\n\nJun 25, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Vitae",
+    "section": "",
+    "text": "A copy of my resume1 as well as my CV2 are available to download below."
+  },
+  {
+    "objectID": "cv/index.html#footnotes",
+    "href": "cv/index.html#footnotes",
+    "title": "Vitae",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nOne page, suitable for hiring managers and related private-sector personnel↩︎\nExtensive, multi-page record of my academic accomplishments↩︎"
+  }
+]
