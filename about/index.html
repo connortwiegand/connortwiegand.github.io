@@ -74,6 +74,9 @@ ul.task-list li input[type="checkbox"] {
 <style>:root{--animate-duration:1s;--animate-delay:2s;--animate-repeat:1}</style>
 
 
+<meta name="twitter:title" content="More About Me | Connor T. Wiegand">
+<meta name="twitter:image" content="https://connortwiegand.github.io/imgs/bio-photo-1.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -442,7 +445,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("connortwiegand\.github\.io");
+      var filterRegex = new RegExp("https:\/\/connortwiegand\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
