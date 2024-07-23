@@ -15,9 +15,9 @@ website:
   image: "imgs/bio-photo-1.png"
     
   favicon: "imgs/favicon.svg"
-  # site-url: 
-  repo-url: https://github.com/connortwiegand/
-  # repo-link-target: "_blank"
+  site-url: connortwiegand.github.io
+  # repo-url: https://github.com/connortwiegand/https://github.com/connortwiegand/connortwiegand.github.io
+  repo-link-target: "_blank"
   ## Doc-level: set `repo-actions: false` to surpress link to repo on page
 
   navbar:

@@ -4,7 +4,7 @@ title: "For Hire"
 
 ### Potential Employers
 
-I am currently looking for full time work in the broad fields of Data Science and Economics. [Check out my resume](cv/index.qmd) and send me an email (cwiegand-@-uoregon-dot-edu) if you are interested and want to open up a conversation!
+I am currently looking for full time work in the broad fields of Data Science and Economics. [Check out my resume](/cv/index.qmd) and send me an email (cwiegand-@-uoregon-dot-edu) if you are interested and want to open up a conversation!
 
 ### Consulting & Contract Work
 
