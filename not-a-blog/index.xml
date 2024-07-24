@@ -6,19 +6,19 @@
       version="2.0">
 <channel>
 <title>Connor T. Wiegand</title>
-<link>ctwie.me/not-a-blog/</link>
-<atom:link href="ctwie.me/not-a-blog/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://ctwie.me/not-a-blog/</link>
+<atom:link href="https://ctwie.me/not-a-blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Economist and Data Scientist Ph.D. Candidate from the University of Oregon</description>
 <image>
-<url>ctwie.me/imgs/bio-photo-1.png</url>
+<url>https://ctwie.me/imgs/bio-photo-1.png</url>
 <title>Connor T. Wiegand</title>
-<link>ctwie.me/not-a-blog/</link>
+<link>https://ctwie.me/not-a-blog/</link>
 </image>
 <generator>quarto-1.5.52</generator>
 <lastBuildDate>Tue, 25 Jun 2024 07:00:00 GMT</lastBuildDate>
 <item>
   <title>Blog Post number 1</title>
-  <link>ctwie.me/not-a-blog/posts/Jun/blog-post-0.html</link>
+  <link>https://ctwie.me/not-a-blog/posts/Jun/blog-post-0.html</link>
   <description><![CDATA[ 
 
 
@@ -35,7 +35,7 @@
   <category>cool posts</category>
   <category>category1</category>
   <category>category2</category>
-  <guid>ctwie.me/not-a-blog/posts/Jun/blog-post-0.html</guid>
+  <guid>https://ctwie.me/not-a-blog/posts/Jun/blog-post-0.html</guid>
   <pubDate>Tue, 25 Jun 2024 07:00:00 GMT</pubDate>
 </item>
 </channel>
