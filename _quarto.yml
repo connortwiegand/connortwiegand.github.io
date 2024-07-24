@@ -14,16 +14,17 @@ website:
   title: "Connor T. Wiegand"
   description: "Economist and Data Scientist Ph.D. Candidate from the University of Oregon"
   image: "imgs/bio-photo-1.png"
-    
-  favicon: "imgs/favicon.svg"
-  twitter-card: true
-  # google-analytics: 
-  #   tracking-id: "G-XV9ETJNS2H"
-  #   anonymize-ip: true
   site-url: "https://ctwie.me"
   # repo-url: https://github.com/connortwiegand/https://github.com/connortwiegand/connortwiegand.github.io
   # repo-link-target: "_blank"
   ## Doc-level: set `repo-actions: false` to surpress link to repo on page
+    
+  favicon: "imgs/favicon.svg"
+  twitter-card: true
+  open-graph: true
+  # google-analytics: 
+  #   tracking-id: "G-XV9ETJNS2H"
+  #   anonymize-ip: true
 
   navbar:
     title: "[Connor T. Wiegand]{.d-none .d-lg-block} ![](/imgs/favicon-light.svg){.brand-logo-light .d-lg-none .d-lg-inline-block viewBox='0 0 70 70' width='70' height='70'} ![](/imgs/favicon-dark.svg){.brand-logo-dark .d-lg-none .d-lg-inline-block viewBox='0 0 70 70' width='70' height='70'}"
@@ -52,7 +53,6 @@ website:
             href: for-hire/index.qmd
           - text: Other Resources
             href: resources/misc/index.qmd
-        
       # - [Theming Button]
   
   bread-crumbs: false

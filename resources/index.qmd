@@ -1,14 +1,19 @@
 ---
 title: Resources
-listing:
-  id: resources-listing
-  template: resources-listing.md.ejs
-  contents: ./*
 ---
 
-:::::{.resources-listing}
+### [Tools I Use](/resources/tools/index.qmd)
 
-:::::
+
+### [Guides to Those Tools](/resources/guides-tips/index.qmd) ([Coming Soon!]{.text-secondary})
+
+
+### [Other Resources](/resources/misc/index.qmd)
+
+
+### [For Hire](/for-hire/index.qmd)
+
+
 
 
 

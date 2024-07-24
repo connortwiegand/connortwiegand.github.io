@@ -96,7 +96,7 @@ I am a research economist from the University of Oregon. My research includes ou
 [for tools that I use, credits for the site, and other fun goodies]{.card-text}
 
 :::{.flex-buttons-end}
-[Click Here](/proj/index.qmd){.btn .btn-primary}
+[Click Here](/resources/index.qmd){.btn .btn-primary}
 :::
 
 :::

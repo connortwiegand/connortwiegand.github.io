@@ -10,6 +10,7 @@ listing:
    categories: unnumbered
    # feed: true
    date-format: medium
+   feed: true
 ---
 
 This isn't a blog

@@ -2,16 +2,6 @@
 title: "Tools I Use"
 ---
 
-:::{.card .card-cc1}
-:::{.card-header}
-**Coming Soon!**
-:::
-:::{.card-body}
-_For tips & guides related to these tools, click [here](../guides-tips/index.qmd)_ 
-:::
-:::
-
-
 ### Workflow
 
 - [New!]{.text-secondary} I recently tried [Positron](https://github.com/posit-dev/positron) -- a "next-generation data science IDE" from [POSIT](https://posit.co/) -- for real for the first time. As a long-time user of both VS Code and RStudio, I'm excited for where this project goes.
@@ -52,3 +42,14 @@ _For tips & guides related to these tools, click [here](../guides-tips/index.qmd
 
 - I started using LaTeX my freshman year of college for my math degree. It would have been glorious to have Typst around.
 
+
+---
+
+:::{.card .card-cc1}
+:::{.card-header}
+**Coming Soon!**
+:::
+:::{.card-body}
+_For tips & guides related to these tools, click [here](../guides-tips/index.qmd)_ 
+:::
+:::
