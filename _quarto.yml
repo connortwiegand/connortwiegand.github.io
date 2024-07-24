@@ -8,6 +8,7 @@ language:
 
 pagetitle: "{{< meta title >}} | Connor T. Wiegand"
 author-meta: "Connor T. Wiegand"
+title-prefix: ""
 
 website:
   title: "Connor T. Wiegand"
@@ -16,7 +17,10 @@ website:
     
   favicon: "imgs/favicon.svg"
   twitter-card: true
-  site-url: "ctwie.me"
+  # google-analytics: 
+  #   tracking-id: "G-XV9ETJNS2H"
+  #   anonymize-ip: true
+  site-url: "https://ctwie.me"
   # repo-url: https://github.com/connortwiegand/https://github.com/connortwiegand/connortwiegand.github.io
   # repo-link-target: "_blank"
   ## Doc-level: set `repo-actions: false` to surpress link to repo on page
@@ -107,6 +111,7 @@ format:
     strip-comments: true
     anchor-sections: true
     footnotes-hover: true
+    link-external-newwindow: true
     section-divs: false
     email-obfuscation: javascript
     # grid: 

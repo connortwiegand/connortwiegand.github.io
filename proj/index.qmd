@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 toc: true
-bibliography: "./_files/proj.bib"
+bibliography: "./research-pages/_proj.bib"
 listing:
   - id: academic-research
     template: proj-listing.md.ejs

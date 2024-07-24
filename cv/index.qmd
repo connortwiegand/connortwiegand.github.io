@@ -4,13 +4,13 @@ freeze: true
 # toc: false
 ---
 
-A copy of my resume^[One page, suitable for hiring managers and related private-sector personnel] as well as my CV^[Extensive, multi-page record of my academic accomplishments] are available to download below.
+A copy of my resume^[One page, suitable for hiring managers and related private-sector personnel] as well as my CV^[_Curriculum Vitae_: An extensive, multi-page record of my academic accomplishments] are available to download below.
 
 :::{.d-flex .justify-content-evenly}
 
-{{< downloadthis _files/resume.pdf type=success label="Download Resume" >}}
+{{< downloadthis _files/resume.pdf type=success label="Download Resume" dname="ctwiegand-resume" >}}
 
-{{< downloadthis _files/cv.pdf type=success label="Download CV" >}}
+{{< downloadthis _files/cv.pdf type=success label="Download CV" dname="ctwiegand-cv" >}}
 
 :::
 

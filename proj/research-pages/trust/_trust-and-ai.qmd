@@ -4,9 +4,11 @@ co_auth: 'With [Jiabin Wu](https://sites.google.com/site/jiabinwuecon), [Ethan H
 # date: 2023-01-01
 wp: true
 draft_avail: true
-path: '../_files/trust.pdf'
+# path: '../_files/trust.pdf'
 r-citation: 'Bivins _et al._ (wp). &quot;Trust and AI.&quot; <i>WIP</i>.'
 ---
+
+{{< downloadthis ../_files/trust-and-ai.pdf type=secondary label="Download Draft" >}}
 
 ## Abstract
 
@@ -14,6 +16,9 @@ How does the presence of AI affect strategic trust? Based on the trust game ([PA
 
 ---
 
-Download [draft]({{meta url}}){.draft-download-btn}
+Recommended citation: {{< meta r-citation >}}
 
-Recommended citation: {{ meta r-citation }}
+
+## Full Paper:
+
+![]({{< meta path >}}){height=800px width=95%}

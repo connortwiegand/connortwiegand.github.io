@@ -10,7 +10,7 @@
 
 :::{.with}
 <%- paper.co_auth %> 
-<% if (paper.draft_avail) { %> ([[Draft](<%- paper.path %>) available]{.draft-download})<% } %> <% if (paper.incl_cite) { %> <% if (paper.year == 'forthcoming') { %> [-@<%- paper.incl_cite.key %>] <% } %><% } %>
+<% if (paper.draft_avail) { %> ([[Draft](<%- paper.download %>){target="_blank"} available]{.draft-download})<% } %> <% if (paper.incl_cite) { %> <% if (paper.year == 'forthcoming') { %> [-@<%- paper.incl_cite.key %>] <% } %><% } %>
 :::
 
 <% if (/Pub/i.test(item.category)) { %>

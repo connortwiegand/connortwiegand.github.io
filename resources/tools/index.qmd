@@ -2,9 +2,9 @@
 title: "Tools I Use"
 ---
 
-:::{.card}
+:::{.card .card-cc1}
 :::{.card-header}
-Coming Soon!
+**Coming Soon!**
 :::
 :::{.card-body}
 _For tips & guides related to these tools, click [here](../guides-tips/index.qmd)_ 
@@ -14,9 +14,9 @@ _For tips & guides related to these tools, click [here](../guides-tips/index.qmd
 
 ### Workflow
 
-- [New!]{.alert1} I recently tried [Positron](https://github.com/posit-dev/positron) -- a "next-generation data science IDE" from [POSIT](https://posit.co/) -- for real for the first time. As a long-time user of both VS Code and RStudio, I'm excited for where this project goes.
+- [New!]{.text-secondary} I recently tried [Positron](https://github.com/posit-dev/positron) -- a "next-generation data science IDE" from [POSIT](https://posit.co/) -- for real for the first time. As a long-time user of both VS Code and RStudio, I'm excited for where this project goes.
 
-- [New_-ish_]{.alert2} I've been converting a lot of my writing workflow to [Typst](https://typst.app/), using both the CLI and the Web App. As a long time user of LaTeX across disciplines, I'm cannot express my joy over working with this language.
+- [New _-ish!_]{.text-secondary} I've been converting a lot of my writing workflow to [Typst](https://typst.app/), using both the CLI and the Web App. As a long time user of LaTeX across disciplines, I'm cannot express my joy over working with this language.
 
 - I do most of my data-science work in R/[Rstudio](https://posit.co/products/open-source/rstudio/), though Positron may soon replace RStudio for me. While I reflexively use `tidyverse` syntax, I certainly love a good line of `data.table` when I can get one.
 
@@ -40,7 +40,7 @@ _For tips & guides related to these tools, click [here](../guides-tips/index.qmd
 
 - After compiling my ~~twentieth~~ ~~fiftieth~~ ~~hundredth~~ **third** R package from source, I slipped and slid my way through setting up `bspm` --[Bridge to System Package Manager](https://cran4linux.github.io/bspm/). The TL;DR is that `apt`^[Ubuntu's default package manager] handles my R packages and I haven't had to build a single one from source.
 
-- [CopyQ](https://github.com/hluk/CopyQ) is nice clipboard management
+- [CopyQ](https://github.com/hluk/CopyQ) provides nice clipboard management
 
 - [ImageMagick](https://imagemagick.org/) is indispensible; I wish I knew about it when I was using Windows
 
