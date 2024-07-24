@@ -8,7 +8,7 @@
 
 <meta name="author" content="Connor T. Wiegand">
 
-<title>Teaching | Connor T. Wiegand – Connor T. Wiegand</title>
+<title>Teaching | Connor T. Wiegand</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -353,21 +353,21 @@ window.Quarto = {
 <div class="g-col-24 ior-card">
 <div class="card card-theme">
 <section id="ec-327-introduction-to-game-theory" class="card-body">
-<h4 class="anchored"><a href="" class="card-title course-title">EC 327: Introduction to Game Theory</a></h4>
+<h4 class="anchored"><span class="card-title course-title">EC 327: Introduction to Game Theory</span></h4>
 <p><span class="course-terms">Terms taught: <em>Summer 2022, Fall 2022, Winter 2023, Spring 2024</em></span></p>
 <div class="course-info-block">
 <blockquote class="blockquote">
 <p><span class="course-info"><em>Introductory course in game theory. Develops game-theoretic methods of rational decision making and equilibriums, using many in-class active games.</em></span></p>
 </blockquote>
 </div>
-<p><a href="https://github.com/connortwiegand/ec327-sp24" class="course-repo btn btn-primary">Course Repository</a></p>
+<p><a href="https://github.com/connortwiegand/ec327-sp24" class="course-repo btn btn-primary" target="_blank">Course Repository</a></p>
 </section>
 </div>
 </div>
 <div class="g-col-24 ior-card">
 <div class="card card-theme">
 <section id="ec-427527-games-and-decisions" class="card-body">
-<h4 class="anchored"><a href="" class="card-title course-title">EC 427/527: Games and Decisions</a></h4>
+<h4 class="anchored"><span class="card-title course-title">EC 427/527: Games and Decisions</span></h4>
 <p><span class="course-terms">Terms taught: <em>Summer 2023</em></span></p>
 <div class="course-info-block">
 <blockquote class="blockquote">
@@ -380,21 +380,21 @@ window.Quarto = {
 <div class="g-col-24 ior-card">
 <div class="card card-theme">
 <section id="ec-201-introductory-microeconomics" class="card-body">
-<h4 class="anchored"><a href="" class="card-title course-title">EC 201: Introductory Microeconomics</a></h4>
+<h4 class="anchored"><span class="card-title course-title">EC 201: Introductory Microeconomics</span></h4>
 <p><span class="course-terms">Terms taught: <em>Fall 2021</em></span></p>
 <div class="course-info-block">
 <blockquote class="blockquote">
 <p><span class="course-info"><em>Examines how consumers, firms, and governments make decisions when facing scarce resources and how those decisions affect market outcomes, such as prices and output.</em></span></p>
 </blockquote>
 </div>
-<p><a href="https://github.com/connortwiegand/EC-201-Fa21-UO" class="course-repo btn btn-primary">Course Repository</a></p>
+<p><a href="https://github.com/connortwiegand/EC-201-Fa21-UO" class="course-repo btn btn-primary" target="_blank">Course Repository</a></p>
 </section>
 </div>
 </div>
 <div class="g-col-24 ior-card">
 <div class="card card-theme">
 <section id="ec-311-intermediate-microeconomics" class="card-body">
-<h4 class="anchored"><a href="" class="card-title course-title">EC 311: Intermediate Microeconomics</a></h4>
+<h4 class="anchored"><span class="card-title course-title">EC 311: Intermediate Microeconomics</span></h4>
 <p><span class="course-terms">Terms taught: <em>Summer 2021</em></span></p>
 <div class="course-info-block">
 <blockquote class="blockquote">
@@ -789,6 +789,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

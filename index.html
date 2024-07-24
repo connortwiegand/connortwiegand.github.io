@@ -8,7 +8,7 @@
 
 <meta name="author" content="Connor T. Wiegand">
 
-<title>&lt;em&gt;C-T-We - dot - Me&lt;/em&gt; | Connor T. Wiegand – Connor T. Wiegand</title>
+<title>Home | Connor T. Wiegand</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta name="twitter:title" content="C-T-We - dot - Me | Connor T. Wiegand">
+<meta name="twitter:title" content="Home | Connor T. Wiegand">
 <meta name="twitter:description" content="Economist and Data Scientist Ph.D.&nbsp;Candidate from the University of Oregon">
 <meta name="twitter:image" content="https://ctwie.me/imgs/bio-photo-1.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -559,6 +559,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

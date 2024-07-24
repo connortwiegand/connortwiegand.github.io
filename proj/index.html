@@ -8,7 +8,7 @@
 
 <meta name="author" content="Connor T. Wiegand">
 
-<title>Projects | Connor T. Wiegand – Connor T. Wiegand</title>
+<title>Projects | Connor T. Wiegand</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -343,9 +343,9 @@ window.Quarto = {
 <div id="listing-academic-research" class="quarto-listing quarto-listing-container-custom">
 <div class="academic-research">
 <h2 id="working-papers" class="anchored">Working Papers</h2>
-<h4 id="time-varying-time-preferences" class="anchored"><strong><a href="../proj/research-pages/tvtp.html" class="proj paper working-papers">Time-Varying Time Preferences</a></strong></h4>
+<h4 id="time-varying-time-preferences" class="anchored"><strong><a href="../proj/research-pages/tvtp/index.html" class="proj paper working-papers">Time-Varying Time Preferences</a></strong></h4>
 <div class="with">
-<p><em>With <a href="https://www.makuhn.net/">Mike Kuhn</a> and <a href="https://mstevenholloway.mmm.page/home">M. Steven Holloway</a></em> (<span class="draft-download"><a href="../proj/research-pages/tvtp.html">Draft</a> available</span>)</p>
+<p><em>With <a href="https://www.makuhn.net/">Mike Kuhn</a> and <a href="https://mstevenholloway.mmm.page/home">M. Steven Holloway</a></em> (<span class="draft-download"><a href="research-pages/tvtp/tvtp.pdf" target="_blank">Draft</a> available</span>)</p>
 </div>
 <div class="abstract callout callout-style-default callout-tip callout-titled" data-appearence="minimal">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -363,9 +363,9 @@ Abstract
 </div>
 </div>
 </div>
-<h4 id="trust-and-ai" class="anchored"><strong><a href="../proj/research-pages/trust-and-ai.html" class="proj paper working-papers">Trust and AI</a></strong></h4>
+<h4 id="trust-and-ai" class="anchored"><strong><a href="../proj/research-pages/trust/index.html" class="proj paper working-papers">Trust and AI</a></strong></h4>
 <div class="with">
-<p><em>With <a href="https://sites.google.com/site/jiabinwuecon">Jiabin Wu</a>, <a href="https://ethanholdahl.com/">Ethan Holdahl</a>, and <a href="https://www.tannerbivins.com/">Tanner Bivins</a></em> (<span class="draft-download"><a href="../proj/research-pages/trust-and-ai.html">Draft</a> available</span>)</p>
+<p><em>With <a href="https://sites.google.com/site/jiabinwuecon">Jiabin Wu</a>, <a href="https://ethanholdahl.com/">Ethan Holdahl</a>, and <a href="https://www.tannerbivins.com/">Tanner Bivins</a></em> (<span class="draft-download"><a href="research-pages/trust/trust-and-ai.pdf" target="_blank">Draft</a> available</span>)</p>
 </div>
 <div class="abstract callout callout-style-default callout-tip callout-titled" data-appearence="minimal">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
@@ -730,6 +730,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

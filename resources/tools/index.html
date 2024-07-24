@@ -8,7 +8,7 @@
 
 <meta name="author" content="Connor T. Wiegand">
 
-<title>Tools I Use | Connor T. Wiegand – Connor T. Wiegand</title>
+<title>Tools I Use | Connor T. Wiegand</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -257,9 +257,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="card">
+<div class="card card-cc1">
 <div class="card-header">
-<p>Coming Soon!</p>
+<p><strong>Coming Soon!</strong></p>
 </div>
 <div class="card-body">
 <p><em>For tips &amp; guides related to these tools, click <a href="../../resources/guides-tips/index.html">here</a></em></p>
@@ -267,8 +267,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <h3 id="workflow" class="anchored">Workflow</h3>
 <ul>
-<li><p><span class="alert1">New!</span> I recently tried <a href="https://github.com/posit-dev/positron">Positron</a> – a “next-generation data science IDE” from <a href="https://posit.co/">POSIT</a> – for real for the first time. As a long-time user of both VS Code and RStudio, I’m excited for where this project goes.</p></li>
-<li><p><span class="alert2">New_-ish_</span> I’ve been converting a lot of my writing workflow to <a href="https://typst.app/">Typst</a>, using both the CLI and the Web App. As a long time user of LaTeX across disciplines, I’m cannot express my joy over working with this language.</p></li>
+<li><p><span class="text-secondary">New!</span> I recently tried <a href="https://github.com/posit-dev/positron">Positron</a> – a “next-generation data science IDE” from <a href="https://posit.co/">POSIT</a> – for real for the first time. As a long-time user of both VS Code and RStudio, I’m excited for where this project goes.</p></li>
+<li><p><span class="text-secondary">New <em>-ish!</em></span> I’ve been converting a lot of my writing workflow to <a href="https://typst.app/">Typst</a>, using both the CLI and the Web App. As a long time user of LaTeX across disciplines, I’m cannot express my joy over working with this language.</p></li>
 <li><p>I do most of my data-science work in R/<a href="https://posit.co/products/open-source/rstudio/">Rstudio</a>, though Positron may soon replace RStudio for me. While I reflexively use <code>tidyverse</code> syntax, I certainly love a good line of <code>data.table</code> when I can get one.</p></li>
 <li><p>For just about everything else, I use <a href="https://code.visualstudio.com/">VS Code</a></p></li>
 <li><p>I typically work with <a href="https://quarto.org/">Quarto</a> projects because of their extensive flexibility</p></li>
@@ -284,7 +284,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p>After being a lifelong Windows user, I was finally fed up enough to dual boot Linux on my Lenovo laptop. My laptop has never run smoother, my file system <strong>makes. sense.</strong> now, and I have not looked back. If you’re like me and timid to make the switch at first, <a href="https://linuxmint.com/">Linux Mint</a> is a great introduction for the average Windows/Mac user.</p></li>
 <li><p>After compiling my <del>twentieth</del> <del>fiftieth</del> <del>hundredth</del> <strong>third</strong> R package from source, I slipped and slid my way through setting up <code>bspm</code> –<a href="https://cran4linux.github.io/bspm/">Bridge to System Package Manager</a>. The TL;DR is that <code>apt</code><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> handles my R packages and I haven’t had to build a single one from source.</p></li>
-<li><p><a href="https://github.com/hluk/CopyQ">CopyQ</a> is nice clipboard management</p></li>
+<li><p><a href="https://github.com/hluk/CopyQ">CopyQ</a> provides nice clipboard management</p></li>
 <li><p><a href="https://imagemagick.org/">ImageMagick</a> is indispensible; I wish I knew about it when I was using Windows</p></li>
 </ul>
 <h3 id="past" class="anchored">Past</h3>
@@ -554,6 +554,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
