@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Connor T. Wiegand</title>
+<link>https://ctwie.me/not-a-blog/</link>
+<atom:link href="https://ctwie.me/not-a-blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Economist and Data Scientist Ph.D. Candidate from the University of Oregon</description>
+<image>
+<url>https://ctwie.me/imgs/bio-photo-1.png</url>
+<title>Connor T. Wiegand</title>
+<link>https://ctwie.me/not-a-blog/</link>
+</image>
+<generator>quarto-1.5.52</generator>
+<lastBuildDate>Tue, 25 Jun 2024 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Blog Post number 1</title>
+  <link>https://ctwie.me/not-a-blog/posts/Jun/blog-post-0.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is a sample blog post. Lorem ipsum I can’t remember the rest of lorem ipsum and don’t have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.</p>
+<h1 id="headings-are-cool">Headings are cool</h1>
+<h1 id="you-can-have-many-headings">You can have many headings</h1>
+<h2 id="arent-headings-cool" class="anchored">Aren’t headings cool?</h2>
+
+
+
+ ]]></description>
+  <category>cool posts</category>
+  <category>category1</category>
+  <category>category2</category>
+  <guid>https://ctwie.me/not-a-blog/posts/Jun/blog-post-0.html</guid>
+  <pubDate>Tue, 25 Jun 2024 07:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

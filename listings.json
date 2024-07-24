@@ -8,10 +8,6 @@
     "items": []
   },
   {
-    "listing": "/resources/index.html",
-    "items": []
-  },
-  {
     "listing": "/not-a-blog/index.html",
     "items": [
       "/not-a-blog/posts/Jun/blog-post-0.html"
