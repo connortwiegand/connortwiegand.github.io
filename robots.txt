@@ -1,1 +1,1 @@
-Sitemap: https://www.ctwie.me/sitemap.xml
+Sitemap: https://ctwie.me/sitemap.xml
