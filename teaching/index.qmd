@@ -5,7 +5,6 @@ listing:
   - id: ior-listing
     template: ior-listing.md.ejs
     contents: /_files/_IoR.yml
-    feed: true
   - id: ta-gr-listing
     template: ta-gr-listing.md.ejs
     contents: /_files/_ta-gr.yml

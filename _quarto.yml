@@ -93,7 +93,7 @@ website:
       - text: "{{< fa brands github >}} GitHub"
         href: "https://github.com/connortwiegand"
       - text: "{{< fa rss >}} Feed"
-        href: "index.xml"
+        href: "/not-a-blog/index.xml"
     right: "&#169; 2024 Connor T. Wiegand <br/> Made with [Quarto](https://quarto.org/){target='_blank'} | View [source code](https://github.com/connortwiegand/){target='blank'}"
       # - text: "&#169; 2024 Connor T. Wiegand <br/>"
       # - text: "Made with [Quarto](https://quarto.org/)"

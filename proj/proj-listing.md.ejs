@@ -6,7 +6,7 @@
 
 <% for (const paper of item.papers) { %>
 
-#### **[<%- paper.title %>](<% if (paper.draft_avail) { %> <%- paper.path %> <% } %>){.proj .paper .<%- item.category.replaceAll(" ", "-").toLowerCase() %>}**
+#### **[<%- paper.title %>]<% if (paper.draft_avail) { %>(<%- paper.path %>)<% } %>{.proj .paper .<%- item.category.replaceAll(" ", "-").toLowerCase() %> <% if (paper.no_link) { %>.no-link<% } %> }**
 
 :::{.with}
 <%- paper.co_auth %> 

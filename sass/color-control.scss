@@ -41,6 +41,11 @@ $text-white: rgba(white, .9);
 //   @extend [data-bs-theme="light"];
 // }
 
+.no-link {
+  color: $secondary;
+  text-decoration: underline;
+}
+
 .callout.callout-style-default {
   border-right: none;
   border-top: none;

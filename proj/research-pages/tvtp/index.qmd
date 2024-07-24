@@ -1,7 +1,7 @@
 ---
 title: "Time-Varying Time Preferences"
 co_auth: 'with [Mike Kuhn](https://www.makuhn.net/) and [M. Steven Holloway](https://mstevenholloway.mmm.page/home)'
-date: 2023-11-03
+# date: 2023-11-03
 wp: true
 draft_avail: true
 # path: 'tvtp.pdf'

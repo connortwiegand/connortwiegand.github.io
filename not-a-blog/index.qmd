@@ -8,12 +8,11 @@ listing:
    page-size: 5
    sort-ui: [date, title]
    categories: unnumbered
-   # feed: true
    date-format: medium
    feed: true
 ---
 
 This isn't a blog
 
-:::{#blog-posts}
-:::
+::::{#blog-posts}
+::::
