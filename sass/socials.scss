@@ -39,24 +39,3 @@ $social-map: (
 .quarto-light a[href*="github"]:hover {
    text-shadow: 0 0 0.5px #171516;
 }
-
-div.quarto-about-trestles .about-entity .about-link i.bi {
-   margin-right: 0;
-}
-
-
-
-/* Previous Attempts */
-// @mixin social-hover($name, $args: "") {
-//    .bi-#{$name}#{$args}, 
-//    .bi-#{$name}#{$args} ~ span{
-//       &:hover {
-//          color: map-get($socials-map, $name);
-//       }
-//    }
-//    &[href*="#{$name}"] {
-//       &:hover {
-//          color: map-get($socials-map, $name);
-//       }
-//    }
-// }

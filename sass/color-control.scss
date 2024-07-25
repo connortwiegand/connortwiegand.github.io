@@ -18,17 +18,6 @@ $masthead-link-color-hover : mix(#000, $link-color, 25%);
 $text-black: #343a40;
 $text-white: rgba(white, .9);
 
-// $all-colors: map-merge-multiple($blues, $indigos, $purples, $pinks, $reds, $oranges, $yellows, $greens, $teals, $cyans);
-
-// $utilities: map-merge($utilities,
-//     ("color": map-merge(map-get($utilities, "color"),
-//         (values: map-merge(map-get(map-get($utilities, "color"), "values"),
-//             ($all-colors),
-//           ),
-//         ),
-//       ),
-//   ));
-
 // $nav-tabs-link-active-color: $link-color;
 
 /*-- scss:rules --*/
@@ -107,31 +96,6 @@ footer.footer {
 div.sidebar-item-container {
   color: var(--bs-body-color);
 }
-
-// @each $name, $val in $card-cols {
-//   .card-#{$name} {
-//     background-color: shade-color(map-get($card-cols, $name), 80%);
-//     border: 1px solid shade-color(map-get($card-cols, $name), 40%);
-//     color: tint-color(map-get($card-cols, $name), 40%);
-
-//     .btn {
-//       background-color: tint-color(map-get($card-cols, $name), 60%);
-//       border: 1px solid shade-color(map-get($card-cols, $name), 60%);
-//       color: shade-color(map-get($card-cols, $name), 60%);
-//     }
-//   }
-// }
-
-// .quarto-color-scheme-toggle {
-
-//    &.alternate i::before {
-//       content: "🌙";
-//    }
-
-//    i::before {
-//       content: "🌞";
-//    }
-// }
 
 // https: //github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/darkly.scss
 .navbar-nav,

@@ -1,6 +1,6 @@
 /*-- scss:defaults --*/
-@import "theme-files/bs-base-cols.scss";
 @import "light.scss";
+// @import "theme-files/bs-base-cols.scss";
 
 // /*-- scss:defaults --*/
 // import "_bs-light-cols.scss";
@@ -12,5 +12,7 @@
 @import "nav-sidebar.scss";
 @import "header-footer.scss";
 @import "typeface.scss";
-@import "ratings.scss";
+@import "page-about.scss";
+@import "animate.scss";
 @import "cards.scss";
+@import "misc.scss";

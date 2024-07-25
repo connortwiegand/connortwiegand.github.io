@@ -1,0 +1,22 @@
+/*-- scss:rules --*/
+div.quarto-about-trestles .about-entity .about-link i.bi {
+  margin-right: 0;
+}
+
+#about-content,
+.quarto-title {
+  // --animate-delay: 1s;
+  --animate-duration: 2s; //1s
+}
+
+.about-entity {
+  @extend .animate__animated;
+  @extend .animate__fadeInDown;
+
+  @include media-breakpoint-up(lg) {
+    position: sticky;
+    top: 60px;
+    max-height: calc(-60px + 100vh);
+    padding-top: 80px;
+  }
+}
