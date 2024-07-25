@@ -62,7 +62,7 @@ Below is our first group of fosters. We got the mother, Olive, about a few weeks
 ![](/imgs/Cats/garlic-martin.jpeg){group="f1"}
 :::
 
-## Thanks
+# Thanks
 
 - Favicon made with [https://favicon.io/](https://favicon.io/) and [Photopea](https://www.photopea.com/)
 
