@@ -17,8 +17,8 @@
   }
 
   .sidebar-logo {
-    max-width: 8rem; // or 120 - 144 px
-    display: unset;
+    max-width: 8rem !important; // or 120 - 144 px
+    display: unset !important;
   }
 }
 
@@ -33,7 +33,9 @@
   max-width: 70%;
   
   .docked & {
-    max-width: 80%; // 70% w/ adjusted sidebar margin; 80% else
+    @include media-breakpoint-up(md) {
+      max-width: 80%; // 70% w/ adjusted sidebar margin; 80% else
+    }
   }
 }
 
