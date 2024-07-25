@@ -70,7 +70,7 @@ I am a research economist from the University of Oregon. My research includes ou
 ```
 #### I'm available to work!
 
-[Click below for more information about my consulting services and contract work. For rates, please [inquiry](mailto:cwiegand@uoregon.edu). ]{.card-text}
+[Click below for more information about my consulting services and contract work. For rates, please [inquire](mailto:cwiegand@uoregon.edu).]{.card-text}
 
 :::{.flex-buttons-end}
 [Click Here](/for-hire/index.qmd){.btn .btn-primary}
@@ -91,7 +91,7 @@ I am a research economist from the University of Oregon. My research includes ou
 ```{=html} 
 <!--  --> 
 ```
-#### Check out the *resources* tab
+#### Check out the _Resources_ tab
 
 [for tools that I use, credits for the site, and other fun goodies]{.card-text}
 
@@ -105,5 +105,3 @@ I am a research economist from the University of Oregon. My research includes ou
 
 
 ::::::
-
-{{< animate bounce "" >}}

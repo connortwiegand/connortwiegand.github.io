@@ -22,7 +22,7 @@ ani-duration: 1s
 :::{.animate__animated .animate__fadeInUp}
 ### Places I've Been
 
-I was born and raised in the Pacific Northwest (specifically: [Bellingham, WA](https://www.bellingham.org/)). In addition to regular trips up to Beuatiful British Columbia, I've traveled to some really cool places! I've been on both coasts of Mexico, visited Banff National Park in Alberta, and experienced some amazing culture in Europe (Spain, France, Italy) as well as the Carribean (Jamaica, Barbados, The Bahamas, Key West). 
+I was born and raised in the Pacific Northwest (specifically: [Bellingham, WA](https://www.bellingham.org/)). In addition to regular trips up to British Columbia, I've traveled to some really cool places! I've been on both coasts of Mexico, visited Banff National Park in Alberta, and experienced some amazing culture in Europe (Spain, France, Italy) as well as the Carribean (Jamaica, Barbados, The Bahamas, Key West). 
 :::
 
 :::{.animate__animated .animate__fadeInUp}
@@ -38,7 +38,7 @@ I am currently at the end of my Ph.D. program at the University of Oregon and am
 :::{.animate__animated .animate__fadeInUp}
 ### Free time
 
-In my younger years, I enjoyed playing _[video games]_ and snowboarding at [Mt. Baker](https://en.wikipedia.org/wiki/Mount_Baker). I still get around to the former from time to time, but I would love to pick up the latter once my educational career is finished. I've also recently resumed playing guitar, which I started in grade school after moving on from the Cello. 
+In my younger years, I enjoyed playing _[video games]_ and snowboarding at [Mt. Baker](https://en.wikipedia.org/wiki/Mount_Baker). I still get around to the former from time to time, but I would love to pick up the latter once my educational career is finished. I've also recently resumed playing guitar, which I started in grade school after moving on from the cello. 
 
 Today, I enjoy playing board games such as Bananagrams and Ticket to Ride and going for walks around my neighborhood with my wife. This year, we began fostering [kittens](/resources/misc/index.qmd#Cats) through an [amazing local organization](https://catrescues.org/) in Eugene. When it comes to watching TV, I am a big fan of comedy. Whether it be random trivia, a new programming framework, a language, or a subject I never got around to in school, I simply love to learn new things ^[makes sense that I married a teacher, right?]. 
 :::
