@@ -1,15 +1,73 @@
 ---
 title: More Resources
+lightbox: true
+css: _styles.css
 ---
 
 # Cats
 
-_Cat info_
+Below is our first group of fosters. We got the mother, Olive, about a few weeks before she gave birth to her second litter of 5 beautiful kittens. 
+
+:::{.panel-tabset}
+#### [Mama] Olive
+![](/imgs/Cats/olive-eyes.jpeg){group="f1"}
+![](/imgs/Cats/olive-table.jpeg){group="f1"}
+
+
+#### Martini
+
+![](/imgs/Cats/baby-martin.jpg){group="f1"}
+
+![](/imgs/Cats/martini-olive-in-couch.jpg){group="f1"}
+
+
+#### Tapenade
+
+![](/imgs/Cats/baby-tap.jpg){group="f1"}
+![](/imgs/Cats/tap.jpg){group="f1"}
+
+
+
+#### Pimento
+
+![](/imgs/Cats/baby-pim.jpg){group="f1"}
+![](/imgs/Cats/pim-couch.jpg){group="f1"}
+
+
+
+#### Kalamata
+
+![](/imgs/Cats/kalamata-boot.jpeg){group="f1"}
+![](/imgs/Cats/kala.jpeg){group="f1"}
+![](/imgs/Cats/kala-blanket.jpeg){group="f1"}
+
+
+#### Garlic-Stuffed
+
+![](/imgs/Cats/baby-garlic.jpg){group="f1"}
+![](/imgs/Cats/garlic-cone1.jpeg){group="f1"}
+![](/imgs/Cats/garlic-cone2.jpeg){group="f1"}
+
+
+#### Family Photos
+
+![](/imgs/Cats/babes-group-photo.jpeg){group="f1"}
+![](/imgs/Cats/babies-in-box.jpg){group="f1"}
+![](/imgs/Cats/babies-under-couch.jpg){group="f1"}
+![](/imgs/Cats/fam-in-box.jpg){group="f1"}
+![](/imgs/Cats/tap-martin-kala.jpeg){group="f1"}
+![](/imgs/Cats/pim-martin.jpg){group="f1"}
+![](/imgs/Cats/pimento-kala.jpg){group="f1"}
+![](/imgs/Cats/martin-tap.jpg){group="f1"}
+![](/imgs/Cats/garlic-martin.jpeg){group="f1"}
+:::
 
 ## Thanks
 
-- Favicon from [], font: Leckerli One
+- Favicon made with [https://favicon.io/](https://favicon.io/) and [Photopea](https://www.photopea.com/)
 
-- Site built with Quarto
+  - Font: Leckerli One
 
-- 
+- Site built with [Quarto](https://quarto.org/)
+
+  - Extensions: see [here](https://github.com/connortwiegand/connortwiegand.github.io/tree/main/_extensions)
