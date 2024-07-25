@@ -84,11 +84,12 @@
   role: "Time Varying Time Preferences",
   project: "w/ M. Steven Holloway, Michael A. Kuhn",
   date: [JMP],
-  location: [#link("")[Draft Available]],
+  location: [#link("ctwie.me/proj/research-pages/tvtp/tvtp.pdf")[Draft Available] \ Methods Paper ],
   summary: "",
   details: [
     - Conducted novel longitudinal study to elicit non-standard time preferences
-    - Designed novel web-based interface for elicitation, model theory and proofs
+    - Designed novel web-based interface for fast and efficient elicitation
+    - Spearheaded model theory and proofs
     - Find *57%* of participants show behavior consistent with time-varying preferences
   ]
 )
@@ -97,7 +98,7 @@
   role: "Trust and AI",
   project: "w/ Tanner Bivins, Ethan Holdahl, Jiabin Wu",
   date: [Working Paper],
-  location: [#link("")[Draft Available]],
+  location: [#link("ctwie.me/proj/research-pages/trust/trust-and-ai.pdf")[Draft Available]],
   summary: "",
   details: [
     - Analyzed role of LLM AI as a tool for facilitating trust in partnership games

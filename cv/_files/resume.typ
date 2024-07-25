@@ -1,9 +1,9 @@
-#import "@preview/guided-resume-starter-cgc:2.0.0": *
-// #import "_templates/resume.template.typ": *
+// #import "@preview/guided-resume-starter-cgc:2.0.0": *
+#import "_templates/resume.template.typ": *
 #import "@preview/fontawesome:0.2.1": *
 
 #let temp(body) = text(gray.darken(25%))[#body]
-#set page(header: align(right)[_R$acute(e)$sum$acute(e)$_], footer: [#align(center)[#emph[References available upon request]]])
+#set page(header: align(right)[_R$acute(e)$sum$acute(e)$_], footer: [#align(center)[#emph[References & Phone number available upon request]]])
 
 #show: resume.with(
   author: "Connor T. Wiegand",
@@ -65,11 +65,12 @@
   role: "Time Varying Time Preferences",
   project: "w/ M. Steven Holloway, Michael A. Kuhn",
   date: [JMP],
-  location: [#link("")[Draft Available]],
+  location: [#link("ctwie.me/proj/research-pages/tvtp/tvtp.pdf")[Draft Available]],
   summary: "",
   details: [
     - Conducted novel longitudinal study to elicit non-standard time preferences
-    - Designed novel web-based interface for elicitation, model theory and proofs
+    - Designed novel web-based interface for fast and efficient elicitation (_*Methods paper to follow*_)
+    - Spearheaded model theory and proofs
     - Find *57%* of participants show behavior consistent with time-varying preferences
   ]
 )
@@ -78,7 +79,7 @@
   role: "Trust and AI",
   project: "w/ Tanner Bivins, Ethan Holdahl, Jiabin Wu",
   date: [Working Paper],
-  location: [#link("")[Draft Available]],
+  location: [#link("ctwie.me/proj/research-pages/trust/trust-and-ai.pdf")[Draft Available]],
   summary: "",
   details: [
     - Analyzed role of LLM AI as a tool for facilitating trust in partnership games
@@ -105,7 +106,9 @@
   project: "U. Oregon",
   date: "2021 -- present",
   summary: "Lead Instructor; responsible for preparing and administering course content",
-  details: {grid(columns: (1fr, ) * 2, 
+  details: {
+    v(-0.5em) 
+    grid(columns: (1fr, ) * 2, 
   [
     - Game Theory:
       - Introductory (4x)
@@ -132,9 +135,10 @@
   role: "Research Assistant",
   project: "Prof. Alfredo Burlando, U. Oregon",
   date: "Summer 2021",
-  summary: "Assisted in writing and reviewing the theory and proofs ",
+  summary: [Assisted in writing and reviewing theory and proofs for Burlando (2023) ],
   details: [
-    - Alfredo Burlando, "Tuition fees and the intra-household allocation of schooling: Evidence from Uganda’s Free Primary Education reform" (2023), _Economics of Education Review_, 97, 102466
+    - "Tuition fees and the intra-household allocation of schooling: Evidence from Uganda's Free Primary Education reform" (2023), _Economics of Education Review_
+    // - Alfredo Burlando, "Tuition fees and the intra-household allocation of schooling: Evidence from Uganda's Free Primary Education reform" (2023), _Economics of Education Review_, 97, 102466
   ]
 )
 
