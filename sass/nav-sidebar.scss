@@ -13,7 +13,27 @@
   .docked & {
     max-width: 80%; // 70% w/ adjusted sidebar margin; 80% else
   } 
-  
+
+  @include media-breakpoint-down(lg) {
+    max-width: 8rem; // or 120 - 144 px
+    display: unset;
+  }  
+}
+
+@include media-breakpoint-down(lg) {
+    .quarto-secondary-nav-title {
+      margin-bottom: .3em;
+      padding-bottom: 4px;
+      padding-top: 0;
+    }
+
+    .navbar-container.container-fluid {
+      padding-left: 0;
+    }
+}
+
+.quarto-secondary-nav button.quarto-btn-toggle {
+  order: 2;
 }
 
 li.sidebar-item {
@@ -37,6 +57,8 @@ li.sidebar-item {
 // body.docked .sidebar.sidebar-navigation{
 //   grid-column: page-start/body-content-start;
 // }
+
+
 
 /* Navbar */
 
