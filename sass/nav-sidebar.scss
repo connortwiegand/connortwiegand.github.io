@@ -1,5 +1,27 @@
 /*-- scss:rules --*/
 
+/* Smaller Screens */
+@include media-breakpoint-down(lg) {
+  .quarto-secondary-nav-title {
+    margin-bottom: .3em;
+    padding-bottom: 4px;
+    padding-top: 0;
+  }
+
+  .navbar-container.container-fluid {
+    padding-left: 0;
+  }
+
+  .navbar-brand {
+    margin-right: 0.25rem;
+  }
+
+  .sidebar-logo {
+    max-width: 8rem; // or 120 - 144 px
+    display: unset;
+  }
+}
+
 /* Sidebar */
 .sidebar-logo {
   // @extend .rounded-pill;
@@ -12,24 +34,7 @@
   
   .docked & {
     max-width: 80%; // 70% w/ adjusted sidebar margin; 80% else
-  } 
-
-  @include media-breakpoint-down(lg) {
-    max-width: 8rem; // or 120 - 144 px
-    display: unset;
-  }  
-}
-
-@include media-breakpoint-down(lg) {
-    .quarto-secondary-nav-title {
-      margin-bottom: .3em;
-      padding-bottom: 4px;
-      padding-top: 0;
-    }
-
-    .navbar-container.container-fluid {
-      padding-left: 0;
-    }
+  }
 }
 
 .quarto-secondary-nav button.quarto-btn-toggle {
@@ -77,10 +82,6 @@ li.sidebar-item {
   color: $link-color;
   // text-overflow: "CTW";
   // --bs-navbar-brand-margin-end: 1.5rem;
-  
-  @include media-breakpoint-down(lg) {
-    margin-right: 0.25rem;
-  }
 }
 
 .nav-tabs {
