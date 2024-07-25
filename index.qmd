@@ -26,9 +26,9 @@ I am a research economist from the University of Oregon. My research includes ou
 
 :::{.d-flex .justify-content-around}
 
-[Glance at my skills](/skills/index.qmd){.btn .btn-primary} 
+[Glance at my skills](/skills/index.qmd){.btn .btn-primary .mx-1} 
 
-[View my resume](/cv/index.qmd){.btn .btn-primary} 
+[View my resume](/cv/index.qmd){.btn .btn-primary .mx-1} 
 
 ::: 
 
