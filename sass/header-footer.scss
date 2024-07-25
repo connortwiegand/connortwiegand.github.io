@@ -2,10 +2,13 @@
 
 #quarto-header {
    border-bottom: 1px solid;
+   border-bottom-color: $border-color;
 }
 
 footer.footer {
    border-top: 1px solid; 
+   border-top-color: $border-color;
+   background-color: $footer-bg;
 
    .nav-footer {
       @extend .container-fluid;
@@ -13,7 +16,6 @@ footer.footer {
 }
 
 ul.footer-items {
-
    li,
    >li {
       &:not(:first-child) {

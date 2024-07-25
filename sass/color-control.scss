@@ -22,103 +22,17 @@ $text-white: rgba(white, .9);
 
 /*-- scss:rules --*/
 
-// .quarto-dark {
-//   @extend [data-bs-theme="dark"];
-// }
-
-// .quarto-light {
-//   @extend [data-bs-theme="light"];
-// }
-
-.no-link {
-  color: $secondary;
-  text-decoration: underline;
-}
-
-.callout.callout-style-default {
-  border-right: none;
-  border-top: none;
-  border-bottom: 1px solid var(--bs-green);
-}
-
-.dropdown-item:hover {
-  color: $link-color;
-  background-color: mix($body-color, $navbar-bg, 20%);
-}
-
-.sidebar-logo {
-  border-color: $border-color;
-}
-
-#quarto-header {
-  border-bottom-color: $border-color;
-}
-
-footer.footer {
-  border-top-color: $border-color;
-  background-color: $footer-bg;
-}
-
-#quarto-search svg {
-  color: $link-color !important;
-}
-
-.navbar-brand {
-  color: $link-color;
-  @include media-breakpoint-down(lg) {
-      margin-right: 0.25rem;
-  }
-}
-
-.navbar-nav .nav-link {
-  color: $link-color;
-  &.active {
-    // color: $link-color;
-    text-shadow: $link-shadow;
-  }
-}
-
-.nav-tabs .nav-link {
-  color: $link-color;
-
-  // &.active {
-  //   color: $link-color;
-  //   text-shadow: 0 0 1.25px $link-color;
-  // }
-
-  &:hover {
-    color: $link-color-hover;
-  }
-}
-
-.nav-footer-left,
-.nav-footer a,
-div.sidebar-item-container {
-  color: var(--bs-body-color);
-}
-
-// https: //github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/darkly.scss
-.navbar-nav,
-.nav-tabs,
-.nav-pills {
-  .nav-link,
-  .nav-link.active,
-  .nav-item.open .nav-link {
-    color: $link-color;
-    
-    &:focus, &:hover {
-      color: $link-color-hover;
-    }
-  }
-}
-
 .quarto-dark {
+  //@extend [data-bs-theme="dark"];
+  
   .brand-logo-light {
     display: none;
   }
 }
 
 .quarto-light {
+  //@extend [data-bs-theme="light"];
+
   .brand-logo-dark {
     display: none;
   }

@@ -1,18 +1,10 @@
 /*-- scss:rules --*/
 
-// body.floating, body.docked {
-//   .sidebar.sidebar-navigation {
-//       grid-column: screen-start-inset/body-start;
-//   }
-// } 
-
-// body.docked .sidebar.sidebar-navigation{
-//   grid-column: page-start/body-content-start;
-// }
-
+/* Sidebar */
 .sidebar-logo {
   // @extend .rounded-pill;
   // @extend .p-3;
+  border-color: $border-color;
   border-radius: 50%;
   padding: 5px !important;
   border: 1px solid;
@@ -36,6 +28,23 @@ li.sidebar-item {
   padding-top: 0;
 }
 
+// body.floating, body.docked {
+//   .sidebar.sidebar-navigation {
+//       grid-column: screen-start-inset/body-start;
+//   }
+// } 
+
+// body.docked .sidebar.sidebar-navigation{
+//   grid-column: page-start/body-content-start;
+// }
+
+/* Navbar */
+
+.dropdown-item:hover {
+  color: $link-color;
+  background-color: mix($body-color, $navbar-bg, 20%);
+}
+
 .navbar-title {
   // margin-right: 2rem;
   font-weight: bold;
@@ -43,8 +52,50 @@ li.sidebar-item {
 
 .navbar-brand {
   overflow: unset;
+  color: $link-color;
   // text-overflow: "CTW";
   // --bs-navbar-brand-margin-end: 1.5rem;
+  
+  @include media-breakpoint-down(lg) {
+    margin-right: 0.25rem;
+  }
+}
+
+.nav-tabs {
+  .nav-link {
+    color: $link-color;
+    
+    &:hover {
+      color: $link-color-hover;
+    }
+
+    &.active {
+      font-style: italic;
+    }
+  }
+}
+
+.navbar-nav {
+  .nav-item {
+    align-self: center;
+  }
+
+  .nav-link {
+    margin-right: .4rem;
+    margin-left: .4rem;
+    font-size: 1.1rem;
+    text-align: center;
+    color: $link-color;
+      
+    &.active {
+      // color: $link-color;
+      text-shadow: $link-shadow;
+    }
+
+    .quarto-dark &.active {
+      font-style: italic;
+    }
+  }
 }
 
 .navbar {
@@ -59,6 +110,10 @@ li.sidebar-item {
 
   #quarto-search {
     margin-left: .25rem;
+    
+    svg {
+      color: $link-color !important;
+    }
   }
 
   .quarto-color-scheme-toggle {
@@ -69,29 +124,7 @@ li.sidebar-item {
       }
     }
   }
-
 }
-
-// .navbar .navbar-brand-container {
-//   order: 1;
-// }
-
-// .navbar .navbar-toggler {
-//   order: 2;
-//   margin-right: auto;
-// } 
-
-// .navbar #quarto-search {
-//   margin-left: .25rem;
-// }
-
-// .navbar .quarto-color-scheme-toggle{
-//   &.alternate, &:not(.alternate) {
-//     .bi::before {
-//       background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgba(#{red($link-color)}, #{green($link-color)}, #{blue($link-color)}, 0.9)" class="bi bi-toggle-on" viewBox="0 0 16 16"><path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/></svg>');
-//     }
-//   }
-// }
 
 [data-bs-theme="dark"], [data-bs-theme="light"] {
   & .navbar-toggler-icon {
@@ -99,40 +132,27 @@ li.sidebar-item {
   } 
 } 
 
-.navbar-nav {
-  .nav-item {
-    align-self: center;
-  }
-
-  .nav-link {
-    margin-right: .4rem;
-    margin-left: .4rem;
-    font-size: 1.1rem;
-    text-align: center;
-
-    .quarto-dark &.active {
-      font-style: italic;
-    }
-  }
+.nav-footer-left,
+.nav-footer a,
+div.sidebar-item-container {
+  color: var(--bs-body-color);
 }
 
-// .navbar-nav .nav-item {
-//   align-self: center;
-// }
+// https: //github.com/quarto-dev/quarto-cli/blob/main/src/resources/formats/html/bootstrap/themes/darkly.scss
+.navbar-nav,
+.nav-tabs,
+.nav-pills {
 
-// .navbar-nav .nav-link {
-//   margin-right: .4rem;
-//   margin-left: .4rem;
-//   font-size: 1.1rem;
-//   text-align: center;
+  .nav-link,
+  .nav-link.active,
+  .nav-item.open .nav-link {
+    color: $link-color;
 
-//   .quarto-dark &.active {
-//     font-style: italic;
-//   }
-// } 
-
-.nav-tabs .nav-link.active {
-  font-style: italic;
+    &:focus,
+    &:hover {
+      color: $link-color-hover;
+    }
+  }
 }
 
 // .quarto-color-scheme-toggle {

@@ -3,3 +3,14 @@
 .embeded-pdf {
   text-align: center;
 }
+
+.no-link {
+  color: $secondary;
+  text-decoration: underline;
+}
+
+.callout.callout-style-default {
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid var(--bs-green);
+}
