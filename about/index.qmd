@@ -22,7 +22,7 @@ ani-duration: 1s
 :::{.animate__animated .animate__fadeInUp}
 ### Places I've Been
 
-I was born and raised in the Pacific Northwest (specifically: [Bellingham, WA](https://www.bellingham.org/)). In addition to regular trips up to British Columbia, I've traveled to some really cool places! I've been on both coasts of Mexico, visited Banff National Park in Alberta, and experienced some amazing culture in Europe (Spain, France, Italy) as well as the Carribean (Jamaica, Barbados, The Bahamas, Key West). 
+I was born and raised in the Pacific Northwest (specifically: [Bellingham, WA](https://www.bellingham.org/)). In addition to regular trips up to British Columbia, I've traveled to some really cool places! I've been on both coasts of Mexico, visited Banff National Park in Alberta, and experienced some amazing culture in Europe (Spain, France, Italy) as well as the Caribbean (Jamaica, Barbados, The Bahamas, Key West). 
 :::
 
 :::{.animate__animated .animate__fadeInUp}
@@ -30,7 +30,7 @@ I was born and raised in the Pacific Northwest (specifically: [Bellingham, WA](h
 
 While in high school, I participated in the [Running Start](https://en.wikipedia.org/wiki/Running_Start) program, which allowed me to get my A.A. degree at the same time while I was in high school. I would highly recommend the Running Start program if it's available in your state, and would love to chat more about it if you know someone who is interested. 
 
-Getting my associates degree so early allowed me to jump right in to my undergraduate program at the University of Washigton in Seattle. In just three years, I was able to earn a double major in Mathematics and Economics. While there, I took accelerated honors courses in both Real Analysis and Computer Science, attained Honor Roll^[AKA Dean's List] across multiple terms, and took the Core Ph.D. Microeconomics sequence during my final undergraduate year. 
+Getting my associates degree so early allowed me to jump right in to my undergraduate program at the University of Washington in Seattle. In just three years, I was able to earn a double major in Mathematics and Economics. While there, I took accelerated honors courses in both Real Analysis and Computer Science, attained Honor Roll^[AKA Dean's List] across multiple terms, and took the Core Ph.D. Microeconomics sequence during my final undergraduate year. 
 
 I am currently at the end of my Ph.D. program at the University of Oregon and am looking to start my career in economics, data science, or tech. 
 :::

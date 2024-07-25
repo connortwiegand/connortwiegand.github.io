@@ -4,7 +4,7 @@ toc: false
 # pagetitle: "Home | Connor T. Wiegand"
 ---
 
-I am a research economist from the University of Oregon. My research includes out-of-the-lab experiments which reveal longitudinal time preferences and strategic behavior in the presence of Artificial Intelligence. Broadly speaking, the labels "Experimental Economist", "Behavioral Economist", "Game Theorist", and "Data Scientist" would all be accurate descriptions of what I do. I'd like to consider myself at the intersection of extracting practical information from experimental data and modelling meaningful interaction using a modern tool case of microeconomic theory.
+I am a research economist from the University of Oregon. My research includes out-of-the-lab experiments which reveal longitudinal time preferences and strategic behavior in the presence of Artificial Intelligence. Broadly speaking, the labels "Experimental Economist", "Behavioral Economist", "Game Theorist", and "Data Scientist" would all be accurate descriptions of what I do. I'd like to consider myself at the intersection of extracting practical information from experimental data and modeling meaningful interaction using a modern tool case of microeconomic theory.
 
 ### Site Highlights
 
