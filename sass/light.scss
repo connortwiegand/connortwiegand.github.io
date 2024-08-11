@@ -20,7 +20,7 @@ $navbar-bg: $body-bg;
 $footer-bg: $light;
 
 $link-color : #006E33;
-$border-color: #f2f3f3;
+$border-color: transparentize($saddle, .41);
 $link-shadow: 0 0 1px $link-color;
 $code-bg: $footer-bg;
 $code-color: $orange;
