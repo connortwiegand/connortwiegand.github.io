@@ -1,3 +1,22 @@
 sidebar: false
 toc: true
 freeze: true
+format:
+  html: 
+    include-after-body: 
+      - text: |
+          <script>
+          var g_theme = document.body.classList.contains("quarto-light") ? 'noborder_light' : 'noborder_dark';
+            document.querySelector('script[src="https://giscus.app/client.js"]').setAttribute('data-theme', g_theme);
+          </script>
+    comments:
+      giscus: 
+        repo: connortwiegand/connortwiegand.github.io
+        repo-id: R_kgDOMaLXRA
+        category: Website Comments
+        category-id: DIC_kwDOMaLXRM4ChWNv
+        # loading: lazy
+        reactions-enabled: true
+        theme: 
+          dark: noborder_dark
+          light: noborder_light
