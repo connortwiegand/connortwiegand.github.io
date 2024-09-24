@@ -22,7 +22,7 @@ title: "Tools I Use"
 
 - I've converted my syllabus, homework, tests, and other course materials to Typst
 
-- In my most recent iteration of _Intro to Game Theory_, I wrote `typ2png4reveal.sh`([link](https://github.com/connortwiegand/ec327-sp24)) for converting Typst games to transparent PNG files
+- In my most recent iteration of _Intro to Game Theory_, I wrote `typ2png4reveal.sh`, a bash script for converting Typst games^[or any typst file for that matter] to transparent PNG files; [check it out on GitHub](https://github.com/connortwiegand/ec327-sp24)
 
 ### Linux
 
@@ -42,6 +42,10 @@ title: "Tools I Use"
 
 - I started using LaTeX my freshman year of college for my math degree. It would have been glorious to have Typst around.
 
+
+### Other People's Cool Tools
+
+- My co-author and former UOregon colleague [Ethan Holdahl](https://ethanholdahl.com/) built [this incredible web app](https://ethanholdahl.shinyapps.io/Game-Theory-Tools/) for getting practice with normal form games
 
 ---
 
