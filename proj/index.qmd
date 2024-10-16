@@ -39,7 +39,7 @@ Within economics, my research interests include behavioral, game theory, and dat
 
 :::{#card-gt .collapse}
 :::{.card .card-body}
-As someone who has taught college level courses in game theory on multiple occasions, there is a disappointing lack of resources available to format (typeset) ones own games. Two related projects help to fill this gap and improve resources for educators looking for similar materials. One is simply a hub for housing links, pointers, and information about said resources. The other is an open-source `typst` package -- currently **featured** on Typst Universe -- I made for typesetting normal form games. You can check out the general-information repository [on github](https://github.com/connortwiegand/typesetting-games) and the Typst package `game-theoryst` on [the official Typst Universe](https://typst.app/universe/package/game-theoryst)
+As someone who has served on multiple occasions as the primary instrctor for university-level courses in game theory, there is a disappointing lack of resources available to format (typeset) ones own games. Two related projects help to fill this gap and improve resources for educators looking for similar materials. One is simply a hub for housing links, pointers, and information about said resources. The other is an open-source `typst` package -- currently **featured** on Typst Universe -- I made for typesetting normal form games. You can check out the general-information repository [on github](https://github.com/connortwiegand/typesetting-games) and the Typst package `game-theoryst` on [the official Typst Universe](https://typst.app/universe/package/game-theoryst)
 :::
 :::
 

@@ -10,13 +10,13 @@
 
 :::{.with}
 <%- paper.co_auth %> 
-<% if (paper.draft_avail) { %> ([[Draft](<%- paper.download %>){target="_blank"} available]{.draft-download})<% } %> <% if (paper.incl_cite) { %> <% if (paper.year == 'forthcoming') { %> [-@<%- paper.incl_cite.key %>] <% } %><% } %>
+<% if (paper.draft_avail) { %> ([[Draft](<%- paper.download %>){target="_blank"} available]{.draft-download})<% } %> 
 :::
 
 <% if (/Pub/i.test(item.category)) { %>
 
-:::{.year .pub-info .journal}
-<% if (paper.year == 'forthcoming') { %> Forthcoming in <% } %> _<%- paper.journal %>_
+:::{.pub-info}
+<% if (paper.fc) { %> Forthcoming in <% } %> [_<%- paper.journal %>_]{.journal} <% if (paper.incl_cite) { %> <% if (paper.year) { %> [-@<%- paper.incl_cite.key %>] <% } %><% } %>
 :::
  
 <% } %> 

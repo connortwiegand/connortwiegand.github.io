@@ -14,3 +14,17 @@
   border-top: none;
   border-bottom: 1px solid var(--bs-green);
 }
+
+.with p {
+  margin-bottom: 0.25rem;
+}
+
+.journal {
+  text-decoration: underline;
+}
+
+// .btn-xsm {
+//   @extend .btn-sm;
+//   --bs-btn-line-height: 1;
+//   --bs-btn-padding-y: 
+// }
