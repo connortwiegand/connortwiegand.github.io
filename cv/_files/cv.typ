@@ -111,6 +111,7 @@
   role: "Market Failure",
   project: "w/ Van Kolpin",
   date: "Forthcoming",
+  location: [November 2024],
   summary: [The Elgar Encyclopedia on the Economics of Competition, Regulation and Antitrust],
   details: [
     - Responsible for collection of relevant literature; revision and editing of encyclopedia entry
@@ -122,7 +123,7 @@
 
 #exp(
   role: "Lead Instructor",
-  project: "U. Oregon",
+  project: "University of Oregon",
   date: "2021 -- present",
   summary: "Lead Instructor; responsible for preparing and administering course content",
   details: {grid(columns: (1fr, ) * 2, 
@@ -139,7 +140,7 @@
 
 #exp(
   role: "Teaching Assistant",
-  project: "U. Oregon",
+  project: "University of Oregon",
   date: "2019 -- present",
   // location: "U. Oregon",
   summary: "Preparing and leading lab discussions, hosting office hours, grading",
@@ -161,10 +162,22 @@
 = Other Projects
 
 #exp(
+  role: "game-theoryst",
+  project: "A Typst package",
+  date: [\ Author],
+  // location: [Featured on \ Typst Universe],
+  summary: "",
+  details: [\
+    - Typst package for formatting beautiful normal form games
+    - Currently Featured on Typst Universe
+  ]
+)
+
+#exp(
   role: "LOST",
   project: "The Library of Statistical Techniques",
-  date: [2021],
-  location: [Contributer],
+  date: [\ Contributer],
+  // location: [2021],
   summary: "",
   details: [\
     - Original author of ARIMA page, including background theory and relevant R code
@@ -179,17 +192,6 @@
   summary: "",
   details: [\
     - Produce novel maps of countries with regional area codes using web scraping and geospatial techniques.
-  ]
-)
-
-#exp(
-  role: "gametheoryst",
-  project: "A Typst package",
-  date: [Work in Progress],
-  location: [Author],
-  summary: "",
-  details: [\
-    - Typst package for formatting game theory diagrams
   ]
 )
 

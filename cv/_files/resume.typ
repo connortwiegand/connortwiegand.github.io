@@ -92,6 +92,7 @@
   role: "Market Failure",
   project: "w/ Van Kolpin",
   date: "Forthcoming",
+  location: [November 2024],
   summary: [The Elgar Encyclopedia on the Economics of Competition, Regulation and Antitrust],
   details: [
     - Responsible for collection of relevant literature; revision and editing of encyclopedia entry
@@ -103,7 +104,7 @@
 
 #exp(
   role: "Lead Instructor",
-  project: "U. Oregon",
+  project: "University of Oregon",
   date: "2021 -- present",
   summary: "Lead Instructor; responsible for preparing and administering course content",
   details: {
@@ -122,7 +123,7 @@
 
 #exp(
   role: "Teaching Assistant",
-  project: "U. Oregon",
+  project: "University of Oregon",
   date: "2019 -- present",
   // location: "U. Oregon",
   summary: "Preparing and leading lab discussions, hosting office hours, grading",
