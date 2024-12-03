@@ -19,6 +19,6 @@ In this study, we experimentally explore the impact of AI as a supportive tool f
 Recommended citation: {{< meta r-citation >}}
 
 
-## Full Paper:
+## Full Paper
 
 ![]({{< meta path >}}){height=800px width=95%}
