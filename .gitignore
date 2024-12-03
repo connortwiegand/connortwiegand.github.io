@@ -2,6 +2,7 @@
 /_site/
 /.vscode/
 /_local-old-test/
+*.template.pdf
 
 # /_jekyll-site/
 # /_old/

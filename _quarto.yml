@@ -41,8 +41,8 @@ website:
         href: cv/index.qmd
       - text: Skills
         href: skills/index.qmd
-      - text: Not -a- Blog
-        href: not-a-blog/index.qmd
+      # - text: Not -a- Blog
+      #   href: not-a-blog/index.qmd
       - text: Resources 
         menu: 
           - text: Tools

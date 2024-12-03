@@ -1,6 +1,5 @@
-// #import "@preview/guided-resume-starter-cgc:2.0.0": *
-#import "_templates/resume.template.typ": *
-#import "@preview/fontawesome:0.2.1": *
+#import "@local/res-template:0.0.3": *
+#import "@preview/fontawesome:0.5.0": *
 
 #let temp(body) = text(gray.darken(25%))[#body]
 #set page(header: align(right)[_R$acute(e)$sum$acute(e)$_], footer: [#align(center)[#emph[References & Phone number available upon request]]])
@@ -8,18 +7,6 @@
 #show: resume.with(
   author: "Connor T. Wiegand",
   location: "",
-  // contacts: (
-  //   [#link("https://ctwie.me")[#text(baseline: 1.5pt)[#fa-icon("globe")] ctwie.me]],
-  //   [#text(baseline: 1.5pt)[#fa-icon("linkedin")] #link("https://linkedin.com/in/connor-wiegand")[connor-wiegand]],
-  //   [#text(baseline: 1.5pt)[#fa-icon("github")] #link("https://github.com/connortwiegand")[connortwiegand]],
-  //   [#text(baseline: 1.5pt)[#fa-icon("envelope")] #link("mailto:connortwiegand@gmail.com")[gmail: connortwiegand]],
-  // ),
-  // contacts: (
-  //   (fa-icon("globe"), "https://ctwie.me"),
-  //   (fa-icon("github"), "https://github.com/connortwiegand"),
-  //   (fa-icon("linkedin"), "https://linkedin.com/in/connor-wiegand"),
-  //   (fa-icon("envelope"), "mailto:connortwiegand@gmail.com"),
-  // ),
   contacts: (
     ("envelope", "mailto:connortwiegand@gmail.com", [gmail: connortwiegand]),
     ("globe", "https://ctwie.me", [ctwie.me]),
@@ -29,9 +16,11 @@
 )
 
 = Education
+
 #edu(
   institution: "University of Oregon",
-  date: "2019 -- 2024",
+  date: [2019 -- 2025],
+  // date: [2019 -- 2025\ (Expected Spring)],
   location: "Eugene, OR",
   degrees: (
     ("Ph.D.", "Economics"),
@@ -59,7 +48,6 @@
 )
 */
 
-
 = Research
 #exp(
   role: "Time Varying Time Preferences",
@@ -69,20 +57,19 @@
   summary: "",
   details: [
     - Conducted novel longitudinal study to elicit non-standard time preferences
-    - Designed novel web-based interface for fast and efficient elicitation (_*Methods paper to follow*_)
-    - Spearheaded model theory and proofs
+    - Designed novel web-based interface for efficient elicitation (#underline[_Methods paper to follow_])
     - Find *57%* of participants show behavior consistent with time-varying preferences
   ]
 )
 
 #exp(
-  role: "Trust and AI",
-  project: "w/ Tanner Bivins, Ethan Holdahl, Jiabin Wu",
+  role: "Does AI Facilitate Trust? An Experimental Study",
+  // project: [],
   date: [Working Paper],
   location: [#link("ctwie.me/proj/research-pages/trust/trust-and-ai.pdf")[Draft Available]],
-  summary: "",
+  summary: [#h(0.33em) w/ Tanner Bivins, Ethan Holdahl, Jiabin Wu],
   details: [
-    - Analyzed role of LLM AI as a tool for facilitating trust in partnership games
+    - Analyzed role of LLM as a tool for facilitating trust in partnership games
     - Contributed to experiment framework, design through oTree (Python-based), post-study analysis and documenting results
     - Find significant evidence that access to AI for trustee leads to cooperative play
   ]
@@ -95,18 +82,17 @@
   location: [November 2024],
   summary: [The Elgar Encyclopedia on the Economics of Competition, Regulation and Antitrust],
   details: [
-    - Responsible for collection of relevant literature; revision and editing of encyclopedia entry
+    - Responsible for collection of literature; revision and editing of encyclopedia entry
   ]
 )
 
-// The Elgar Encyclopedia on the Economics of Competition, Regulation and Antitrust
-= Experience
+= Professional Experience
 
 #exp(
   role: "Lead Instructor",
   project: "University of Oregon",
   date: "2021 -- present",
-  summary: "Lead Instructor; responsible for preparing and administering course content",
+  summary: "Responsible for preparing and administering lectures, assessments, and course content",
   details: {
     v(-0.5em) 
     grid(columns: (1fr, ) * 2, 
@@ -122,21 +108,10 @@
 )})
 
 #exp(
-  role: "Teaching Assistant",
-  project: "University of Oregon",
-  date: "2019 -- present",
-  // location: "U. Oregon",
-  summary: "Preparing and leading lab discussions, hosting office hours, grading",
-  details: [
-    - Selected courses: Behavioral economics, PhD core econometrics, environmental economics, micro, macro, game theory, money and banking, international economics, public economics, senior econometrics
-  ]
-)
-
-#exp(
   role: "Research Assistant",
-  project: "Prof. Alfredo Burlando, U. Oregon",
+  project: "Alfredo Burlando, Professor of Economics",
   date: "Summer 2021",
-  summary: [Assisted in writing and reviewing theory and proofs for Burlando (2023) ],
+  // summary: [Assisted in writing theory and proofs for Burlando (2023) ],
   details: [
     - "Tuition fees and the intra-household allocation of schooling: Evidence from Uganda's Free Primary Education reform" (2023), _Economics of Education Review_
     // - Alfredo Burlando, "Tuition fees and the intra-household allocation of schooling: Evidence from Uganda's Free Primary Education reform" (2023), _Economics of Education Review_, 97, 102466
@@ -145,43 +120,47 @@
 
 
 = Skills
-#skills((
-  ("Expertise", (
-    [Behvaioral Economics],
-    [Game Theory],
-    [Machine Learning],
-    [Experiments], 
-    [Data Science]
-  )),
-  ("Data Science", (
-    [Tidyverse],
-    [data.table],
-    [Clustering],
-    [Random Forests],
-    [Regression],
-    [Big Data],
-  )),
-  ("Programming", (
-    [R],
-    [Python],
-    [HTML/CSS/JS],
-    [SQL],
-    [Typst],
-    [Quarto (Pandoc)], 
-    [Java],
-    [Bash/Linux]
-  )),
-))
 
-/*
-= References
+#let short-skills(area: "", fields: (:)) = {
+  set block(below: 0.65em)
+  strong[#area] + " | "
+  fields.join(" | ")
+  // linebreak()
+}
+
+// #set par(spacing: 0.8em)
+
+#short-skills(
+  area: "Expertise", fields: (
+    [Behavioral Economics],
+    [Game Theory],
+    [Experiments],
+    [Principal-Agent],
+    [Applied Micro.],
+  )
+)
+
 #exp(
-  role: "Student Advisor",
-  project: "Doc's Kidz After-School Child Care Service",
-  date: "May 1954 - June 1985",
-  summary: "Giving random highschoolers hands-on experience in live nuclear engineering",
+  role: "Machine Learning & Econometrics", 
+  project: [8+ years],
   details: [
-    - Created community initiative to teach local student(s) about the wonders of nuclear physics
-    - Provided interesting time travel research opportunities for students to add to their college applications
+    - Random Forests, LLMs, Clustering, LASSO, Instruments, Time Series, Multiple Regression 
+
+    - Causal Modeling, Prediction, Classification, A/B Testing, Big Data
+
+    - Cross Validation, Model Selection & Evaluation, Unsupervised/Supervised Learning
   ]
-)*/
+)
+
+
+#exp(
+  role: "Programming", 
+  // project: [8+ years],
+  details: [
+    - *R* (_8+ years_) | Direct experience training and evaluating machine learning models
+
+    - *Python* (_4+ years_) | Experience programming research experiments, including ETL/ELT decisions
+
+    - #short-skills(area: "Other", fields: ([Julia], [STATA],  [Java], [SQL], [Web Design], [Quarto], [Typst (Rust)], [Bash/Linux]))
+  ]
+)

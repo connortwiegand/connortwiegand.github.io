@@ -1,11 +1,11 @@
 ---
-title: "Trust and AI"
+title: "Does AI Facilitate Trust? An Experimental Study"
 co_auth: 'With [Jiabin Wu](https://sites.google.com/site/jiabinwuecon), [Ethan Holdahl](https://ethanholdahl.com/), and [Tanner Bivins](https://www.tannerbivins.com/)'
 # date: 2023-01-01
 wp: true
 draft_avail: true
 # path: '../_files/trust.pdf'
-r-citation: 'Bivins _et al._ (WP). &quot;Trust and AI.&quot; <i>WP</i>.'
+r-citation: 'Bivins _et al._ (WP). &quot;Does AI Facilitate Trust? An Experimental Study.&quot; <i>WP</i>.'
 categories: papers working-papers projects
 
 ---
