@@ -12,7 +12,7 @@ r-citation: 'Bivins _et al._ (wp). &quot;Does AI Facilitate Trust? An Experiment
 
 ## Abstract
 
-How does the presence of AI affect strategic trust? Based on the trust game ([PAPER]), we design an experiment whereby players in each role may have access to the Large Language Model (LLM) ChatGPT. The player who is asking for trust can send a message to the other player, and, when AI is present, has the option to interact with ChatGPT to help them send a more convincing signal. When the trust*er* has AI present, the AI helps interpret the message from the trustee, and gives advice on what the truster should do. We find evidence ..............
+In this study, we experimentally explore the impact of AI as a supportive tool for players in a two-player trust game. The game begins with the trustee sending a message to the trustor. In certain scenarios, the trustee is aided by the large language model (LLM) ChatGPT in composing this message. In other scenarios, the trustor uses AI to interpret the message from the trustee, or both players may have access to AI assistance. Our findings indicate that when the trustee utilizes AI as a helper, it enhances cooperation with the trustor. Interestingly, this improvement in cooperation is not attributed to AI's superior messaging skills. Instead, when the trustee has AI assistance, it may encourage the trustor to scrutinize the trustee's message more closely. The detailed scrutiny by the trustor, and potentially the trustee's awareness of this scrutiny, aligns the beliefs of the trustor and the trustee, thereby fostering an environment that encourages the development of trust.
 
 ---
 
