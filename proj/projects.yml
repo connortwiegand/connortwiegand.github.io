@@ -24,6 +24,7 @@
 - category: Publications
   papers:
     - title: Market Failure
+      no_link: true
       co_auth: "_With [Van Kolpin](https://pages.uoregon.edu/vkolpin/Home.html)_"
       journal: The Elgar Encyclopedia on the Economics of Competition, Regulation, and Antitrust
       year: November 2024

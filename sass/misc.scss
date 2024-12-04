@@ -6,6 +6,10 @@
 
 .no-link {
   color: $secondary;
+  text-decoration: none;
+}
+
+a.proj, a.paper {
   text-decoration: underline;
 }
 
