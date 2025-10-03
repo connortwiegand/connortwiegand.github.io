@@ -45,6 +45,11 @@
   number: EC 421/521
   pos: TA/G
 
-- title: Core (PhD) Econometrics
+- title: Core (PhD) Econometrics I
+  number: EC 607
+  times: 2
+  pos: TA/G
+
+- title: Core (PhD) Econometrics II
   number: EC 607
   pos: TA/G
