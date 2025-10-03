@@ -1,0 +1,10 @@
+---
+title: 'Why Typst?'
+date: 2024-08-17
+categories:
+  - typst
+  - typesetting-utilities
+  - latex
+aliases:
+  - why-typst
+---

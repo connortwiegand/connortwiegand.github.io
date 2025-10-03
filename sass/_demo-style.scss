@@ -1,0 +1,184 @@
+/*-- scss:mixins --*/
+
+@mixin text-colors($col: black, $shadow: 0 0 20px rgba(0, 0, 0, 0.3)) {
+  color: $col;
+  text-shadow: $shadow;
+}
+
+@mixin data($bg-color) {
+  // @include text-colors();
+  display: inline-table;
+  background-color: $bg-color;
+  // padding: 4px 0px;
+}
+
+@mixin web($prop, $val) {
+  @media (min-width: 601px) {
+    #{$prop}: $val;
+  }
+}
+
+@mixin mob($prop, $val) {
+  @media (max-width: 600px) {
+    #{$prop}: $val;
+  }
+}
+
+@mixin media-dep($prop, $web-val, $mob-val) {
+  @include web($prop, $web-val);
+  @include mob($prop, $mob-val);
+}
+
+/*-- scss:defaults --*/
+$left: green !default;
+$picked: #CCC !default;
+$sep-bg: #ffdf00 !default;
+$deep-next-bg: #4378D6 !default;
+$data-suffixes: "Left", "Picked";
+
+
+
+/*-- scss:rules --*/
+#trial-id-container {
+  display: block;
+  @include media-dep(padding, 20px 0 0 11%, 2vw 4vw);
+  // text-align: center;
+  // font-size: 24px;
+  // word-spacing: 1.5px;
+}
+
+#trial-header {
+  text-align: center;
+  @include media-dep(font-size, 24px, 22px);
+  font-weight: bold;
+  padding: 20px 0 0;
+  // margin: 0.67em 0 0.67em 0;
+}
+
+#trial-content {
+  text-align: justify;
+  @include media-dep(font-size, 18px, 16px);
+  @include media-dep(line-height, 32px, 24px);
+  font-weight: 400;
+  @include media-dep(padding, 20px 0, 0);
+  // margin: 0.83em 0 0.83em 0;
+}
+
+.convexTime {
+  // @include text-colors();
+  @include media-dep(font-size, 18px, 16px);
+  @include media-dep(width, 26%, 25vw);
+  // display: inline-block;
+  // max-width: 100px;
+}
+
+.gapCell {
+  @include media-dep(width, 11%, 10vw);
+}
+
+.vs {
+  // @include text-colors();
+  @include media-dep(font-size, 18px, 16px);
+  @include media-dep(width, 11%, 10vw);
+  // display: inline-block;
+}
+
+#convexTable {
+  text-align: center;
+  width: 100%;
+  // border-spacing: 0px;
+}
+
+#choiceLab {
+  // @include text-colors();
+  @include media-dep(font-size, 15px, 14px);
+  @include web(text-align-last, justify);
+  @include media-dep(width, 15%, 11%);
+  @include media-dep(display, table-cell, contents);
+}
+
+.dataPicked {
+  @include data($picked);
+}
+
+.dataLeft {
+  @include data($left);
+}
+
+#snappable .dataPicked,
+#snappable .dataLeft {
+  // @include text-colors($col: white);
+  @include media-dep(font-size, 15px, 14px);
+  @include media-dep(width, 48%, 24vw);
+  padding: 1% 0px;
+  display: inline-table;
+}
+
+#separatorTable {
+  width: 100%;
+}
+
+.separator {
+  @include text-colors();
+  background-color: $sep-bg;
+  @include media-dep(font-size, 15px, 13px);
+  @include media-dep(width, 85.5%, 100%);
+  text-align: center;
+  display: inline-table;
+  // padding: 2px 0px;
+}
+
+.holder {
+  width: 100%;
+  display: inline-table;
+}
+
+.draggable-holder {
+  @extend .holder;
+  min-height: 15px;
+}
+
+#DEEP-next-button {
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  // color: #fff !important;
+  background-color: $deep-next-bg;
+  border-radius: 4px;
+  transition: background .3s;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  margin: 15px 0 0 0;
+  appearance: none; // DOUBLE CHECK --8/31/24
+  -webkit-appearance: none;
+}
+
+#nextButtonContainer {
+  display: block;
+  width: 75px;
+  @include media-dep(margin, 0 0 0 48.5%, 46%);
+}
+
+// Media Specific
+
+@media (min-width: 601px) {
+  .mobile-break {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .td-lab {
+    width: 25vw;
+  }
+}
+
+// Super Sass-y
+/*
+each $suffix in $data-suffixes {
+  \.data\#{\$suffix} {
+    \@include data(\$bg-col: to-lower-case(\#{\$suffix}));
+  }
+}
+*/

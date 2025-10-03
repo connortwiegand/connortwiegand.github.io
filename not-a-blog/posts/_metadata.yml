@@ -1,13 +1,14 @@
 sidebar: false
 toc: true
 freeze: true
+# title-block-banner: "#343a40"
 comments:
   giscus: 
     repo: connortwiegand/connortwiegand.github.io
     repo-id: R_kgDOMaLXRA
     category: Website Comments
     category-id: DIC_kwDOMaLXRM4ChWNv
-    # loading: lazy
+    loading: lazy
     reactions-enabled: true
     theme: 
       light: noborder_light

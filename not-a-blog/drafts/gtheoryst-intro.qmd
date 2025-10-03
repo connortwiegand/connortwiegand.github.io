@@ -1,0 +1,14 @@
+---
+title: 'Game-Theoryst: An Introduction'
+date: 2024-08-17
+categories:
+  - typst
+  - game-theoryst
+  - game-theory
+  - typesetting-utilities
+  - teaching
+aliases:
+  - gtheoryst
+---
+
+

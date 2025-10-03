@@ -1,0 +1,517 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" data-runid="6043129801416458"
+  src="https://cdn.jsdelivr.net/npm/@shopify/draggable/lib/draggable.bundle.js"></script>
+<script>
+  
+var demoChoiceId = 6;
+
+const surveyInfo = {
+  whichWeek: 4,
+  isHalfTwo: function () {
+    return (demoChoiceId <= 5) ? 0 : 1;
+  }
+};
+
+const timing = {
+  inWeeks: function (time) {
+    return 'in ' + time + ' week' + (time > 1 ? 's' : '');
+  },
+  earlyStyle: function (starting) {
+    return starting == 0 ? 'today' : this.inWeeks(starting);
+  },
+  lateStyle: function (ending) {
+    return this.inWeeks(ending);
+  }
+};
+
+const questionaire = {
+  type: 'eppe',
+  questions: [
+    {
+      choiceId: demoChoiceId,
+      amount1: 202,
+      amount2: 242,
+      startTime: (demoChoiceId <= 5) ? 0 : 2,
+      endTime: Math.pow(2, (((demoChoiceId - 1) % 5) + 1)) + 2 * surveyInfo.isHalfTwo()
+    }
+  ]
+};
+
+const config = {
+  maxRightColumns: 5, // The max number of empty columns that can be allowed on the screen
+  levelCount: 22,
+  lStart: 202,
+  lEnd: 244,
+  lBy: function () {
+    return Math.round((this.lEnd - this.lStart) / this.levelCount);
+  }
+};
+
+const lAmounts = [];
+for (let i = config.lStart; i <= config.lEnd; i += config.lBy()) {
+  lAmounts.push(i);
+};
+
+var isValidated = false;
+
+
+/* Utilities */
+function addCustomElement(tag, attributes) {
+  return Object.assign(document.createElement(tag), attributes);
+}
+
+function createDivById(id) {
+  return addCustomElement('div', { id: id });
+}
+
+/* Response Store */
+let ResponseStore = function () {
+  this.responses = 0;
+};
+
+ResponseStore.prototype.updateResponse = function (data) {
+  this.responses = data;
+  console.log('Response store now ', this.responses);
+};
+
+ResponseStore.prototype.saveDataToValue = function () {
+  console.log('Saving complete data: ', this.responses);
+  let varName =
+    'lpt'
+    + '-w'
+    + surveyInfo.whichWeek
+    + '-q'
+    + demoChoiceId;
+
+  finalData = { name: varName, responses: JSON.stringify(this.responses) };
+};
+
+
+/* Question Manager */
+let QuestionManager = function (qId, questionData, parentContainer) {
+  this.qId = qId;
+  this.questionData = questionData;
+  this.snappableDiv = null;
+  this.parentContainer = parentContainer;
+  this.trialIdHeaderContainer = null;
+  // this.isValidated = false;
+};
+
+QuestionManager.prototype.init = function () {
+  // jQuery('head').append(' <style>' + this.css + '</style>');
+
+  this.trialIdHeaderContainer = createDivById('trial-id-container');
+  let trialHeader = createDivById('trial-header');
+  let trialContent = createDivById('trial-content');
+  this.snappableDiv = createDivById('snappable');
+  let tableContainer = addCustomElement('table', { id: 'convexTable' });
+
+  this.trialIdHeaderContainer.appendChild(trialHeader);
+  this.trialIdHeaderContainer.appendChild(trialContent);
+  this.parentContainer.appendChild(this.trialIdHeaderContainer);
+  this.parentContainer.appendChild(this.snappableDiv);
+  this.snappableDiv.appendChild(tableContainer);
+
+  let wordNums = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
+
+  // /* In general: */
+  // weekWord = wordNums[demoChoiceId - 1];
+
+  // /* Only this week: */
+  let weekWord = (demoChoiceId <= 3) ? wordNums[demoChoiceId - 1] : wordNums[demoChoiceId - 3]; //
+  let nowString = this.questionData.startTime == 0 ?
+    'now' :
+    'in ' + this.questionData.startTime + ' weeks';
+  let NowString = this.questionData.startTime == 0 ?
+    'Now' :
+    'in ' + this.questionData.startTime + ' Weeks';
+
+  trialHeader.innerHTML = this.trialInfo.header(
+    NowString, 
+    weekWord, 
+    this.questionData.endTime
+  );
+  trialContent.innerHTML = this.trialInfo.content(
+    nowString, 
+    this.questionData.endTime
+  );
+
+  let leftGap = 1;
+  let middleGap = 2;
+  let rightGap = 1;
+
+  let timeLineRowTop = this.generateTimelineRow(
+    leftGap, rightGap,
+    this.questionData.startTime, this.questionData.endTime
+  );
+  tableContainer.appendChild(timeLineRowTop);
+
+  for (let i = 0; i <= config.levelCount; i++) {
+    let isSep = (i == 0);
+    let phRow = this.generatePlaceholderRow(i, isSep, leftGap);
+    let dataRow = this.generateDataRow(i + 1, middleGap);
+
+    tableContainer.appendChild(phRow);
+    tableContainer.appendChild(dataRow);
+  }
+
+  let timeLineRowBottom = this.generateTimelineRow(
+    leftGap, rightGap,
+    this.questionData.startTime, this.questionData.endTime
+  );
+  tableContainer.appendChild(timeLineRowBottom);
+
+  // this.isValidated = false;
+
+  const containerSelector = '#snappable';
+  const containers = document.querySelectorAll(containerSelector);
+
+  const swappable = new Draggable.Swappable(containers, {
+    mirror: {
+      appendTo: containerSelector,
+      constrainDimensions: true
+    },
+    plugins: [Draggable.Plugins.Snappable],
+  });
+
+  let self = this;
+  swappable.on('drag:stop', (evt) => {
+    setTimeout(self.updateSeparator.bind(this), 100);
+    if (evt.originalSource.classList.contains('Block--typeStripes')) {
+      evt.cancel();
+    }
+    // self.isValidated = true;
+    isValidated = true;
+  });
+  this.updateSeparator();
+};
+
+// QuestionManager.prototype.css
+
+QuestionManager.prototype.trialInfo = {
+  header: function (nowOrIn, weekAsWord, endTime) {
+    let setNum = 'Set ' + weekAsWord + ': ';
+    let drawNow = 'Draw ' + nowOrIn + ' or ';
+    let drawLate = 'Draw in ' + endTime + ' Weeks';
+
+    let triHead = setNum + drawNow + drawLate + '<br><br>';
+    return triHead;
+  },
+  content: function (nowOrIn, endTime) {
+    let slideUse = 'Use the slider to show in which rows you prefer the draw ';
+    let prefNow = nowOrIn + ' and in which rows you prefer the draw in ';
+    let prefLate = endTime + ' weeks. '
+    let greenMeans = 'The number highlighted in green indicates the number of tickets in your chosen prize draw in each row. ';
+
+    let triCon = slideUse + prefNow + prefLate + greenMeans + '<br><br>';
+    return triCon;
+  }
+}
+
+QuestionManager.prototype.addEmptyCell = function (rowElement, n) {
+  let newTd;
+  for (let i = 0; i < n; i++) {
+    newTd = addCustomElement('td', { className: 'gapCell' });
+    rowElement.appendChild(newTd);
+  }
+}
+
+QuestionManager.prototype.generateDataRow = function (idx, middleGap) {
+  let edgeCase = !(idx < config.levelCount + 1);
+
+  let attrs = { spanLab_attr: {}, spanL_attr: {}, spanR_attr: {} };
+  let { spanLab_attr, spanL_attr, spanR_attr } = attrs;
+  if (!edgeCase) {
+    spanLab_attr = { id: 'choiceLab', innerHTML: 'Choice ' + idx + ':' };
+    spanL_attr = { id: 'l-data-' + idx, innerHTML: lAmounts[idx - 1] };
+    spanR_attr = { id: 'r-data-' + idx, innerHTML: this.questionData.amount2 };
+  }
+
+  let rowElement = document.createElement('tr');
+  //this.addEmptyCell(rowElement, leftGap);
+  let tdLab = addCustomElement('td', { className: 'td-lab' });
+  let spanLab = addCustomElement('span', spanLab_attr);
+
+  tdLab.appendChild(spanLab);
+  rowElement.appendChild(tdLab);
+
+  // TD-left
+  let tdataL = document.createElement('td');
+  let spanL = addCustomElement('span', spanL_attr);
+  tdataL.appendChild(spanL);
+  rowElement.appendChild(tdataL);
+
+  // GAP
+  this.addEmptyCell(rowElement, middleGap + 1);
+
+  // TD-right
+  let tdataR = document.createElement('td');
+  let spanR = addCustomElement('span', spanR_attr);
+  tdataR.appendChild(spanR);
+  rowElement.appendChild(tdataR);
+
+  return rowElement;
+};
+
+QuestionManager.prototype.__getTimeTableData = function (timeInWeeks, side) {
+  let tdAttrs;
+  let startTime = this.questionData.startTime;
+
+  if (timeInWeeks != -1) {
+    let sideContent = side == 'L' ?
+      timing.earlyStyle(startTime) :
+      timing.lateStyle(timeInWeeks)
+      tdAttrs = {
+        className: 'convexTime',
+        innerHTML: 'Prize Draw <br>' + '<b>' + sideContent + '</b>'
+      };
+  } else {
+    tdAttrs = { className: 'vs', innerHTML: 'or' };
+  }
+
+  let tabDat = addCustomElement('td', tdAttrs);
+  return tabDat;
+}
+
+QuestionManager.prototype.generateTimelineRow = function (leftGap, rightGap, start, end) {
+  // Note: `middleGap - 1` === 1
+  let rowElement = document.createElement('tr');
+
+  // LEFT GAP
+  this.addEmptyCell(rowElement, leftGap);
+  // START TIME
+  let tdata1 = this.__getTimeTableData(start, 'L');
+  rowElement.appendChild(tdata1);
+  // MIDDLE GAP
+  this.addEmptyCell(rowElement, 1);
+  // VS
+  let textVersus = this.__getTimeTableData(-1, 'M');
+  rowElement.appendChild(textVersus);
+  // MIDDLE GAP
+  this.addEmptyCell(rowElement, 1);
+  // END TIME
+  let tdata2 = this.__getTimeTableData(end, 'R');
+  rowElement.appendChild(tdata2);
+  // RIGHT GAP
+  this.addEmptyCell(rowElement, rightGap);
+
+  return rowElement;
+}
+
+QuestionManager.prototype.generatePlaceholderRow = function (idx, separator = false, leftGap) {
+
+  let rowElement = document.createElement('tr');
+  this.addEmptyCell(rowElement, leftGap);
+
+  let spanAttrs = separator ?
+    { id: 'separator', className: 'Block Block--isDraggable draggable-source separator' } :
+    { id: 'placeholder-' + idx, className: 'Block draggable-source draggable-holder' };
+
+  let tdata = addCustomElement('td', { colSpan: config.maxRightColumns });
+  let placeholderDiv = addCustomElement('div', { id: 'holder-' + idx, className: 'holder' });
+  let placeholderSpan = addCustomElement('span', spanAttrs);
+
+  rowElement.appendChild(tdata);
+  tdata.appendChild(placeholderDiv);
+  placeholderDiv.appendChild(placeholderSpan);
+
+  return rowElement;
+};
+
+QuestionManager.prototype.findSeparatorPosition = function () {
+  let currentPos = -1;
+  const num_amounts = config.levelCount;
+  for (let i = 0; i <= num_amounts + 1; i++) {
+    if (document.querySelector('#holder-' + i.toString() + ' #separator') != null) {
+      currentPos = i;
+      break;
+    }
+  }
+  return currentPos;
+}
+
+QuestionManager.prototype.getResponseSelection = function () {
+  let currentPos = this.findSeparatorPosition();
+  const num_amounts = config.levelCount;
+  // const startAmount = this.questionData.amount1;
+  // const endAmount = this.questionData.amount2;
+  if (currentPos < num_amounts) {
+    return {
+      keep: (lAmounts[currentPos]),
+      //save: (num_amounts - currentPos) * startAmount,
+      //receive: (num_amounts - currentPos) * endAmount,
+      position: currentPos
+    };
+  } else {
+    return {
+      keep: 246,
+      position: currentPos
+    };
+  }
+}
+
+QuestionManager.prototype.getSeparatorText = function (notLast, keepNum) {
+  function boldOpen(col) {
+    return '<b style="color: ' + col + ';">'
+  }
+  let boldClose = '</b>';
+  let tix = ' tickets ';
+
+  let startTime = this.questionData.startTime;
+  let endTime = this.questionData.endTime;
+
+  let timings = [
+    timing.earlyStyle(startTime),
+    timing.lateStyle(endTime)
+  ];
+  timings = notLast ? timings : timings.reverse();
+  let extraStyles = notLast ? { open: '', close: '' } : { open: '<u><b>', close: '</b></u>' };
+  timings = timings.map((t) => extraStyles.open + t + extraStyles.close);
+
+  let iPref = ' I prefer ';
+  let earlyVal = boldOpen('green') + (notLast ? keepNum.toString() : 242) + boldClose;
+  let mobileBreak = '<br class="mobile-break">' + ' to ';
+  let lateVal = notLast ? 242 : boldOpen('grey') + 244 + boldClose;
+
+  let prefText =
+    iPref +
+    earlyVal + tix + timings.at(0) +
+    mobileBreak +
+    lateVal + tix + timings.at(1);
+  return prefText;
+}
+
+QuestionManager.prototype.updateSeparator = function () {
+  const num_amounts = config.levelCount;
+  const responseSelection = this.getResponseSelection();
+  const currentPos = responseSelection.position;
+  const currentKeep = responseSelection.keep;
+
+  let textTable = addCustomElement('table', { id: 'separatorTable' })
+  let trow = document.createElement('tr');
+  textTable.appendChild(trow);
+
+  let tdataText = this.getSeparatorText(currentPos < num_amounts, currentKeep);
+  let tdata = addCustomElement('td', { innerHTML: tdataText });
+  trow.appendChild(tdata);
+
+  let sep = document.getElementById('separator');
+  sep.firstChild ?
+    sep.replaceChild(textTable, sep.firstChild) :
+    sep.appendChild(textTable);
+
+  for (let i = 1; i <= currentPos; i++) {
+    document.getElementById('l-data-' + i.toString()).className = 'dataPicked'; //grey
+    document.getElementById('r-data-' + i.toString()).className = 'dataLeft'; //green
+  }
+  for (let i = currentPos + 1; i <= num_amounts; i++) {
+    document.getElementById('r-data-' + i.toString()).className = 'dataPicked'; //grey
+    document.getElementById('l-data-' + i.toString()).className = 'dataLeft'; //green
+  }
+};
+
+/* Experiment Manager */
+let ExperimentManager = function (questionInfo) {
+  this.questionInfo = questionInfo;
+  this.startTime = new Date();
+  this.questionIter = 0;
+  this.questionManager = null;
+  this.mainContainer = null;
+  this.trialContainer = null;
+  this.trialContentContainer = null;
+  this.nextContainer = null;
+  this.responseStore = new ResponseStore();
+}
+
+ExperimentManager.prototype.init = function () {
+  setTimeout(() => jQuery('#NextButton').hide(), 1);
+
+  let questionContainer = document.getElementById('questionOuter');
+  this.mainContainer = createDivById('convexContainer');
+  this.trialContainer = createDivById('trialContainer');
+  // this.nextContainer = createDivById('nextButtonContainer');
+  // this.deepNextButton = addCustomElement('button', {
+  //   id: 'DEEP-next-button',
+  //   innerHTML: 'Next'
+  // });
+
+  this.nextContainer = addCustomElement('div', {
+    id: 'nextButtonContainer',
+    innerHTML: '<button id="DEEP-next-button">Next</button>'
+  });
+
+  // jQuery(questionContainer).after(this.mainContainer);
+  questionContainer.appendChild(this.mainContainer);
+  this.mainContainer.appendChild(this.trialContainer);
+  this.mainContainer.appendChild(this.nextContainer);
+  // this.nextContainer.appendChild(this.deepNextButton);
+
+  let self = this;
+  jQuery('#nextButtonContainer').click(function () {
+    self.handleCustomNextButtonClick();
+  });
+}
+
+ExperimentManager.prototype.handleCustomNextButtonClick = function () {
+  console.log('Handle next button handler');
+  let trialResponse = this.questionManager.getResponseSelection();
+  if (isValidated == false) {
+    window.alert("***Please interact with the yellow bar*** \n \n(If you prefer 202 tickets sooner to 242 tickets later, you can drag the bar and place it back at it's original location)")
+  } else {
+    // this.responseStore.updateResponse(this.questionManager.questionData.choiceId, trialResponse.keep);
+    this.responseStore.updateResponse(trialResponse.keep);
+    this.questionIter++;
+    isValidated = false;
+    //jQuery('#DEEP-next-button').hide(); //*****
+    //setTimeout(() => jQuery('DEEP-next-button').show(), 10000);
+    this.handleNextQuestion();
+  }
+}
+
+ExperimentManager.prototype.handleExperimentCompletion = function () {
+  console.log('Experiment Completed');
+  this.responseStore.saveDataToValue();
+  setTimeout(() => jQuery('#NextButton').show(), 0);
+}
+
+ExperimentManager.prototype.handleNextQuestion = function () {
+  if (this.questionIter == (this.questionInfo.questions.length)) {
+    jQuery('#NextButton').show();
+    this.handleExperimentCompletion();
+    return;
+  } else {
+    //jQuery('DEEP-next-button').hide(); //*****
+
+    jQuery('#NextButton').hide();
+  }
+
+  if (this.questionManager != null) {
+    console.log('Removing console container');
+    this.trialContentContainer.remove();
+    this.trialContentContainer = null;
+    this.questionManager = null;
+  }
+
+  window.scrollTo(0, 0);
+
+  // Temporary div for a separate question which will be recycled for each trial
+  this.trialContentContainer = createDivById('questionContainer');
+  this.trialContainer.appendChild(this.trialContentContainer);
+
+  let questionData = this.questionInfo.questions[this.questionIter];
+  this.questionManager = new QuestionManager(
+    this.questionIter,
+    questionData,
+    this.trialContentContainer
+  );
+  this.questionManager.init();
+}
+  window.onload = (event) => {
+let em = new ExperimentManager(questionaire);
+em.init();
+em.handleNextQuestion();
+
+jQuery('#DEEP-next-button').hide();
+setTimeout(() => jQuery('#DEEP-next-button').show(), 3 * 1000);
+  }
+</script>

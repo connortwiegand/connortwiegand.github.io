@@ -1,0 +1,33 @@
+---
+title: 'MLL Demo'
+date: 2024-09-06
+categories:
+  - research
+  - mll
+  - tvtp
+format:
+  html:
+    css: _demo-css.css
+    include-in-header: 
+      - ./_demo-script.html
+---
+
+
+## Blurb
+
+Below is a demo of the survey tool used in [Time-Varying Time Preferences](proj/research-pages/tvtp). The code was originally written entirely in JavaScript for Qualtrics, so I rewrote some pieces to make it portable (e.g., to here). Other than that and some additional tidying up, I've tried to keep things as close to how they were in the study as possible. 
+
+:::{#questionOuter}
+
+:::
+
+This allows for one to elicit many binary choice preferences at once. Compare this to a Holt-Laury, where a subject would be clicking away at radio buttons until their mind went numb^[22 binary choices $\times$ 5 back-end delays $\times$ 2 front-end delays = 220 choices]...or they just quit your study. One minor cost to this leap in efficiency is the enforcement of a single-switching property for subjects' preferences^[preferring 210 tickets today to 242 in the future also implies preferring 212 tickets today to 242 in the future.]. In the context of our study and the choices offered, this assumption is already not a far stretch of the mind, but economists will also recognize the benefits of this assumption for practical time-preference analysis. 
+
+Even with this ease of use, subjects can get bored and check out. We incentivize truthful responses using a "lottery of lotteries". In addition to encouraging agents to answer the questions honestly and thoughtfully, this also helps keeps the per-subject cost down. Each (regular) week, we asked participants to fill out 10 of these surveys. The lottery mechanism is as follows: 
+
+- Each week, there is one row [choice] that actually matters, selected uniformly at random idiosyncratically across agents
+
+- A coin toss determines whether, for the given choice, there will be a drawing in the sooner date (e.g. 'today') or at the later date. 
+
+- 
+
