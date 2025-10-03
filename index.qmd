@@ -73,7 +73,7 @@ I am a research economist from the University of Oregon working in behavioral an
 [Click below for more information about my consulting services and contract work. For rates, please [inquire](mailto:cwiegand@uoregon.edu).]{.card-text}
 
 :::{.flex-buttons-end}
-[Click Here](/for-hire/index.qmd){.btn .btn-primary}
+[Click Here](/hire-me/index.qmd){.btn .btn-primary}
 :::
 
 :::

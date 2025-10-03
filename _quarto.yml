@@ -49,8 +49,8 @@ website:
             href: resources/tools/index.qmd
           - text: Guides & Tips
             href: resources/guides-tips/index.qmd
-          - text: For Hire
-            href: for-hire/index.qmd
+          - text: Hire Me!
+            href: hire-me/index.qmd
           - text: Other Resources
             href: resources/misc/index.qmd
       # - [Theming Button]

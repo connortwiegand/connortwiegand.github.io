@@ -11,7 +11,7 @@ title: Resources
 ### [Other Resources](/resources/misc/index.qmd)
 
 
-### [For Hire](/for-hire/index.qmd)
+### [Hire Me!](/hire-me/index.qmd)
 
 
 
