@@ -1,101 +1,31 @@
 [
   {
-    "objectID": "skills/index.html",
-    "href": "skills/index.html",
-    "title": "Skills",
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Vitae",
     "section": "",
-    "text": "Software\nFrameworks include:\nConcepts include:\nFocuses include:\nI work primarily in R. However, I do have some intermediate experience in Python. This includes familiarity with\nQuarto is my tool of choice for document processing, through Pandoc, it allows for a wide range of input and output formats. This allows for convenient formatting and flexible output, including - HTML (this website!) - Technical documents in PDF format (via LaTeX or Typst) - Presentations (via MS PowerPoint and reveal.js)\nModern HTML frameworks and principals, including - Bootstrap 5 - Jekyll (using Ruby + Liquids) - Hugo (using Go) - Web-Quarto - Django (through oTree) - CSS and SCSS/Sass, practice writing DRY code - Working with SVG images\nExtensive use of jQuery as well as vanilla JS in DOMs\nFamiliarity with - Node.js - Typescript\nOther training specializations: Macroecnomics, Monetary Policy, Developmental Economics, Environmental Economics, Cost-Benefit Analysis"
+    "text": "A copy of my resume1 as well as my CV2 are available to download below."
   },
   {
-    "objectID": "skills/index.html#footnotes",
-    "href": "skills/index.html#footnotes",
-    "title": "Skills",
+    "objectID": "cv/index.html#footnotes",
+    "href": "cv/index.html#footnotes",
+    "title": "Vitae",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nMy first computer science class in college was an accelerated course in Java↩︎\nRandomized Control Trials↩︎\nOrdinary Least Squares↩︎"
+    "text": "Footnotes\n\n\nOne page, suitable for hiring managers and related private-sector personnel↩︎\nCurriculum Vitae: An extensive, multi-page record of my academic accomplishments↩︎"
   },
   {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "More About Me",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
     "section": "",
-    "text": "I am currently at the end of my Ph.D. program at the University of Oregon and am looking to start my career in economics, data science, or tech.\nWhile in high school, I participated in the Running Start program, which allowed me to get my A.A. degree at the same time while I was in high school. I would highly recommend the Running Start program if it’s available in your state, and would love to chat more about it if you know someone who is interested.\nGetting my associates degree so early allowed me to jump right in to my undergraduate program at the University of Washington in Seattle. In just three years, I was able to earn a double major in Mathematics and Economics. While there, I took accelerated honors courses in both Real Analysis and Computer Science, attained Honor Roll1 across multiple terms, and took the Core Ph.D. Microeconomics sequence during my final undergraduate year.\n\n\n\nI was born and raised in the Pacific Northwest (specifically: Bellingham, WA). In addition to regular trips up to British Columbia, I’ve traveled to some really cool places! I’ve been on both coasts of Mexico, visited Banff National Park in Alberta, and experienced some amazing culture in Europe (Spain, France, Italy) as well as the Caribbean (Jamaica, Barbados, The Bahamas, Key West).\n\n\n\nI’ve always enjoyed a wide assortment of games – whether they be video, board, word, etc. Today, that looks like board games such as Bananagrams and Ticket to Ride as well as digital titles like Elden Ring and Baldur’s Gate. I’m also a big fan of Geoguessr and NYT’s Connections. In the past, I’ve had some good runs playing Magic: The Gathering, Team-based and Battle-Royale-style FPSs, platformers from the Mario franchise as well as other Nintendo classics such as Mario Kart, and (like many) Pokemon Go.\nGrowing up in the Pacific Northwest, I value a good hike with nice views. I also enjoy simply going for walks around my neighborhood with my wife and being able to bike to work on weather-permitting days. In my younger years, I loved snowboarding at Mt. Baker, and I would love to pick this pastime up again in the future once my educational career is finished.\nThis year, my wife and I began fostering kittens through an amazing local organization in Eugene. I’ve recently resumed playing guitar, an activity I started in grade school after moving on from the cello. Additionally, I am an avid coffee drinker and so-called “foodie”. Whether it be random trivia, a new programming framework, a language, or a subject I never got around to in school, I simply love to learn new things 2."
+    "text": "I am a research economist from the University of Oregon working in behavioral and experimental economics, game theory, and data science. My research includes out-of-the-lab experiments which reveal longitudinal time preferences and strategic behavior in the presence of Artificial Intelligence. More broadly, I am interested in designing experiments, extracting practical information from the data they generate, and modeling key economic behaviors using a modern microeconomic theory.\nSite Highlights\n\n\n\n\n \nIf you are a hiring manager\nor are interested in my technical abilities,\n\nGlance at my skills\nView my resume\n\n\n\n\n\n\n\n \nTo learn more about my research\nand topics I am interested in\n\nClick Here\n\n\n\n\n\n\n\n \nI’m available to work!\nClick below for more information about my consulting services and contract work. For rates, please inquire (cwiegand at uoregon dot edu).\n\nClick Here\n\n\n\n\n\n\n\n \nCheck out the Resources tab\nfor tools that I use, credits for the site, and other fun goodies\n\nClick Here"
   },
   {
-    "objectID": "about/index.html#footnotes",
-    "href": "about/index.html#footnotes",
-    "title": "More About Me",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nAKA Dean’s List↩︎\nIt makes sense that I married a teacher, right?↩︎"
-  },
-  {
-    "objectID": "resources/misc/index.html",
-    "href": "resources/misc/index.html",
-    "title": "More Resources",
+    "objectID": "resources/index.html",
+    "href": "resources/index.html",
+    "title": "Resources",
     "section": "",
-    "text": "Cats\nBelow is our first group of fosters. We got the mother, Olive, about a few weeks before she gave birth to her second litter of 5 beautiful kittens.\n\n[Mama] OliveMartiniTapenadePimentoKalamataGarlic-StuffedFamily Photos\n\n\n \n\n\n\n\n\n\n \n\n\n \n\n\n  \n\n\n  \n\n\n        \n\n\n\nThanks\n\nFavicon made with https://favicon.io/ and Photopea\n\nFont: Leckerli One\n\nSite built with Quarto\n\nExtensions: see here"
-  },
-  {
-    "objectID": "resources/guides-tips/index.html",
-    "href": "resources/guides-tips/index.html",
-    "title": "Guides & Tips",
-    "section": "",
-    "text": "This page is still under construction. Check back again soon!"
-  },
-  {
-    "objectID": "not-a-blog/posts/Jun/blog-post-0.html",
-    "href": "not-a-blog/posts/Jun/blog-post-0.html",
-    "title": "Blog Post number 1",
-    "section": "",
-    "text": "This is a sample blog post. Lorem ipsum I can’t remember the rest of lorem ipsum and don’t have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.\nHeadings are cool\nYou can have many headings\nAren’t headings cool?"
-  },
-  {
-    "objectID": "proj/index.html",
-    "href": "proj/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Fields of Interest\nWithin economics, my research interests include behavioral, game theory, and data science applications. Outside of economics, there isn’t a lot that doesn’t interest me. Linguistics, computer science, and pure mathematics are domains that I have been consistently interested in over the years."
-  },
-  {
-    "objectID": "proj/index.html#footnotes",
-    "href": "proj/index.html#footnotes",
-    "title": "Projects",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nTop level classification of regions within a nation-state. E.g. States, Provinces Oblasts, etc.↩︎"
-  },
-  {
-    "objectID": "proj/research-pages/trust/index.html",
-    "href": "proj/research-pages/trust/index.html",
-    "title": "Does AI Facilitate Trust? An Experimental Study",
-    "section": "",
-    "text": "Download Draft \nRecommended citation: Bivins et al. (WP). \"Does AI Facilitate Trust? An Experimental Study.\" WP.\nAbstract\nIn this study, we experimentally explore the impact of AI as a supportive tool for players in a two-player trust game. The game begins with the trustee sending a message to the trustor. In certain scenarios, the trustee is aided by the large language model (LLM) ChatGPT in composing this message. In other scenarios, the trustor uses AI to interpret the message from the trustee, or both players may have access to AI assistance. Our findings indicate that when the trustee utilizes AI as a helper, it enhances cooperation with the trustor. Interestingly, this improvement in cooperation is not attributed to AI’s superior messaging skills. Instead, when the trustee has AI assistance, it may encourage the trustor to scrutinize the trustee’s message more closely. The detailed scrutiny by the trustor, and potentially the trustee’s awareness of this scrutiny, aligns the beliefs of the trustor and the trustee, thereby fostering an environment that encourages the development of trust.\nFull Paper"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "In addition to standard grading/TA positions completed through a PhD program, I have taught university-level economics courses as a full instructor. A course catalog from the University of Oregon’s economics department can be found here1.\nCourse materials which are not on Github are available upon request."
-  },
-  {
-    "objectID": "teaching/index.html#footnotes",
-    "href": "teaching/index.html#footnotes",
-    "title": "Teaching",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nGenerally speaking, the 1XX – 6XX course numbers are used to denote courses at the Freshman/ Sophomore/ Junior/ Senior/ Masters/ PhD level, respectively↩︎"
-  },
-  {
-    "objectID": "proj/research-pages/tvtp/index.html",
-    "href": "proj/research-pages/tvtp/index.html",
-    "title": "Time-Varying Time Preferences",
-    "section": "",
-    "text": "Download Draft \nRecommended citation: Holloway et al. (WP). \"Time-Varying Time Preferences.\" WP.\nAbstract\nDynamic inconsistency in intertemporal choice has long been considered a hallmark of non-exponential discounting. Recent work has challenged this view from a variety of perspectives, including the view that time variance –shifting preferences between measurement dates– can also explain apparent preference reversals. While a nascent literature identifies time-variance and demonstrates its role in explaining time-inconsistency, we lack both a model that allows time-variance to tractably interact with other properties of time preference, and a longitudinal study of sufficient depth to identify such a model. In this paper, we develop the ``nested exponential’’ discount function which is general with respect to time-invariance, time-consistency, and stationarity. The function nests both exponential discounting and a version of present-biased discounting within its parameter space, enabling transparent model selection at both the aggregate and subject levels. We evaluate time-invariance and the performance of the nested exponential model in a 12-week longitudinal study featuring seven surveys. Our elicitations give us unprecedented precision in estimating dynamic inconsistency, non-stationarity, and time-variance. We find that subjects in our study exhibit significant decreasing patience over the course of the study, and that time-variance explains roughly 72% of time-inconsistent choices in our data. This does not mean our data are best-explained by exponential discounting plus preference drift: hyperbolicity is a key feature of our data, and it is well captured by the nested exponential function.\nFull Paper"
-  },
-  {
-    "objectID": "not-a-blog/index.html",
-    "href": "not-a-blog/index.html",
-    "title": "Not-a-Blog",
-    "section": "",
-    "text": "This isn’t a blog\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n     \n  \n\n\n\n\n\n\n\n\n\nBlog Post number 1\n\n\n\n\n\n\ncool posts\n\n\ncategory1\n\n\ncategory2\n\n\n\n\n\n\n\n\n\nJun 25, 2024\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Tools I Use\nGuides to Those Tools (Coming Soon!)\nOther Resources\nHire Me!"
   },
   {
     "objectID": "resources/tools/index.html",
@@ -112,38 +42,94 @@
     "text": "Footnotes\n\n\n“Quarto Markdown”↩︎\nor any typst file for that matter↩︎\nUbuntu’s default package manager↩︎"
   },
   {
-    "objectID": "resources/index.html",
-    "href": "resources/index.html",
-    "title": "Resources",
+    "objectID": "proj/research-pages/tvtp/index.html",
+    "href": "proj/research-pages/tvtp/index.html",
+    "title": "Time-Varying Time Preferences",
     "section": "",
-    "text": "Tools I Use\nGuides to Those Tools (Coming Soon!)\nOther Resources\nFor Hire"
+    "text": "Download Draft \nRecommended citation: Holloway et al. (WP). \"Time-Varying Time Preferences.\" WP.\nAbstract\nDynamic inconsistency in intertemporal choice has long been considered a hallmark of non-exponential discounting. Recent work has challenged this view from a variety of perspectives, including the view that time variance –shifting preferences between measurement dates– can also explain apparent preference reversals. While a nascent literature identifies time-variance and demonstrates its role in explaining time-inconsistency, we lack both a model that allows time-variance to tractably interact with other properties of time preference, and a longitudinal study of sufficient depth to identify such a model. In this paper, we develop the ``nested exponential’’ discount function which is general with respect to time-invariance, time-consistency, and stationarity. The function nests both exponential discounting and a version of present-biased discounting within its parameter space, enabling transparent model selection at both the aggregate and subject levels. We evaluate time-invariance and the performance of the nested exponential model in a 12-week longitudinal study featuring seven surveys. Our elicitations give us unprecedented precision in estimating dynamic inconsistency, non-stationarity, and time-variance. We find that subjects in our study exhibit significant decreasing patience over the course of the study, and that time-variance explains roughly 72% of time-inconsistent choices in our data. This does not mean our data are best-explained by exponential discounting plus preference drift: hyperbolicity is a key feature of our data, and it is well captured by the nested exponential function.\nFull Paper"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome",
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
     "section": "",
-    "text": "I am a research economist from the University of Oregon working in behavioral and experimental economics, game theory, and data science. My research includes out-of-the-lab experiments which reveal longitudinal time preferences and strategic behavior in the presence of Artificial Intelligence. More broadly, I am interested in designing experiments, extracting practical information from the data they generate, and modeling key economic behaviors using a modern microeconomic theory.\nSite Highlights\n\n\n\n\n \nIf you are a hiring manager\nor are interested in my technical abilities,\n\nGlance at my skills\nView my resume\n\n\n\n\n\n\n\n \nTo learn more about my research\nand topics I am interested in\n\nClick Here\n\n\n\n\n\n\n\n \nI’m available to work!\nClick below for more information about my consulting services and contract work. For rates, please inquire (cwiegand at uoregon dot edu).\n\nClick Here\n\n\n\n\n\n\n\n \nCheck out the Resources tab\nfor tools that I use, credits for the site, and other fun goodies\n\nClick Here"
+    "text": "In addition to standard grading/TA positions completed through a PhD program, I have taught university-level economics courses as a full instructor. A course catalog from the University of Oregon’s economics department can be found here1.\nCourse materials which are not on Github are available upon request."
   },
   {
-    "objectID": "cv/index.html",
-    "href": "cv/index.html",
-    "title": "Vitae",
-    "section": "",
-    "text": "A copy of my resume1 as well as my CV2 are available to download below."
-  },
-  {
-    "objectID": "cv/index.html#footnotes",
-    "href": "cv/index.html#footnotes",
-    "title": "Vitae",
+    "objectID": "teaching/index.html#footnotes",
+    "href": "teaching/index.html#footnotes",
+    "title": "Teaching",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nOne page, suitable for hiring managers and related private-sector personnel↩︎\nCurriculum Vitae: An extensive, multi-page record of my academic accomplishments↩︎"
+    "text": "Footnotes\n\n\nGenerally speaking, the 1XX – 6XX course numbers are used to denote courses at the Freshman/ Sophomore/ Junior/ Senior/ Masters/ PhD level, respectively↩︎"
   },
   {
-    "objectID": "for-hire/index.html",
-    "href": "for-hire/index.html",
-    "title": "For Hire",
+    "objectID": "hire-me/index.html",
+    "href": "hire-me/index.html",
+    "title": "Hire Me!",
     "section": "",
-    "text": "Potential Employers\nI am currently looking for full time work in the broad fields of Data Science and Economics. Check out my resume and send me an email (cwiegand-@-uoregon-dot-edu) if you are interested and want to open up a conversation!\nConsulting & Contract Work\nIf you are in need of a PhD economist – specifically one who specializes in game theory, behavioral economics, or consumer choice theory – I am available for consulting work and my rate is negotiable. I’d love to chat, just send me an email (cwiegand at ureogon dot edu).\nAdditionally, if you are looking for an economics litigation consultant, my rate is fair, negotiable, and I encourage you to reach out.\nIf email is not your preferred mode of communication, check out my linkedin."
+    "text": "Potential Employers\nI am currently looking for full time work in the broad fields of Data Science and Economics. Check out my resume and send me an email (cwiegand-at-uoregon-dot-edu) if you are interested and want to open up a conversation!\nConsulting & Contract Work\nIf you are in need of a PhD economist – specifically one who specializes in game theory, behavioral economics, and consumer choice theory – I am available for consulting work. My rate is negotiable but starts at $75/hr. I’d love to chat, just send me an email (cwiegand at ureogon dot edu).\nAdditionally, if you are looking for an economics litigation consultant, I encourage you to reach out. I am looking to expand this part of my portfolio, so my hourly rate is currently flexible negotiable.\nIf email is not your preferred mode of communication, check out my linkedin.\nTutoring\nI am currently available to tutor economics undergraduates for all levels of microeconomics and game theory. If you have tutoring needs outside of this, such as introductory macro or even calculus, please reach out. My tutoring rate starts at $50/hr."
+  },
+  {
+    "objectID": "proj/research-pages/trust/index.html",
+    "href": "proj/research-pages/trust/index.html",
+    "title": "Does AI Facilitate Trust? An Experimental Study",
+    "section": "",
+    "text": "Download Draft \nRecommended citation: Bivins et al. (WP). \"Does AI Facilitate Trust? An Experimental Study.\" WP.\nAbstract\nIn this study, we experimentally explore the impact of AI as a supportive tool for players in a two-player trust game. The game begins with the trustee sending a message to the trustor. In certain scenarios, the trustee is aided by the large language model (LLM) ChatGPT in composing this message. In other scenarios, the trustor uses AI to interpret the message from the trustee, or both players may have access to AI assistance. Our findings indicate that when the trustee utilizes AI as a helper, it enhances cooperation with the trustor. Interestingly, this improvement in cooperation is not attributed to AI’s superior messaging skills. Instead, when the trustee has AI assistance, it may encourage the trustor to scrutinize the trustee’s message more closely. The detailed scrutiny by the trustor, and potentially the trustee’s awareness of this scrutiny, aligns the beliefs of the trustor and the trustee, thereby fostering an environment that encourages the development of trust.\nFull Paper"
+  },
+  {
+    "objectID": "proj/index.html",
+    "href": "proj/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Fields of Interest\nWithin economics, my research interests include behavioral, game theory, and data science applications. Outside of economics, there isn’t a lot that doesn’t interest me. Linguistics, computer science, and pure mathematics are domains that I have been consistently interested in over the years."
+  },
+  {
+    "objectID": "proj/index.html#footnotes",
+    "href": "proj/index.html#footnotes",
+    "title": "Projects",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nTop level classification of regions within a nation-state. E.g. States, Provinces Oblasts, etc.↩︎"
+  },
+  {
+    "objectID": "resources/guides-tips/index.html",
+    "href": "resources/guides-tips/index.html",
+    "title": "Guides & Tips",
+    "section": "",
+    "text": "Warning\n\n\n\nThis page is still under construction. Check back again soon!"
+  },
+  {
+    "objectID": "resources/misc/index.html",
+    "href": "resources/misc/index.html",
+    "title": "More Resources",
+    "section": "",
+    "text": "Cats\nBelow is our first group of fosters. We got the mother, Olive, about a few weeks before she gave birth to her second litter of 5 beautiful kittens.\n\n[Mama] OliveMartiniTapenadePimentoKalamataGarlic-StuffedFamily Photos\n\n\n \n\n\n\n\n\n\n \n\n\n \n\n\n  \n\n\n  \n\n\n        \n\n\n\nThanks\n\nFavicon made with https://favicon.io/ and Photopea\n\nFont: Leckerli One\n\nSite built with Quarto\n\nExtensions: see here"
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "More About Me",
+    "section": "",
+    "text": "I am currently at the end of my Ph.D. program at the University of Oregon and am looking to start my career in economics, data science, or tech.\nWhile in high school, I participated in the Running Start program, which allowed me to get my A.A. degree at the same time while I was in high school. I would highly recommend the Running Start program if it’s available in your state, and would love to chat more about it if you know someone who is interested.\nGetting my associates degree so early allowed me to jump right in to my undergraduate program at the University of Washington in Seattle. In just three years, I was able to earn a double major in Mathematics and Economics. While there, I took accelerated honors courses in both Real Analysis and Computer Science, attained Honor Roll1 across multiple terms, and took the Core Ph.D. Microeconomics sequence during my final undergraduate year.\n\n\n\nI was born and raised in the Pacific Northwest (specifically: Bellingham, WA). In addition to regular trips up to British Columbia, I’ve traveled to some really cool places! I’ve been on both coasts of Mexico, visited Banff National Park in Alberta, and experienced some amazing culture in Europe (Spain, France, Italy) as well as the Caribbean (Jamaica, Barbados, The Bahamas, Key West).\n\n\n\nI’ve always enjoyed a wide assortment of games – whether they be video, board, word, etc. Today, that looks like board games such as Bananagrams and Ticket to Ride as well as digital titles like Elden Ring and Baldur’s Gate. I’m also a big fan of Geoguessr and NYT’s Connections. In the past, I’ve had some good runs playing Magic: The Gathering, Team-based and Battle-Royale-style FPSs, platformers from the Mario franchise as well as other Nintendo classics such as Mario Kart, and (like many) Pokemon Go.\nGrowing up in the Pacific Northwest, I value a good hike with nice views. I also enjoy simply going for walks around my neighborhood with my wife and being able to bike to work on weather-permitting days. In my younger years, I loved snowboarding at Mt. Baker, and I would love to pick this pastime up again in the future once my educational career is finished.\nThis year, my wife and I began fostering kittens through an amazing local organization in Eugene. I’ve recently resumed playing guitar, an activity I started in grade school after moving on from the cello. Additionally, I am an avid coffee drinker and so-called “foodie”. Whether it be random trivia, a new programming framework, a language, or a subject I never got around to in school, I simply love to learn new things 2."
+  },
+  {
+    "objectID": "about/index.html#footnotes",
+    "href": "about/index.html#footnotes",
+    "title": "More About Me",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nAKA Dean’s List↩︎\nIt makes sense that I married a teacher, right?↩︎"
+  },
+  {
+    "objectID": "skills/index.html",
+    "href": "skills/index.html",
+    "title": "Skills",
+    "section": "",
+    "text": "Software\nFrameworks include:\nConcepts include:\nFocuses include:\nI work primarily in R. However, I do have some intermediate experience in Python. This includes familiarity with\nQuarto is my tool of choice for document processing, through Pandoc, it allows for a wide range of input and output formats. This allows for convenient formatting and flexible output, including - HTML (this website!) - Technical documents in PDF format (via LaTeX or Typst) - Presentations (via MS PowerPoint and reveal.js)\nModern HTML frameworks and principals, including - Bootstrap 5 - Jekyll (using Ruby + Liquids) - Hugo (using Go) - Web-Quarto - Django (through oTree) - CSS and SCSS/Sass, practice writing DRY code - Working with SVG images\nExtensive use of jQuery as well as vanilla JS in DOMs\nFamiliarity with - Node.js - Typescript\nOther training specializations: Macroecnomics, Monetary Policy, Developmental Economics, Environmental Economics, Cost-Benefit Analysis"
+  },
+  {
+    "objectID": "skills/index.html#footnotes",
+    "href": "skills/index.html#footnotes",
+    "title": "Skills",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nMy first computer science class in college was an accelerated course in Java↩︎\nRandomized Control Trials↩︎\nOrdinary Least Squares↩︎"
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/proj/index.html",
+    "listing": "/not-a-blog/index.html",
     "items": []
   },
   {
@@ -8,9 +8,7 @@
     "items": []
   },
   {
-    "listing": "/not-a-blog/index.html",
-    "items": [
-      "/not-a-blog/posts/Jun/blog-post-0.html"
-    ]
+    "listing": "/proj/index.html",
+    "items": []
   }
 ]

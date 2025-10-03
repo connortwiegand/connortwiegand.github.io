@@ -8,7 +8,7 @@
 
 <meta name="author" content="Connor T. Wiegand">
 
-<title>Teaching | Connor T. Wiegand</title>
+<title>Hire Me! | Connor T. Wiegand</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../imgs/favicon.svg" rel="icon" type="image/svg+xml">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -75,101 +73,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-ior-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-number','listing-terms','listing-info','listing-repo_slug',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-number","listing-terms","listing-info","listing-repo_slug"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-ior-listing'] = new List('listing-ior-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-ta-gr-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-number','listing-pos','listing-times',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-title","listing-number","listing-pos","listing-times"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-ta-gr-listing'] = new List('listing-ta-gr-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="Teaching | Connor T. Wiegand">
+<meta property="og:title" content="Hire Me! | Connor T. Wiegand">
 <meta property="og:description" content="Economist and Data Scientist Ph.D.&nbsp;Candidate from the University of Oregon">
-<meta property="og:image" content="https://ctwie.me/teaching/imgs/bio-photo-1.png">
+<meta property="og:image" content="https://ctwie.me/hire-me/imgs/bio-photo-1.png">
 <meta property="og:site_name" content="Connor T. Wiegand">
-<meta name="twitter:title" content="Teaching | Connor T. Wiegand">
+<meta name="twitter:title" content="Hire Me! | Connor T. Wiegand">
 <meta name="twitter:description" content="Economist and Data Scientist Ph.D.&nbsp;Candidate from the University of Oregon">
-<meta name="twitter:image" content="https://ctwie.me/teaching/imgs/bio-photo-1.png">
+<meta name="twitter:image" content="https://ctwie.me/hire-me/imgs/bio-photo-1.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -361,7 +273,7 @@ window.Quarto = {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../teaching/index.html" aria-current="page"> 
+    <a class="nav-link" href="../teaching/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
@@ -408,7 +320,7 @@ window.Quarto = {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Teaching</h1>
+          <h1 class="quarto-secondary-nav-title">Hire Me!</h1>
         </a>     
     </div>
   </nav>
@@ -482,8 +394,9 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lead-instructor" id="toc-lead-instructor" class="nav-link active" data-scroll-target="#lead-instructor">Lead Instructor</a></li>
-  <li><a href="#ta-grading-positions" id="toc-ta-grading-positions" class="nav-link" data-scroll-target="#ta-grading-positions">TA &amp; Grading Positions</a></li>
+  <li><a href="#potential-employers" id="toc-potential-employers" class="nav-link active" data-scroll-target="#potential-employers">Potential Employers</a></li>
+  <li><a href="#consulting-contract-work" id="toc-consulting-contract-work" class="nav-link" data-scroll-target="#consulting-contract-work">Consulting &amp; Contract Work</a></li>
+  <li><a href="#tutoring" id="toc-tutoring" class="nav-link" data-scroll-target="#tutoring">Tutoring</a></li>
   </ul>
 </nav>
     </div>
@@ -493,7 +406,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Teaching</h1>
+<h1 class="title d-none d-lg-block">Hire Me!</h1>
 </div>
 
 
@@ -510,206 +423,23 @@ window.Quarto = {
 </header>
 
 
-<p>In addition to standard grading/TA positions completed through a PhD program, I have taught university-level economics courses as a full instructor. A course catalog from the University of Oregon’s economics department can be found <a href="https://catalog.uoregon.edu/courses/crs-ec/">here</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
-<p>Course materials which are not on Github are available upon request.</p>
-<h2 id="lead-instructor" class="anchored">Lead Instructor</h2>
-<div id="listing-ior-listing" class="quarto-listing quarto-listing-container-custom">
-<div class="ior">
-<div class="panel-grid ior-card-grid">
-<div class="g-col-24 ior-card">
-<div class="card card-theme">
-<section id="ec-327-introduction-to-game-theory" class="card-body">
-<h4 class="anchored"><span class="card-title course-title">EC 327: Introduction to Game Theory</span></h4>
-<p><span class="course-terms">Terms taught: <em>Summer 2022, Fall 2022, Winter 2023, Spring 2024, Spring 2025</em></span></p>
-<div class="course-info-block">
-<blockquote class="blockquote">
-<p><span class="course-info"><em>Introductory course in game theory. Develops game-theoretic methods of rational decision making and equilibriums, using many in-class active games.</em></span></p>
-</blockquote>
-</div>
-<p><a href="https://github.com/connortwiegand/ec327-sp24" class="course-repo btn btn-primary" target="_blank">Course Repository</a></p>
-</section>
-</div>
-</div>
-<div class="g-col-24 ior-card">
-<div class="card card-theme">
-<section id="ec-427527-games-and-decisions" class="card-body">
-<h4 class="anchored"><span class="card-title course-title">EC 427/527: Games and Decisions</span></h4>
-<p><span class="course-terms">Terms taught: <em>Summer 2023</em></span></p>
-<div class="course-info-block">
-<blockquote class="blockquote">
-<p><span class="course-info"><em>Game-theoretic methods of decision-making. Topics may include extensive-form games, noncredible threats, subgame perfect equilibrium, strategic-form games, undominated strategies, Nash equilibrium, coalitional games, and the core.</em></span></p>
-</blockquote>
-</div>
-</section>
-</div>
-</div>
-<div class="g-col-24 ior-card">
-<div class="card card-theme">
-<section id="ec-201-introductory-microeconomics" class="card-body">
-<h4 class="anchored"><span class="card-title course-title">EC 201: Introductory Microeconomics</span></h4>
-<p><span class="course-terms">Terms taught: <em>Fall 2021</em></span></p>
-<div class="course-info-block">
-<blockquote class="blockquote">
-<p><span class="course-info"><em>Examines how consumers, firms, and governments make decisions when facing scarce resources and how those decisions affect market outcomes, such as prices and output.</em></span></p>
-</blockquote>
-</div>
-<p><a href="https://github.com/connortwiegand/EC-201-Fa21-UO" class="course-repo btn btn-primary" target="_blank">Course Repository</a></p>
-</section>
-</div>
-</div>
-<div class="g-col-24 ior-card">
-<div class="card card-theme">
-<section id="ec-311-intermediate-microeconomics" class="card-body">
-<h4 class="anchored"><span class="card-title course-title">EC 311: Intermediate Microeconomics</span></h4>
-<p><span class="course-terms">Terms taught: <em>Summer 2021</em></span></p>
-<div class="course-info-block">
-<blockquote class="blockquote">
-<p><span class="course-info"><em>Consumer and firm behavior, market structures. General equilibrium theory, welfare economics, collective choice, rules for evaluating economic policy.</em></span></p>
-</blockquote>
-</div>
-</section>
-</div>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<h2 id="ta-grading-positions" class="anchored">TA &amp; Grading Positions</h2>
-<div id="listing-ta-gr-listing" class="quarto-listing quarto-listing-container-custom">
-<div class="ta-gr-listing">
-<div class="panel-grid" style="gap: 0em; ">
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 607</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Core (PhD) Econometrics II</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>TA/Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 607</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Core (PhD) Econometrics I</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>TA/Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 421/521</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Econometrics II</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>TA/Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 410/510</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Health and Crime</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 380</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>International Economics</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 370</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Money and Banking</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 340</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Public Economics</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 328</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Behavioral Economics</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 327</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Introductory Game Theory</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>TA/Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 333</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Environmental Economics</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 202</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Introductory Macro</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>TA/Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 201</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Introductory Micro</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>TA/Grader</em></p>
-</div>
-<div class="g-col-5 g-start-1 text-center border-top border-end">
-<p>EC 101</p>
-</div>
-<div class="g-col-14 g-start-6 px-3 border-top">
-<p>Intro to Economic Thinking</p>
-</div>
-<div class="g-col-4 g-start-20 text-end border-top">
-<p><em>Grader</em></p>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<h3 id="potential-employers" class="anchored">Potential Employers</h3>
+<p>I am currently looking for full time work in the broad fields of Data Science and Economics. <a href="../cv/index.html">Check out my resume</a> and send me an email (cwiegand-<em>at</em>-uoregon-<em>dot</em>-edu) if you are interested and want to open up a conversation!</p>
+<h3 id="consulting-contract-work" class="anchored">Consulting &amp; Contract Work</h3>
+<p>If you are in need of a PhD economist – specifically one who specializes in game theory, behavioral economics, and consumer choice theory – I am available for consulting work. My rate is negotiable but starts at $75/hr. I’d love to chat, just <script type="text/javascript">
+<!--
+h='&#x75;&#114;&#x65;&#x6f;&#x67;&#x6f;&#110;&#46;&#x65;&#100;&#x75;';a='&#64;';n='&#x63;&#x77;&#x69;&#x65;&#x67;&#x61;&#110;&#100;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#x73;&#x65;&#110;&#100;&#32;&#x6d;&#x65;&#32;&#x61;&#110;&#32;&#x65;&#x6d;&#x61;&#x69;&#108;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>send me an email (cwiegand at ureogon dot edu)</noscript>.</p>
+<p>Additionally, if you are looking for an economics litigation consultant, I encourage you to reach out. I am looking to expand this part of my portfolio, so my hourly rate is currently flexible negotiable.</p>
+<p>If email is not your preferred mode of communication, <a href="https://www.linkedin.com/in/connor-wiegand">check out my linkedin</a>.</p>
+<h3 id="tutoring" class="anchored">Tutoring</h3>
+<p>I am currently available to tutor economics undergraduates for all levels of microeconomics and game theory. If you have tutoring needs outside of this, such as introductory macro or even calculus, please reach out. My tutoring rate starts at $50/hr.</p>
 
 
 
-
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Generally speaking, the 1XX – 6XX course numbers are used to denote courses at the Freshman/ Sophomore/ Junior/ Senior/ Masters/ PhD level, respectively<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -1137,7 +867,7 @@ window.Quarto = {
  Follow:
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://github.com/connortwiegand">
+    <a class="nav-link active" href="https://github.com/connortwiegand" aria-current="page">
 <p><i class="fa-brands fa-github" aria-label="github"></i> GitHub</p>
 </a>
   </li>  

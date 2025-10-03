@@ -1,1 +1,3 @@
-Sitemap: https://ctwie.me/sitemap.xml
+User-agent: *
+Disallow: /not-a-blog/
+Allow: /
