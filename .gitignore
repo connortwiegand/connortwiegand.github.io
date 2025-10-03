@@ -1,9 +1,10 @@
 /.quarto/
 /_site/
 /.vscode/
-/_local-old-test/
+/_junk-drawer/
 *.template.pdf
 
 # /_jekyll-site/
 # /_old/
 # /_test/
+**/*.quarto_ipynb
