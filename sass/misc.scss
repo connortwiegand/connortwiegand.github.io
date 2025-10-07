@@ -27,6 +27,32 @@ a.proj, a.paper {
   text-decoration: underline;
 }
 
+.quarto-listing-sort .input-group-text {
+  background-color: $body-bg;
+}
+
+.category {
+
+  &:hover {
+    color: $link-color-hover;
+  }
+
+  &.active {
+    color: $link-color;
+    font-style: italic;
+    text-shadow: $link-shadow;
+  }
+}
+
+div.quarto-listing-category {
+  padding-left: 0.75em;
+}
+
+#quarto-margin-sidebar .quarto-listing-category-title {
+  font-size: 1.2rem;
+  text-decoration: underline dotted;
+}
+
 // .btn-xsm {
 //   @extend .btn-sm;
 //   --bs-btn-line-height: 1;
