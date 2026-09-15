@@ -1,11 +1,11 @@
 ---
-title: "Does AI Facilitate Trust? An Experimental Study"
+title: "AI-Assisted Communication, Trust, and Coordination in Human Partnerships: Evidence from a Trust Game Experiment"
 co_auth: 'With [Jiabin Wu](https://sites.google.com/site/jiabinwuecon), [Ethan Holdahl](https://ethanholdahl.com/), and [Tanner Bivins](https://www.tannerbivins.com/)'
 # date: 2023-01-01
 wp: true
 draft_avail: true
 # path: '../_files/trust.pdf'
-r-citation: 'Bivins _et al._ (WP). &quot;Does AI Facilitate Trust? An Experimental Study.&quot; <i>WP</i>.'
+r-citation: 'Bivins _et al._ (WP). &quot;AI-Assisted Communication, Trust, and Coordination in Human Partnerships: Evidence from a Trust Game Experiment.&quot; <i>WP</i>.'
 categories: papers working-papers projects
 
 ---
@@ -16,7 +16,7 @@ Recommended citation: {{< meta r-citation >}}
 
 ## Abstract
 
-In this study, we experimentally explore the impact of AI as a supportive tool for players in a two-player trust game. The game begins with the trustee sending a message to the trustor. In certain scenarios, the trustee is aided by the large language model (LLM) ChatGPT in composing this message. In other scenarios, the trustor uses AI to interpret the message from the trustee, or both players may have access to AI assistance. Our findings indicate that when the trustee utilizes AI as a helper, it enhances cooperation with the trustor. Interestingly, this improvement in cooperation is not attributed to AI's superior messaging skills. Instead, when the trustee has AI assistance, it may encourage the trustor to scrutinize the trustee's message more closely. The detailed scrutiny by the trustor, and potentially the trustee's awareness of this scrutiny, aligns the beliefs of the trustor and the trustee, thereby fostering an environment that encourages the development of trust.
+We experimentally study whether AI-assisted communication facilitates trust between humans in a two-player trust game with communication before play, in which a trustor decides whether to enter a risky interaction and a trustee decides whether to reciprocate. In a 2 x 2 online experiment with 240 Prolific participants from the United States and the United Kingdom, with 30 pairs per condition, we vary whether the trustee receives GPT-3.5-turbo-0613 assistance in composing a message and whether the trustor receives AI assistance in interpreting it. We find limited evidence that AI access, whether provided to the trustor, the trustee, or both, directly changes trustors' entry decisions, trustees' reciprocation decisions, or trustors' beliefs about whether trustees will reciprocate. However, trustee AI assistance changes communication: trustees with AI access are more likely to send promises to reciprocate or requests to enter, while there is suggestive evidence that AI assisted promises are honored less often than self-authored ones. Even so, the frequency of cooperative outcomes, in which the trustor enters and the trustee reciprocates, increases directionally when trustees have access to AI. Taken together, these results point to a possible pair-level coordination effect even when average individual choices and beliefs do not shift strongly. Because the experiment uses 30 pairs per condition and one specific LLM version, the findings should be interpreted with appropriate caution.
 
 
 ## Full Paper

@@ -1,11 +1,11 @@
 ---
-title: "Time-Varying Time Preferences"
+title: "Time-varying Time Preferences"
 co_auth: 'with [Mike Kuhn](https://www.makuhn.net/) and [M. Steven Holloway](https://mstevenholloway.mmm.page/home)'
 # date: 2023-11-03
 wp: true
 draft_avail: true
 # path: 'tvtp.pdf'
-r-citation: "Holloway _et al._ (WP). &quot;Time-Varying Time Preferences.&quot; WP."
+r-citation: "Holloway _et al._ (WP). &quot;Time-varying Time Preferences.&quot; WP."
 categories: papers working-papers projects
 ---
 
@@ -14,7 +14,7 @@ categories: papers working-papers projects
 Recommended citation: {{< meta r-citation >}}
 
 ## Abstract
-Dynamic inconsistency in intertemporal choice has long been considered a hallmark of non-exponential discounting.  Recent work has challenged this view from a variety of perspectives, including the view that time variance --shifting preferences between measurement dates-- can also explain apparent preference reversals.  While a nascent literature identifies time-variance and demonstrates its role in explaining time-inconsistency, we lack both a model that allows time-variance to tractably interact with  other properties of time preference, and a longitudinal study of sufficient depth to identify such a model.  In this paper, we develop the ``nested exponential'' discount function which is general with respect to time-invariance, time-consistency, and stationarity.  The function nests both exponential discounting and a version of present-biased discounting within its parameter space, enabling transparent model selection at both the aggregate and subject levels.  We evaluate time-invariance and the performance of the nested exponential model in a 12-week longitudinal study featuring seven surveys.  Our elicitations give us unprecedented precision in estimating dynamic inconsistency, non-stationarity, and time-variance.  We find that subjects in our study exhibit significant decreasing patience over the course of the study, and that time-variance explains roughly 72\% of time-inconsistent choices in our data.  This does not mean our data are best-explained by exponential discounting plus preference drift: hyperbolicity is a key feature of our data, and it is well captured by the nested exponential function.
+Preference reversals in intertemporal choice have long been considered hallmarks of "present-biased" discounting. While a nascent literature posits that they could instead result from time-varying discounting, the evidence comes from T = 2 longitudinal studies that cannot identify whether time-variance is noise or systematic change. We implement a longitudinal discounting study with seven elicitations over a 12-week period, and find that subjects exhibit increasing discounting over the course of the study, and that time-variance in discounting explains roughly 72% of time-inconsistent choices in our data. We introduce a new discounting model, the Nested Exponential discount function, which permits any feasible configuration of Halevy (2015)'s three properties of time preference: time-invariance, time-consistency, and stationarity. The function nests both exponential discounting and present-biased discounting within its parameter space, enabling data-driven property configurations at both the aggregate and subject levels.
 
 
 ## Full Paper
