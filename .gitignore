@@ -8,3 +8,7 @@
 # /_old/
 # /_test/
 **/*.quarto_ipynb
+
+# Agent context and scratch; not shared for now.
+CLAUDE.md
+/_local/

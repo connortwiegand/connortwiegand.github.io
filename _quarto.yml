@@ -2,6 +2,9 @@ project:
   type: website
   preview: 
     port: 3005
+  # Rewrites the sitemap Quarto just wrote so its <loc>s match each page's <link rel="canonical">.
+  post-render:
+    - uv run --no-project scripts/canonicalize_sitemap.py
 
 language: 
   search-box-placeholder: Search
@@ -13,7 +16,9 @@ title-prefix: ""
 website:
   title: "Connor T. Wiegand"
   description: "Economist and Data Scientist Ph.D. Candidate from the University of Oregon"
-  image: "imgs/bio-photo-1.png"
+  # Needs leading slash
+  image: "/imgs/bio-photo-1.jpg"
+  image-alt: "Connor T. Wiegand"
   site-url: "https://ctwie.me"
   # repo-url: https://github.com/connortwiegand/https://github.com/connortwiegand/connortwiegand.github.io
   # repo-link-target: "_blank"
@@ -107,6 +112,7 @@ format:
       light: [default, sass/light-load.scss]
         # flatly #minty, sandstone, journal
     # css: styles.css
+    canonical-url: true
     toc: true
     strip-comments: true
     anchor-sections: true
