@@ -10,7 +10,7 @@ A copy of my resume^[suitable for hiring managers and related private-sector per
 
 {{< downloadthis _files/cwiegand_resume.pdf type=success label="Download Resume" dname="ctwiegand-resume" >}}
 
-{{< downloadthis _files/cv.pdf type=success label="Download CV" dname="ctwiegand-cv" >}}
+{{< downloadthis _files/cwiegand_cv.pdf type=success label="Download CV" dname="ctwiegand-cv" >}}
 
 :::
 
@@ -24,22 +24,7 @@ A copy of my resume^[suitable for hiring managers and related private-sector per
 ## CV
 
 :::{.embeded-pdf .embeded-cv .vitae}
-![](_files/cv.pdf){height=800px width=95%}
+![](_files/cwiegand_cv.pdf){height=800px width=95%}
 :::
 
 ::::
-
-<!--  
-::::::{.panel-tabset margin-left="auto" margin-right="auto"}
-### Resume
-
-<!-- {{ include _files/test.html }} --
-
-### CV
-
-<!-- {{ include _resume.qmd }} --
-
-
-
-::::::
--->
