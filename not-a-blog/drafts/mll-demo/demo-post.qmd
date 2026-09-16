@@ -15,7 +15,7 @@ format:
 
 ## Blurb
 
-Below is a demo of the survey tool used in [Time-Varying Time Preferences](proj/research-pages/tvtp). The code was originally written entirely in JavaScript for Qualtrics, so I rewrote some pieces to make it portable (e.g., to here). Other than that and some additional tidying up, I've tried to keep things as close to how they were in the study as possible. 
+Below is a demo of the survey tool used in [Time-varying Time Preferences](proj/research-pages/tvtp). The code was originally written entirely in JavaScript for Qualtrics, so I rewrote some pieces to make it portable (e.g., to here). Other than that and some additional tidying up, I've tried to keep things as close to how they were in the study as possible. 
 
 :::{#questionOuter}
 

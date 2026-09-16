@@ -1,0 +1,9 @@
+<ul class="list quarto-listing-custom">
+
+<% for (const item of items) { %>
+<li>
+<% partial('blog-item.ejs', {listing, item, utils }) %>
+</li>
+<% } %>
+
+</ul>
