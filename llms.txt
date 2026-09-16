@@ -1,0 +1,19 @@
+# Connor T. Wiegand
+
+> Economist and Data Scientist Ph.D. Candidate from the University of Oregon
+
+## Pages
+
+- [Vitae](https://ctwie.me/cv/index.llms.md)
+- [Welcome](https://ctwie.me/index.llms.md)
+- [Resources](https://ctwie.me/resources/index.llms.md)
+- [Tools I Use](https://ctwie.me/resources/tools/index.llms.md)
+- [Time-varying Time Preferences](https://ctwie.me/proj/research-pages/tvtp/index.llms.md)
+- [Teaching](https://ctwie.me/teaching/index.llms.md)
+- [Hire Me!](https://ctwie.me/hire-me/index.llms.md)
+- [AI-Assisted Communication, Trust, and Coordination in Human Partnerships: Evidence from a Trust Game Experiment](https://ctwie.me/proj/research-pages/trust/index.llms.md)
+- [Projects](https://ctwie.me/proj/index.llms.md)
+- [Guides & Tips](https://ctwie.me/resources/guides-tips/index.llms.md)
+- [More Resources](https://ctwie.me/resources/misc/index.llms.md)
+- [More About Me](https://ctwie.me/about/index.llms.md)
+- [Skills](https://ctwie.me/skills/index.llms.md)

@@ -10,11 +10,11 @@
 <atom:link href="https://ctwie.me/not-a-blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Economist and Data Scientist Ph.D. Candidate from the University of Oregon</description>
 <image>
-<url>https://ctwie.me/imgs/bio-photo-1.png</url>
+<url>https://ctwie.me/imgs/bio-photo-1.jpg</url>
 <title>Connor T. Wiegand</title>
 <link>https://ctwie.me/not-a-blog/</link>
 </image>
-<generator>quarto-1.8.24</generator>
-<lastBuildDate>Fri, 03 Oct 2025 00:22:27 GMT</lastBuildDate>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Wed, 16 Sep 2026 01:14:17 GMT</lastBuildDate>
 </channel>
 </rss>
